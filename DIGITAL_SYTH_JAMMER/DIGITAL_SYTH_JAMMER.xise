@@ -9,10 +9,10 @@
     <!-- along with the project source files, is sufficient to open and    -->
     <!-- implement in ISE Project Navigator.                               -->
     <!--                                                                   -->
-    <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+    <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
   </header>
 
-  <version xil_pn:ise_version="14.5" xil_pn:schema_version="2"/>
+  <version xil_pn:ise_version="14.7" xil_pn:schema_version="2"/>
 
   <files>
     <file xil_pn:name="ROM_1.vhd" xil_pn:type="FILE_VHDL">
@@ -24,6 +24,96 @@
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="10"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="10"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="10"/>
+    </file>
+    <file xil_pn:name="ROM_2.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="14"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="14"/>
+    </file>
+    <file xil_pn:name="ROM_3.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="15"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="15"/>
+    </file>
+    <file xil_pn:name="ROM_4.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="16"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="16"/>
+    </file>
+    <file xil_pn:name="ROM_5.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="17"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="17"/>
+    </file>
+    <file xil_pn:name="ROM_6.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="18"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="18"/>
+    </file>
+    <file xil_pn:name="ROM_7.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="19"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="19"/>
+    </file>
+    <file xil_pn:name="ROM_8.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="20"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="20"/>
+    </file>
+    <file xil_pn:name="ROM_9.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="21"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="21"/>
+    </file>
+    <file xil_pn:name="ROM_10.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="22"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="22"/>
+    </file>
+    <file xil_pn:name="ROM_11.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="23"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="23"/>
+    </file>
+    <file xil_pn:name="ROM_12.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="24"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="24"/>
+    </file>
+    <file xil_pn:name="ROM_13.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="25"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="25"/>
+    </file>
+    <file xil_pn:name="ROM_14.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="26"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="26"/>
+    </file>
+    <file xil_pn:name="ROM_15.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="27"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="27"/>
+    </file>
+    <file xil_pn:name="ROM_16.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="28"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="28"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/clk1.xaw" xil_pn:type="FILE_XAW">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="31"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="31"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/PRE_FIFO.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="32"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="32"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/FIFO.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="39"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="39"/>
+    </file>
+    <file xil_pn:name="SUM_NORM.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="46"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="46"/>
+    </file>
+    <file xil_pn:name="CONTROLLER.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="47"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="47"/>
+    </file>
+    <file xil_pn:name="TOP_DAWG.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="49"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="49"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/PRE_FIFO.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="33"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/FIFO.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="40"/>
     </file>
   </files>
 
@@ -137,9 +227,9 @@
     <property xil_pn:name="ISim UUT Instance Name" xil_pn:value="UUT" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Par" xil_pn:value="false" xil_pn:valueState="default"/>
-    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|ROM_1|syn" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top File" xil_pn:value="ROM_1.vhd" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/ROM_1" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|TOP_DAWG|Behavioral" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="TOP_DAWG.vhd" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/TOP_DAWG" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Include 'uselib Directive in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include SIMPRIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include UNISIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -200,7 +290,7 @@
     <property xil_pn:name="Other XPWR Command Line Options" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Other XST Command Line Options" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Output Extended Identifiers" xil_pn:value="false" xil_pn:valueState="default"/>
-    <property xil_pn:name="Output File Name" xil_pn:value="ROM_1" xil_pn:valueState="default"/>
+    <property xil_pn:name="Output File Name" xil_pn:value="TOP_DAWG" xil_pn:valueState="default"/>
     <property xil_pn:name="Overwrite Compiled Libraries" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Pack I/O Registers into IOBs" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Pack I/O Registers/Latches into IOBs" xil_pn:value="Off" xil_pn:valueState="default"/>
@@ -213,10 +303,10 @@
     <property xil_pn:name="Place MultiBoot Settings into Bitstream" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Placer Effort Level (Overrides Overall Level)" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Port to be used" xil_pn:value="Auto - default" xil_pn:valueState="default"/>
-    <property xil_pn:name="Post Map Simulation Model Name" xil_pn:value="ROM_1_map.vhd" xil_pn:valueState="default"/>
-    <property xil_pn:name="Post Place &amp; Route Simulation Model Name" xil_pn:value="ROM_1_timesim.vhd" xil_pn:valueState="default"/>
-    <property xil_pn:name="Post Synthesis Simulation Model Name" xil_pn:value="ROM_1_synthesis.vhd" xil_pn:valueState="default"/>
-    <property xil_pn:name="Post Translate Simulation Model Name" xil_pn:value="ROM_1_translate.vhd" xil_pn:valueState="default"/>
+    <property xil_pn:name="Post Map Simulation Model Name" xil_pn:value="TOP_DAWG_map.vhd" xil_pn:valueState="default"/>
+    <property xil_pn:name="Post Place &amp; Route Simulation Model Name" xil_pn:value="TOP_DAWG_timesim.vhd" xil_pn:valueState="default"/>
+    <property xil_pn:name="Post Synthesis Simulation Model Name" xil_pn:value="TOP_DAWG_synthesis.vhd" xil_pn:valueState="default"/>
+    <property xil_pn:name="Post Translate Simulation Model Name" xil_pn:value="TOP_DAWG_translate.vhd" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Preferred Language" xil_pn:value="VHDL" xil_pn:valueState="non-default"/>
@@ -236,7 +326,7 @@
     <property xil_pn:name="Release Write Enable (Output Events)" xil_pn:value="Default (6)" xil_pn:valueState="default"/>
     <property xil_pn:name="Rename Design Instance in Testbench File to" xil_pn:value="UUT" xil_pn:valueState="default"/>
     <property xil_pn:name="Rename Top Level Architecture To" xil_pn:value="Structure" xil_pn:valueState="default"/>
-    <property xil_pn:name="Rename Top Level Entity to" xil_pn:value="ROM_1" xil_pn:valueState="default"/>
+    <property xil_pn:name="Rename Top Level Entity to" xil_pn:value="TOP_DAWG" xil_pn:valueState="default"/>
     <property xil_pn:name="Rename Top Level Module To" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Report Fastest Path(s) in Each Constraint" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Report Fastest Path(s) in Each Constraint Post Trace" xil_pn:value="true" xil_pn:valueState="default"/>
