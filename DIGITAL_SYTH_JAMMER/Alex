@@ -1,0 +1,5 @@
+lmutil - Copyright (c) 1989-2015 Flexera Software LLC. All Rights Reserved.
+Flexible License Manager status on Sun 5/21/2017 21:47
+
+[Detecting lmgrd processes...]
+Error getting status: Cannot connect to license server system. (-15,570)
