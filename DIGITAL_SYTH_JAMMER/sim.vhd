@@ -27,10 +27,11 @@
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
+use ieee.std_logic_unsigned.all;
  
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
+USE ieee.numeric_std.ALL;
  
 ENTITY sim IS
 END sim;
@@ -91,45 +92,45 @@ BEGIN
       -- insert stimulus here 
 		EN <= '1';
 		
-		ADDR<=to_unsigned(0,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(0,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(1,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(1,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(2,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(2,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(3,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(3,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(4,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(4,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(5,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(5,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(6,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(6,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(7,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(7,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(8,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(8,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(9,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(9,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(10,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(10,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(11,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(11,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(12,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(12,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(13,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(13,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(14,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(14,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(15,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(15,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(16,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(16,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(17,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(17,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(18,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(18,ADDR'length));
 		wait for 20 ns;
-		ADDR<=to_unsigned(19,ADDR'length);
+		ADDR<=std_logic_vector(to_unsigned(19,ADDR'length));
 		wait for 20 ns;
 		
 

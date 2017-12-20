@@ -11,7 +11,7 @@ port (CLK : in std_logic;
 end ROM_1;
 
 architecture syn of ROM_1 is
-    type rom_type is array (41 downto 0) of std_logic_vector (9 downto 0);                 
+    type rom_type is array (0 to 41) of std_logic_vector (9 downto 0);                 
     signal ROM : rom_type:= ( "1000000000", "1001001100", "1010010110", "1011011101", "1100100000", 
 	                           "1101011011", "1110001111", "1110111010", "1111011100", "1111110010", 
 										"1111111110", "1111111110", "1111110010", "1111011100", "1110111010", 

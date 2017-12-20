@@ -1,18 +1,21 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Alex Maretee/Documents/Everything-S-Kewl/Thesis/DIGITAL_SYTH_JAMMER/ROM_1_isim_beh.exe -prj C:/Users/Alex Maretee/Documents/Everything-S-Kewl/Thesis/DIGITAL_SYTH_JAMMER/ROM_1_beh.prj work.ROM_1 
-ISim P.20131013 (signature 0x8ef4fb42)
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim_isim_beh.exe -prj C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim_beh.prj work.sim 
+ISim P.58f (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Alex Maretee/Documents/Everything-S-Kewl/Thesis/DIGITAL_SYTH_JAMMER/ROM_1.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 237680 KB
-Fuse CPU Usage: 952 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
-Compiling architecture syn of entity rom_1
+Compiling package numeric_std
+Compiling architecture syn of entity ROM_1 [rom_1_default]
+Compiling architecture behavior of entity sim
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-ERROR:Simulator:861 - Failed to link the design
+Compiled 8 VHDL Units
+Built simulation executable C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim_isim_beh.exe
+Fuse Memory Usage: 35132 KB
+Fuse CPU Usage: 593 ms
