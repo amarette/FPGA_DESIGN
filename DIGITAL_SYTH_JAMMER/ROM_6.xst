@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/xst"
+elaborate
+-ifn ROM_6.prj
+-ifmt mixed

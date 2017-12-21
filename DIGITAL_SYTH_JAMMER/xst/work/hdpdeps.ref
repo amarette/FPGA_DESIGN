@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd 2017/12/19.21:19:17 P.58f
+EN work/ROM_6 1513813315 \
+      FL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/ROM_6/syn 1513813316 \
+      FL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd \
+      EN work/ROM_6 1513813315

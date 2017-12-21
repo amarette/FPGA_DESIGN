@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="sim1" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/sim1/sw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/but" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">but</obj_property>
+      <obj_property name="ObjectShortName">but</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/dac_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dac_clk</obj_property>
+      <obj_property name="ObjectShortName">dac_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_0</obj_property>
+      <obj_property name="ObjectShortName">o_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_1</obj_property>
+      <obj_property name="ObjectShortName">o_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_2</obj_property>
+      <obj_property name="ObjectShortName">o_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_3</obj_property>
+      <obj_property name="ObjectShortName">o_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_4</obj_property>
+      <obj_property name="ObjectShortName">o_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_5</obj_property>
+      <obj_property name="ObjectShortName">o_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_6</obj_property>
+      <obj_property name="ObjectShortName">o_6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_7</obj_property>
+      <obj_property name="ObjectShortName">o_7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_8" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_8</obj_property>
+      <obj_property name="ObjectShortName">o_8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/o_9" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_9</obj_property>
+      <obj_property name="ObjectShortName">o_9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim1/clk_in_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in_period</obj_property>
+      <obj_property name="ObjectShortName">clk_in_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="group31" type="group">
+      <obj_property name="label">CONTROLLER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim1/uut/cont1/rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/pre_full" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pre_full</obj_property>
+         <obj_property name="ObjectShortName">pre_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_full" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_full</obj_property>
+         <obj_property name="ObjectShortName">fifo_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_ctrl" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_ctrl</obj_property>
+         <obj_property name="ObjectShortName">fifo_ctrl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/pre_re" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pre_re</obj_property>
+         <obj_property name="ObjectShortName">pre_re</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/pre_we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pre_we</obj_property>
+         <obj_property name="ObjectShortName">pre_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_re" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_re</obj_property>
+         <obj_property name="ObjectShortName">fifo_re</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_we</obj_property>
+         <obj_property name="ObjectShortName">fifo_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_loop" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_loop</obj_property>
+         <obj_property name="ObjectShortName">fifo_loop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_rst</obj_property>
+         <obj_property name="ObjectShortName">fifo_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/ps" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ps</obj_property>
+         <obj_property name="ObjectShortName">ps</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/ns" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">ns</obj_property>
+         <obj_property name="ObjectShortName">ns</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/counter_sig" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counter_sig[5:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_sig[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group52" type="group">
+      <obj_property name="label">SUM_NORM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c1[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c2[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c3[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c3[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c4" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c4[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c4[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c5" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c5[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c5[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c6" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c6[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c6[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c7" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c7[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c7[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c8" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c8[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c8[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c9" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c9[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c9[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c10" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c10[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c10[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c11" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c11[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c11[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c12" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c12[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c12[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c13" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c13[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c13[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c14" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c14[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c14[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c15" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c15[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c15[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/c16" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">c16[9:0]</obj_property>
+         <obj_property name="ObjectShortName">c16[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/sw_tot" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sw_tot[4:0]</obj_property>
+         <obj_property name="ObjectShortName">sw_tot[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/dout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dout[9:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/sum" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sum[13:0]</obj_property>
+         <obj_property name="ObjectShortName">sum[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/sum_norm1/norm" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">norm[13:0]</obj_property>
+         <obj_property name="ObjectShortName">norm[13:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group80" type="group">
+      <obj_property name="label">PRE_FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sim1/uut/fifo2/rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/wr_clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_clk</obj_property>
+         <obj_property name="ObjectShortName">wr_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/rd_clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_clk</obj_property>
+         <obj_property name="ObjectShortName">rd_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/din" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">din[9:0]</obj_property>
+         <obj_property name="ObjectShortName">din[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/wr_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/rd_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/dout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dout[9:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/full" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/empty" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/fifo2/prog_full" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">prog_full</obj_property>
+         <obj_property name="ObjectShortName">prog_full</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

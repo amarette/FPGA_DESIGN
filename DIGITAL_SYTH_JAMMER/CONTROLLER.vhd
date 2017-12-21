@@ -44,53 +44,89 @@ entity CONTROLLER is
            FIFO_RE   : out STD_LOGIC:='0';
            FIFO_WE   : out STD_LOGIC:='0';
            FIFO_LOOP : out STD_LOGIC:='0';
-           FIFO_RST  : out STD_LOGIC:='0');
+           FIFO_RST  : out STD_LOGIC:='1');
 end CONTROLLER;
 
 architecture Behavioral of CONTROLLER is
+
+type state_type is (IDLESTATE, LOADSTATE_1, LOADSTATE_2, LOOPSTATE);
+signal PS     : state_type:=IDLESTATE;
+signal NS     : state_type;
 
 signal counter_sig : STD_LOGIC_VECTOR (5 downto 0) := "000000";
 
 begin
 
-counter: process(CLK)
-begin
-    if(rising_edge(CLK)) then
-        if(RST='1') then
-            counter_sig <= "000000";
+	sync_proc: process(CLK)
+	begin
+		if (rising_edge(CLK)) then
+			PS <= NS;
+		end if;
+	end process;
+
+	comb_proc: process(PS, PRE_FULL, FIFO_FULL, RST, CLK)
+	begin
+		case PS is
+			when IDLESTATE =>
+			   counter_sig <= "000000";
             PRE_RE<='0';
             PRE_WE<='0';
             FIFO_RE<='0';
             FIFO_WE<='0';
             FIFO_LOOP<='0';
-            FIFO_RST<='1';
-        elsif(PRE_FULL='1') then
-            counter_sig <= counter_sig;
+				FIFO_RST<='0';
+				if (RST = '1') then 
+				NS <= LOADSTATE_1;
+				PRE_WE<='1';
+            else NS <= IDLESTATE;
+				end if;
+				
+			when LOADSTATE_1 =>
+				if (rising_edge(CLK)) then
+					counter_sig <= counter_sig + 1;
+		      end if;
+				PRE_RE<='0';
+            PRE_WE<='1';
+            FIFO_RE<='0';
+            FIFO_WE<='0';
+            FIFO_LOOP<='0';
+            FIFO_RST<='0';
+				
+				if (PRE_FULL = '1') then 
+					NS <= LOADSTATE_2;
+					counter_sig<=counter_sig;
+				else NS    <= LOADSTATE_1;
+				end if;
+				
+			when LOADSTATE_2 =>
+			   counter_sig <= counter_sig;
             PRE_RE<='1';
             PRE_WE<='0';
             FIFO_RE<='0';
             FIFO_WE<='1';
             FIFO_LOOP<='0';
             FIFO_RST<='0';
-        elsif(FIFO_FULL='1') then
-            counter_sig <= counter_sig;
+				if (FIFO_FULL = '1') then
+				NS <= LOOPSTATE;
+				else NS <= LOADSTATE_2;
+				end if;
+				
+			when LOOPSTATE =>
+			   counter_sig <= counter_sig;
             PRE_RE<='0';
             PRE_WE<='0';
             FIFO_RE<='1';
             FIFO_WE<='1';
             FIFO_LOOP<='1';
             FIFO_RST<='0';
-        else
-            counter_sig <= counter_sig + '1';
-            PRE_RE<='0';
-            PRE_WE<='1';
-            FIFO_RE<='0';
-            FIFO_WE<='0';
-            FIFO_LOOP<='0';
-            FIFO_RST<='0';
-        end if ;
-    end if;
-end process counter;
+				if (RST = '1') then
+				NS <= IDLESTATE;
+				FIFO_RST <= '1';
+				else NS <= LOOPSTATE;
+				end if;
+		end case;
+		end process;
+
 
 ADDR<=counter_sig;
 end Behavioral;

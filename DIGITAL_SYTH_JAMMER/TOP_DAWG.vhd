@@ -25,7 +25,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx leaf cells in this code.
@@ -51,12 +51,13 @@ end TOP_DAWG;
 
 architecture Behavioral of TOP_DAWG is
 
-component clk_wiz_0 
-    Port ( reset    : in  STD_LOGIC;
-           clk_in1  : in  STD_LOGIC;
-           clk_out1 : out STD_LOGIC;
-           clk_out2 : out STD_LOGIC);
-    end component;
+component clk1 
+   port ( CLKIN_IN        : in    std_logic; 
+          RST_IN          : in    std_logic; 
+          CLKFX_OUT       : out   std_logic; 
+          CLKFX180_OUT    : out   std_logic; 
+          CLKIN_IBUFG_OUT : out   std_logic);
+   end component;
 
 component CONTROLLER
     Port ( RST       : in STD_LOGIC;
@@ -120,99 +121,115 @@ component SUM_NORM
 end component;
 
 component ROM_1
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_2
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_3
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_4
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_5
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_6
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_7
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_8
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_9
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_10
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_11
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_12
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_13
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_14
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_15
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 component ROM_16
-    PORT (clka  : IN STD_LOGIC;
-          addra : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
-          douta : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+    PORT (CLK  : IN STD_LOGIC;
+			 EN   : IN STD_LOGIC;
+          ADDR : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+          DATA : OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 end component;
 
 --------------------SIGNALS----------------------
@@ -232,7 +249,7 @@ signal s_full          : STD_LOGIC;
 signal s_dout          : STD_LOGIC_VECTOR(9 downto 0);
 signal s_fifo_rst      : STD_LOGIC;
 signal s_fifo_loop     : STD_LOGIC;
-signal S_din_pre_fifo  : STD_LOGIC_VECTOR(9downto 0);
+signal S_fifo_din      : STD_LOGIC_VECTOR(9downto 0);
 
 --------------------ROM SIGNALS------------------
 signal s_rom_1 : STD_LOGIC_VECTOR(9 downto 0);
@@ -273,99 +290,117 @@ signal s_sum_norm_16 : STD_LOGIC_VECTOR(9 downto 0);
 signal i : integer:=0;
 
 begin
+s_clk<=CLK_IN;
 
-clk1:clk1 
-    Port MAP( 
-        reset    => '0',
-        clk_in1  => CLK_IN,
-        clk_out1 => s_CLK,
-        clk_out2 => s_DAC_CLK);
+clk:clk1 
+    Port MAP(
+		  rst_in      => '0',
+        clkin_in    => s_clk,
+        clkfx_out    => s_DAC_CLK,
+        clkfx180_out=> DAC_CLK,
+		  clkin_ibufg_out => OPEN);
 
 rom1:ROM_1
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_1);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_1);
 rom2:ROM_2
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_2);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_2);
 rom3:ROM_3
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_3);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_3);
 rom4:ROM_4
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_4);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_4);
 rom5:ROM_5
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_5);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_5);
 rom6:ROM_6
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_6);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_6);
 rom7:ROM_7
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_7);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_7);
 rom8:ROM_8
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_8);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_8);
 rom9:ROM_9
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_9);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_9);
 rom10:ROM_10
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_10);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_10);
 rom11:ROM_11
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_11);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_11);
 rom12:ROM_12
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_12);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_12);
 rom13:ROM_13
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_13);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_13);
 rom14:ROM_14
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_14);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_14);
 rom15:ROM_15
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_15);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_15);
 rom16:ROM_16
     Port MAP(
-        clka  => s_CLK,
-        addra => s_addr,
-        douta => S_rom_16);
+        CLK  => s_CLK,
+		  EN   => '1',
+        ADDR => s_addr,
+        DATA => S_rom_16);
 
 cont1:CONTROLLER
     Port MAP( 
         RST        => BUT,
-        CLK        => s_dac_CLK, 
+        CLK        => s_CLK, 
         FIFO_CTRL  => s_fifo_ctrl,
         ADDR       => s_addr,
         PRE_RE     => s_pre_re,
@@ -402,7 +437,7 @@ fifo1:FIFO
     PORT MAP(
         clk       =>s_dac_clk,
         rst       =>s_fifo_rst,
-        din       =>s_pre_dout,
+        din       =>s_fifo_din,
         wr_en     =>s_we,
         rd_en     =>s_re,
         dout      =>s_dout,
@@ -415,7 +450,7 @@ fifo2: PRE_FIFO
         rst       =>s_fifo_rst,
         wr_clk    =>s_clk,
         rd_clk    =>s_dac_clk,
-        din       =>s_din_pre_fifo,
+        din       =>s_dout_sum_norm,
         wr_en     =>s_pre_we,
         rd_en     =>s_pre_re,
         dout      =>s_pre_dout,
@@ -423,133 +458,63 @@ fifo2: PRE_FIFO
         empty     =>open,
         prog_full =>s_pre_full);
  
-Process (BUT)
-begin
-    if (BUT = '1') then
-        s_sw_tot <= "00000";
-    else
-        if(SW(0)='1') then
-            s_sum_norm_1<=s_rom_1;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_1<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(1)='1') then
-            s_sum_norm_2<=s_rom_2;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_2<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(2)='1') then
-            s_sum_norm_3<=s_rom_3;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_3<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(3)='1') then
-            s_sum_norm_4<=s_rom_4;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_4<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(4)='1') then
-            s_sum_norm_5<=s_rom_5;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_5<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(5)='1') then
-            s_sum_norm_6<=s_rom_6;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_6<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(6)='1') then
-            s_sum_norm_7<=s_rom_7;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_7<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(7)='1') then
-            s_sum_norm_8<=s_rom_8;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_8<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(8)='1') then
-            s_sum_norm_9<=s_rom_9;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_9<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(9)='1') then
-            s_sum_norm_10<=s_rom_10;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_10<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(10)='1') then
-            s_sum_norm_11<=s_rom_11;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_11<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(11)='1') then
-            s_sum_norm_12<=s_rom_12;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_12<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(12)='1') then
-            s_sum_norm_13<=s_rom_13;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_13<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(13)='1') then
-            s_sum_norm_14<=s_rom_14;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_14<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(14)='1') then
-            s_sum_norm_15<=s_rom_15;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_15<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-        if(SW(15)='1') then
-            s_sum_norm_16<=s_rom_16;
-            s_sw_tot<=s_sw_tot+1;
-        else
-            s_sum_norm_16<="0000000000";
-            s_sw_tot<=s_sw_tot;
-        end if;
-    end if;
-end process;
+	with SW(0) select
+		s_sum_norm_1 <= s_rom_1      when '1',
+						    "0000000000" when others; 
+	with SW(1) select
+		s_sum_norm_2 <= s_rom_2      when '1',
+						    "0000000000" when others; 
+	with SW(2) select
+		s_sum_norm_3 <= s_rom_3      when '1',
+						    "0000000000" when others; 
+	with SW(3) select
+		s_sum_norm_4 <= s_rom_4      when '1',
+						    "0000000000" when others; 
+	with SW(4) select
+		s_sum_norm_5 <= s_rom_5      when '1',
+						    "0000000000" when others; 
+	with SW(5) select
+		s_sum_norm_6 <= s_rom_6      when '1',
+						    "0000000000" when others; 
+	with SW(6) select
+		s_sum_norm_7 <= s_rom_7      when '1',
+						    "0000000000" when others; 
+	with SW(7) select
+		s_sum_norm_8 <= s_rom_8      when '1',
+						    "0000000000" when others; 
+	with SW(8) select
+		s_sum_norm_9 <= s_rom_9      when '1',
+						    "0000000000" when others; 
+	with SW(9) select
+		s_sum_norm_10 <= s_rom_10    when '1',
+						    "0000000000" when others; 
+	with SW(10) select
+		s_sum_norm_11 <= s_rom_11    when '1',
+						    "0000000000" when others; 
+	with SW(11) select
+		s_sum_norm_12 <= s_rom_12    when '1',
+						    "0000000000" when others; 
+	with SW(12) select
+		s_sum_norm_13 <= s_rom_13    when '1',
+						    "0000000000" when others; 
+	with SW(13) select
+		s_sum_norm_14 <= s_rom_14    when '1',
+						    "0000000000" when others; 
+	with SW(14) select
+		s_sum_norm_15 <= s_rom_15    when '1',
+						    "0000000000" when others; 
+	with SW(15) select
+		s_sum_norm_16 <= s_rom_16    when '1',
+						    "0000000000" when others;
+
+	s_sw_tot<=("0000"&SW(0))+("0000"&SW(1))+("0000"&SW(2))+("0000"&SW(3))+("0000"&SW(4))+("0000"&SW(5))+("0000"&SW(6))+("0000"&SW(7))+("0000"&SW(8))+("0000"&SW(9))+("0000"&SW(10))+("0000"&SW(11))+("0000"&SW(12))+("0000"&SW(13))+("0000"&SW(14))+("0000"&SW(15));
 
 process (s_fifo_loop)
 begin
-    if (s_fifo_loop='1') then s_din_pre_fifo<=s_dout;
-    else s_din_pre_fifo<=s_dout_sum_norm;
+    if (s_fifo_loop='1') then s_fifo_din<=s_dout;
+    else s_fifo_din<=s_pre_dout;
     end if;
-end process;
-DAC_CLK<=s_dac_clk;  
+end process;  
 
 O_0<=s_dout(0);
 O_1<=s_dout(1);

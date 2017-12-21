@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim_isim_beh.exe" -prj "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim_beh.prj" "work.sim" 
+-intstyle "ise" -incremental -o "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_isim_beh.exe" -prj "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_beh.prj" "work.sim1" 
