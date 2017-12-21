@@ -37,16 +37,7 @@ entity TOP_DAWG is
            BUT     : in STD_LOGIC;
            CLK_IN  : in STD_LOGIC;
            DAC_CLK : out STD_LOGIC;
-           O_0     : out STD_LOGIC;
-           O_1     : out STD_LOGIC;
-           O_2     : out STD_LOGIC;
-           O_3     : out STD_LOGIC;
-           O_4     : out STD_LOGIC;
-           O_5     : out STD_LOGIC;
-           O_6     : out STD_LOGIC;
-           O_7     : out STD_LOGIC;
-           O_8     : out STD_LOGIC;
-           O_9     : out STD_LOGIC);
+			  DATA_OUT : out STD_LOGIC_VECTOR (9 downto 0));
 end TOP_DAWG;
 
 architecture Behavioral of TOP_DAWG is
@@ -59,15 +50,22 @@ component clk1
           CLKIN_IBUFG_OUT : out   std_logic);
    end component;
 
-component CONTROLLER
+component CONTROLLER_SLOW
     Port ( RST       : in STD_LOGIC;
            CLK       : in STD_LOGIC;
            PRE_FULL  : in STD_LOGIC;
            FIFO_FULL : in STD_LOGIC;
-           FIFO_CTRL : out STD_LOGIC:='0';
            ADDR      : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
-           PRE_RE    : out STD_LOGIC:='0';
            PRE_WE    : out STD_LOGIC:='0';
+           FIFO_RST  : out STD_LOGIC:='0');
+    end component;
+	 
+component CONTROLLER_FAST
+    Port ( RST       : in STD_LOGIC;
+           CLK       : in STD_LOGIC;
+           PRE_FULL  : in STD_LOGIC;
+           FIFO_FULL : in STD_LOGIC;
+           PRE_RE    : out STD_LOGIC:='0';
            FIFO_RE   : out STD_LOGIC:='0';
            FIFO_WE   : out STD_LOGIC:='0';
            FIFO_LOOP : out STD_LOGIC:='0';
@@ -237,7 +235,6 @@ signal s_addr          : STD_LOGIC_VECTOR(5 downto 0);
 signal s_sw_tot        : STD_LOGIC_VECTOR(4 downto 0);
 signal s_clk           : STD_LOGIC;
 signal s_dac_clk       : STD_LOGIC;
-signal s_fifo_ctrl     : STD_LOGIC;
 signal s_dout_sum_norm : STD_LOGIC_VECTOR(9 downto 0);
 signal s_pre_we        : STD_LOGIC;
 signal s_pre_re        : STD_LOGIC;
@@ -397,14 +394,21 @@ rom16:ROM_16
         ADDR => s_addr,
         DATA => S_rom_16);
 
-cont1:CONTROLLER
+cont1:CONTROLLER_SLOW
     Port MAP( 
         RST        => BUT,
-        CLK        => s_CLK, 
-        FIFO_CTRL  => s_fifo_ctrl,
+        CLK        => s_CLK,
         ADDR       => s_addr,
-        PRE_RE     => s_pre_re,
         PRE_WE     => s_pre_we,
+        PRE_FULL   => s_pre_full,
+        FIFO_FULL  => s_full,
+        FIFO_RST   => s_fifo_rst);
+
+cont2:CONTROLLER_FAST
+    Port MAP( 
+        RST        => BUT,
+        CLK        => s_dac_CLK,
+        PRE_RE     => s_pre_re,
         PRE_FULL   => s_pre_full,
         FIFO_RE    => s_re,
         FIFO_WE    => s_we,
@@ -458,73 +462,62 @@ fifo2: PRE_FIFO
         empty     =>open,
         prog_full =>s_pre_full);
  
-	with SW(0) select
+	with SW(15) select
 		s_sum_norm_1 <= s_rom_1      when '1',
 						    "0000000000" when others; 
-	with SW(1) select
+	with SW(14) select
 		s_sum_norm_2 <= s_rom_2      when '1',
 						    "0000000000" when others; 
-	with SW(2) select
+	with SW(13) select
 		s_sum_norm_3 <= s_rom_3      when '1',
 						    "0000000000" when others; 
-	with SW(3) select
+	with SW(12) select
 		s_sum_norm_4 <= s_rom_4      when '1',
 						    "0000000000" when others; 
-	with SW(4) select
+	with SW(11) select
 		s_sum_norm_5 <= s_rom_5      when '1',
 						    "0000000000" when others; 
-	with SW(5) select
+	with SW(10) select
 		s_sum_norm_6 <= s_rom_6      when '1',
 						    "0000000000" when others; 
-	with SW(6) select
+	with SW(9) select
 		s_sum_norm_7 <= s_rom_7      when '1',
 						    "0000000000" when others; 
-	with SW(7) select
+	with SW(8) select
 		s_sum_norm_8 <= s_rom_8      when '1',
 						    "0000000000" when others; 
-	with SW(8) select
+	with SW(7) select
 		s_sum_norm_9 <= s_rom_9      when '1',
 						    "0000000000" when others; 
-	with SW(9) select
+	with SW(6) select
 		s_sum_norm_10 <= s_rom_10    when '1',
 						    "0000000000" when others; 
-	with SW(10) select
+	with SW(5) select
 		s_sum_norm_11 <= s_rom_11    when '1',
 						    "0000000000" when others; 
-	with SW(11) select
+	with SW(4) select
 		s_sum_norm_12 <= s_rom_12    when '1',
 						    "0000000000" when others; 
-	with SW(12) select
+	with SW(3) select
 		s_sum_norm_13 <= s_rom_13    when '1',
 						    "0000000000" when others; 
-	with SW(13) select
+	with SW(2) select
 		s_sum_norm_14 <= s_rom_14    when '1',
 						    "0000000000" when others; 
-	with SW(14) select
+	with SW(1) select
 		s_sum_norm_15 <= s_rom_15    when '1',
 						    "0000000000" when others; 
-	with SW(15) select
+	with SW(0) select
 		s_sum_norm_16 <= s_rom_16    when '1',
 						    "0000000000" when others;
 
 	s_sw_tot<=("0000"&SW(0))+("0000"&SW(1))+("0000"&SW(2))+("0000"&SW(3))+("0000"&SW(4))+("0000"&SW(5))+("0000"&SW(6))+("0000"&SW(7))+("0000"&SW(8))+("0000"&SW(9))+("0000"&SW(10))+("0000"&SW(11))+("0000"&SW(12))+("0000"&SW(13))+("0000"&SW(14))+("0000"&SW(15));
 
-process (s_fifo_loop)
-begin
-    if (s_fifo_loop='1') then s_fifo_din<=s_dout;
-    else s_fifo_din<=s_pre_dout;
-    end if;
-end process;  
+	with s_fifo_loop select
+		s_fifo_din<=s_dout     when '1',
+					   s_pre_dout when others;
+  
 
-O_0<=s_dout(0);
-O_1<=s_dout(1);
-O_2<=s_dout(2);
-O_3<=s_dout(3);
-O_4<=s_dout(4);
-O_5<=s_dout(5);
-O_6<=s_dout(6);
-O_7<=s_dout(7);
-O_8<=s_dout(8);
-O_9<=s_dout(9);
+DATA_OUT<=s_dout;
 
 end Behavioral;

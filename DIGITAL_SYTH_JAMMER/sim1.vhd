@@ -45,17 +45,7 @@ ARCHITECTURE behavior OF sim1 IS
          BUT : IN  std_logic;
          CLK_IN : IN  std_logic;
          DAC_CLK : OUT  std_logic;
-         O_0 : OUT  std_logic;
-         O_1 : OUT  std_logic;
-         O_2 : OUT  std_logic;
-         O_3 : OUT  std_logic;
-         O_4 : OUT  std_logic;
-         O_5 : OUT  std_logic;
-         O_6 : OUT  std_logic;
-         O_7 : OUT  std_logic;
-         O_8 : OUT  std_logic;
-         O_9 : OUT  std_logic
-        );
+			DATA_OUT : out STD_LOGIC_VECTOR (9 downto 0));
     END COMPONENT;
     
 
@@ -65,17 +55,8 @@ ARCHITECTURE behavior OF sim1 IS
    signal CLK_IN : std_logic := '0';
 
  	--Outputs
-   signal DAC_CLK : std_logic;
-   signal O_0 : std_logic;
-   signal O_1 : std_logic;
-   signal O_2 : std_logic;
-   signal O_3 : std_logic;
-   signal O_4 : std_logic;
-   signal O_5 : std_logic;
-   signal O_6 : std_logic;
-   signal O_7 : std_logic;
-   signal O_8 : std_logic;
-   signal O_9 : std_logic;
+   signal DAC_CLK  : std_logic;
+   signal DATA_OUT : STD_LOGIC_VECTOR (9 downto 0);
 
    -- Clock period definitions
    constant CLK_IN_period : time := 10 ns;
@@ -88,16 +69,7 @@ BEGIN
           BUT => BUT,
           CLK_IN => CLK_IN,
           DAC_CLK => DAC_CLK,
-          O_0 => O_0,
-          O_1 => O_1,
-          O_2 => O_2,
-          O_3 => O_3,
-          O_4 => O_4,
-          O_5 => O_5,
-          O_6 => O_6,
-          O_7 => O_7,
-          O_8 => O_8,
-          O_9 => O_9
+          DATA_OUT => DATA_OUT
         );
 
    -- Clock process definitions
@@ -118,7 +90,7 @@ BEGIN
       wait for CLK_IN_period*10;
 
       -- insert stimulus here 
-		SW<="1111111111111111";
+		SW<="1111011101111101";
 		BUT<='1';
 		wait for 20 ns;
 		BUT<='0';
