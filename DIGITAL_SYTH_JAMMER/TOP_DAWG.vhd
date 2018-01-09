@@ -49,6 +49,13 @@ component clk1
           CLKFX180_OUT    : out   std_logic; 
           CLKIN_IBUFG_OUT : out   std_logic);
    end component;
+	
+component clk2 
+   port ( CLKIN_IN        : in    std_logic; 
+          RST_IN          : in    std_logic; 
+          CLKFX_OUT       : out   std_logic; 
+          CLKIN_IBUFG_OUT : out   std_logic);
+   end component;
 
 component CONTROLLER_SLOW
     Port ( RST       : in STD_LOGIC;
@@ -245,6 +252,7 @@ signal s_re            : STD_LOGIC;
 signal s_full          : STD_LOGIC;
 signal s_dout          : STD_LOGIC_VECTOR(9 downto 0);
 signal s_fifo_rst      : STD_LOGIC;
+signal s_pre_rst       : STD_LOGIC;
 signal s_fifo_loop     : STD_LOGIC;
 signal S_fifo_din      : STD_LOGIC_VECTOR(9downto 0);
 
@@ -287,15 +295,21 @@ signal s_sum_norm_16 : STD_LOGIC_VECTOR(9 downto 0);
 signal i : integer:=0;
 
 begin
-s_clk<=CLK_IN;
 
-clk:clk1 
+clk_1:clk1 
     Port MAP(
 		  rst_in      => '0',
-        clkin_in    => s_clk,
+        clkin_in    => CLK_IN,
         clkfx_out    => s_DAC_CLK,
         clkfx180_out=> DAC_CLK,
 		  clkin_ibufg_out => OPEN);
+		
+clk_2:clk2 
+    Port MAP(
+		  rst_in      => '0',
+        clkin_in    => CLK_IN,
+        clkfx_out    => s_clk,
+		  clkin_ibufg_out => OPEN);		
 
 rom1:ROM_1
     Port MAP(
@@ -402,7 +416,7 @@ cont1:CONTROLLER_SLOW
         PRE_WE     => s_pre_we,
         PRE_FULL   => s_pre_full,
         FIFO_FULL  => s_full,
-        FIFO_RST   => s_fifo_rst);
+        FIFO_RST   => s_pre_rst);
 
 cont2:CONTROLLER_FAST
     Port MAP( 
@@ -451,7 +465,7 @@ fifo1:FIFO
         
 fifo2: PRE_FIFO
     PORT MAP(
-        rst       =>s_fifo_rst,
+        rst       =>s_pre_rst,
         wr_clk    =>s_clk,
         rd_clk    =>s_dac_clk,
         din       =>s_dout_sum_norm,

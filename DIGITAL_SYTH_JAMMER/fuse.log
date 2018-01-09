@@ -1,4 +1,4 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_isim_beh.exe" -prj "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_beh.prj" "work.sim1" 
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_isim_beh.exe -prj C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_beh.prj work.sim1 
 ISim P.58f (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -22,6 +22,7 @@ Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" into library work
@@ -47,6 +48,8 @@ Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_pe
 Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
 Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,2.0,...]
 Compiling architecture behavioral of entity clk1 [clk1_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,2.0,...]
+Compiling architecture behavioral of entity clk2 [clk2_default]
 Compiling architecture syn of entity ROM_1 [rom_1_default]
 Compiling architecture syn of entity ROM_2 [rom_2_default]
 Compiling architecture syn of entity ROM_3 [rom_3_default]
@@ -77,8 +80,8 @@ Compiling architecture pre_fifo_a of entity PRE_FIFO [pre_fifo_default]
 Compiling architecture behavioral of entity TOP_DAWG [top_dawg_default]
 Compiling architecture behavior of entity sim1
 Time Resolution for simulation is 1ps.
-Waiting for 7 sub-compilation(s) to finish...
-Compiled 83 VHDL Units
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 87 VHDL Units
 Built simulation executable C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_isim_beh.exe
-Fuse Memory Usage: 66944 KB
-Fuse CPU Usage: 3249 ms
+Fuse Memory Usage: 67388 KB
+Fuse CPU Usage: 1531 ms
