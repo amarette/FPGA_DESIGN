@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.5
-# Date: Thu Dec 21 21:11:10 2017
+# Date: Tue Jan 09 19:21:01 2018
 #
 ##############################################################
 #
@@ -22,7 +22,7 @@ SET asysymbol = true
 SET busformat = BusFormatAngleBracketNotRipped
 SET createndf = false
 SET designentry = VHDL
-SET device = xc3s50a
+SET device = xc3s200a
 SET devicefamily = spartan3a
 SET flowvendor = Other
 SET formalverification = false
@@ -210,4 +210,4 @@ CSET wuser_width=1
 MISC pkg_timestamp=2012-11-19T12:39:56Z
 # END Extra information
 GENERATE
-# CRC: f37d32e6
+# CRC: 3b5dc8f2

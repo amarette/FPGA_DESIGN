@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Mon Jan 08 21:41:42 2018">
+  <application stringID="Xst" timeStamp="Tue Jan 09 23:36:30 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -195,7 +195,7 @@
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
       <item stringID="XST_SELECTED_DEVICE" value="3s200avq100-4"/>
-      <item AVAILABLE="1792" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="831"/>
+      <item AVAILABLE="1792" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="827"/>
       <item AVAILABLE="3584" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="305"/>
       <item AVAILABLE="3584" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="1429"/>
       <item dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="1349"/>

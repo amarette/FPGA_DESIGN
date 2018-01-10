@@ -1,0 +1,44 @@
+Release 14.5 ngdbuild P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TOP_DAWG.ucf -p
+xc3s200a-vq100-4 TOP_DAWG.ngc TOP_DAWG.ngd
+
+Reading NGO file
+"C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.ng
+c" ...
+Loading design module "ipcore_dir/FIFO.ngc"...
+Loading design module "ipcore_dir/PRE_FIFO.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "TOP_DAWG.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:462 - input pad net 'CLK_IN' drives multiple buffers:
+     pin I on block clk_1/CLKIN_IBUFG_INST with type IBUFG,
+     pin I on block clk_2/CLKIN_IBUFG_INST with type IBUFG
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   0
+
+Total memory usage is 171960 kilobytes
+
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "TOP_DAWG.bld"...

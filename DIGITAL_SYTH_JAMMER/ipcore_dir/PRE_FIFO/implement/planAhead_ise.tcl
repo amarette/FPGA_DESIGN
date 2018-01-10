@@ -45,7 +45,7 @@
 # PART OF THIS FILE AT ALL TIMES.
 
 
-set device xc3s50avq100-4
+set device xc3s200avq100-4
 set projName PRE_FIFO
 set design PRE_FIFO
 set projDir [file dirname [info script]]

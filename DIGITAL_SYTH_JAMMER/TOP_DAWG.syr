@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: TOP_DAWG.prj
 
@@ -150,9 +150,11 @@ Architecture behavioral of Entity controller_fast is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd" in Library work.
 Architecture behavioral of Entity sum_norm is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd" in Library work.
-Architecture fifo_a of Entity fifo is up to date.
+Entity <fifo> compiled.
+Entity <fifo> (Architecture <fifo_a>) compiled.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd" in Library work.
-Architecture pre_fifo_a of Entity pre_fifo is up to date.
+Entity <pre_fifo> compiled.
+Entity <pre_fifo> (Architecture <pre_fifo_a>) compiled.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" in Library work.
 Architecture behavioral of Entity top_dawg is up to date.
 
@@ -958,7 +960,7 @@ Device utilization summary:
 
 Selected Device : 3s200avq100-4 
 
- Number of Slices:                      831  out of   1792    46%  
+ Number of Slices:                      827  out of   1792    46%  
  Number of Slice Flip Flops:            305  out of   3584     8%  
  Number of 4 input LUTs:               1429  out of   3584    39%  
     Number used as logic:              1349
@@ -1034,7 +1036,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK_IN'
   Clock period: 91.976ns (frequency: 10.872MHz)
-  Total number of paths / destination ports: 271001847294609870000000000000 / 799
+  Total number of paths / destination ports: 271001847294609900000000000000 / 799
 -------------------------------------------------------------------------
 Delay:               91.976ns (Levels of Logic = 102)
   Source:            rom3/DATA_1 (FF)
@@ -1322,12 +1324,12 @@ Offset:              5.558ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 19.00 secs
-Total CPU time to Xst completion: 18.83 secs
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 22.72 secs
  
 --> 
 
-Total memory usage is 297972 kilobytes
+Total memory usage is 293964 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   45 (   0 filtered)

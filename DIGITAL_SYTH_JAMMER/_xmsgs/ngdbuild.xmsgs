@@ -5,7 +5,9 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="sim" num="172" delta="old" >Generating IP...
+<msg type="error" file="NgdBuild" num="462" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">CLK_IN</arg>&apos; drives multiple buffers<arg fmt="%s" index="3">:
+  pin I on block clk_1/CLKIN_IBUFG_INST with type IBUFG,
+  pin I on block clk_2/CLKIN_IBUFG_INST with type IBUFG</arg>
 </msg>
 
 </messages>
