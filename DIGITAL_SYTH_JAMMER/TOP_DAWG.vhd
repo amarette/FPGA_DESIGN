@@ -49,48 +49,19 @@ component clk1
           CLKFX180_OUT    : out   std_logic; 
           CLKIN_IBUFG_OUT : out   std_logic);
    end component;
-	
-component clk2 
-   port ( CLKIN_IN        : in    std_logic; 
-          RST_IN          : in    std_logic; 
-          CLKFX_OUT       : out   std_logic; 
-          CLKIN_IBUFG_OUT : out   std_logic);
-   end component;
 
-component CONTROLLER_SLOW
+
+component CONTROLLER
     Port ( RST       : in STD_LOGIC;
            CLK       : in STD_LOGIC;
-           PRE_FULL  : in STD_LOGIC;
            FIFO_FULL : in STD_LOGIC;
            ADDR      : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
-           PRE_WE    : out STD_LOGIC:='0';
-           FIFO_RST  : out STD_LOGIC:='0');
-    end component;
-	 
-component CONTROLLER_FAST
-    Port ( RST       : in STD_LOGIC;
-           CLK       : in STD_LOGIC;
-           PRE_FULL  : in STD_LOGIC;
-           FIFO_FULL : in STD_LOGIC;
-           PRE_RE    : out STD_LOGIC:='0';
-           FIFO_RE   : out STD_LOGIC:='0';
            FIFO_WE   : out STD_LOGIC:='0';
-           FIFO_LOOP : out STD_LOGIC:='0';
+			  FIFO_RE	: out STD_LOGIC:='0';
+			  FIFO_LOOP : out STD_LOGIC:='0';
            FIFO_RST  : out STD_LOGIC:='0');
     end component;
 
-component PRE_FIFO
-    PORT (rst       : IN STD_LOGIC;
-          wr_clk    : IN STD_LOGIC;
-          rd_clk    : IN STD_LOGIC;
-          din       : IN STD_LOGIC_VECTOR(9 DOWNTO 0);
-          wr_en     : IN STD_LOGIC;
-          rd_en     : IN STD_LOGIC;
-          dout      : OUT STD_LOGIC_VECTOR(9 DOWNTO 0);
-          full      : OUT STD_LOGIC;
-          empty     : OUT STD_LOGIC;
-          prog_full : OUT STD_LOGIC);
-END component;
 
 component FIFO
   PORT ( clk       : IN  STD_LOGIC;
@@ -240,19 +211,13 @@ end component;
 --------------------SIGNALS----------------------
 signal s_addr          : STD_LOGIC_VECTOR(5 downto 0);
 signal s_sw_tot        : STD_LOGIC_VECTOR(4 downto 0);
-signal s_clk           : STD_LOGIC;
 signal s_dac_clk       : STD_LOGIC;
 signal s_dout_sum_norm : STD_LOGIC_VECTOR(9 downto 0);
-signal s_pre_we        : STD_LOGIC;
-signal s_pre_re        : STD_LOGIC;
-signal s_pre_full      : STD_LOGIC;
-signal s_pre_dout      : STD_LOGIC_VECTOR(9 downto 0);
 signal s_we            : STD_LOGIC;
 signal s_re            : STD_LOGIC;
 signal s_full          : STD_LOGIC;
 signal s_dout          : STD_LOGIC_VECTOR(9 downto 0);
 signal s_fifo_rst      : STD_LOGIC;
-signal s_pre_rst       : STD_LOGIC;
 signal s_fifo_loop     : STD_LOGIC;
 signal S_fifo_din      : STD_LOGIC_VECTOR(9downto 0);
 
@@ -292,8 +257,6 @@ signal s_sum_norm_14 : STD_LOGIC_VECTOR(9 downto 0);
 signal s_sum_norm_15 : STD_LOGIC_VECTOR(9 downto 0);
 signal s_sum_norm_16 : STD_LOGIC_VECTOR(9 downto 0);
 
-signal i : integer:=0;
-
 begin
 
 clk_1:clk1 
@@ -302,133 +265,116 @@ clk_1:clk1
         clkin_in    => CLK_IN,
         clkfx_out    => s_DAC_CLK,
         clkfx180_out=> DAC_CLK,
-		  clkin_ibufg_out => OPEN);
-		
-clk_2:clk2 
-    Port MAP(
-		  rst_in      => '0',
-        clkin_in    => CLK_IN,
-        clkfx_out    => s_clk,
-		  clkin_ibufg_out => OPEN);		
+		  clkin_ibufg_out => OPEN);	
 
 rom1:ROM_1
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_1);
 rom2:ROM_2
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_2);
 rom3:ROM_3
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_3);
 rom4:ROM_4
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_4);
 rom5:ROM_5
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_5);
 rom6:ROM_6
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_6);
 rom7:ROM_7
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_7);
 rom8:ROM_8
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_8);
 rom9:ROM_9
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_9);
 rom10:ROM_10
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_10);
 rom11:ROM_11
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_11);
 rom12:ROM_12
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_12);
 rom13:ROM_13
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_13);
 rom14:ROM_14
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_14);
 rom15:ROM_15
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_15);
 rom16:ROM_16
     Port MAP(
-        CLK  => s_CLK,
+        CLK  => s_dac_clk,
 		  EN   => '1',
         ADDR => s_addr,
         DATA => S_rom_16);
 
-cont1:CONTROLLER_SLOW
+cont1:CONTROLLER
     Port MAP( 
         RST        => BUT,
-        CLK        => s_CLK,
+        CLK        => s_dac_clk,
         ADDR       => s_addr,
-        PRE_WE     => s_pre_we,
-        PRE_FULL   => s_pre_full,
-        FIFO_FULL  => s_full,
-        FIFO_RST   => s_pre_rst);
-
-cont2:CONTROLLER_FAST
-    Port MAP( 
-        RST        => BUT,
-        CLK        => s_dac_CLK,
-        PRE_RE     => s_pre_re,
-        PRE_FULL   => s_pre_full,
-        FIFO_RE    => s_re,
-        FIFO_WE    => s_we,
-        FIFO_FULL  => s_full,
         FIFO_LOOP  => s_fifo_loop,
+		  FIFO_WE    => s_we,
+		  FIFO_RE    => s_re,
+		  FIFO_FULL  => s_full,
         FIFO_RST   => s_fifo_rst);
+
 
 sum_norm1:SUM_NORM
     Port Map( 
@@ -463,18 +409,6 @@ fifo1:FIFO
         empty     => OPEN,
         prog_full =>s_full);
         
-fifo2: PRE_FIFO
-    PORT MAP(
-        rst       =>s_pre_rst,
-        wr_clk    =>s_clk,
-        rd_clk    =>s_dac_clk,
-        din       =>s_dout_sum_norm,
-        wr_en     =>s_pre_we,
-        rd_en     =>s_pre_re,
-        dout      =>s_pre_dout,
-        full      =>open,
-        empty     =>open,
-        prog_full =>s_pre_full);
  
 	with SW(15) select
 		s_sum_norm_1 <= s_rom_1      when '1',
@@ -529,7 +463,7 @@ fifo2: PRE_FIFO
 
 	with s_fifo_loop select
 		s_fifo_din<=s_dout     when '1',
-					   s_pre_dout when others;
+					   s_dout_sum_norm when others;
   
 
 DATA_OUT<=s_dout;

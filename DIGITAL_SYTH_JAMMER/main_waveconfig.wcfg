@@ -18,7 +18,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="10" />
+   <WVObjectSize size="9" />
    <wave_markers>
       <marker time="1618800000" label="" />
    </wave_markers>
@@ -131,53 +131,7 @@
          <obj_property name="ObjectShortName">norm[13:0]</obj_property>
       </wvobject>
    </wvobject>
-   <wvobject fp_name="group80" type="group">
-      <obj_property name="label">PRE_FIFO</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-      <wvobject fp_name="/sim1/uut/fifo2/rst" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">rst</obj_property>
-         <obj_property name="ObjectShortName">rst</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/wr_clk" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">wr_clk</obj_property>
-         <obj_property name="ObjectShortName">wr_clk</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/rd_clk" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">rd_clk</obj_property>
-         <obj_property name="ObjectShortName">rd_clk</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/din" type="array" db_ref_id="1">
-         <obj_property name="ElementShortName">din[9:0]</obj_property>
-         <obj_property name="ObjectShortName">din[9:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/wr_en" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">wr_en</obj_property>
-         <obj_property name="ObjectShortName">wr_en</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/rd_en" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">rd_en</obj_property>
-         <obj_property name="ObjectShortName">rd_en</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/dout" type="array" db_ref_id="1">
-         <obj_property name="ElementShortName">dout[9:0]</obj_property>
-         <obj_property name="ObjectShortName">dout[9:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/full" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">full</obj_property>
-         <obj_property name="ObjectShortName">full</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/empty" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">empty</obj_property>
-         <obj_property name="ObjectShortName">empty</obj_property>
-      </wvobject>
-      <wvobject fp_name="/sim1/uut/fifo2/prog_full" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">prog_full</obj_property>
-         <obj_property name="ObjectShortName">prog_full</obj_property>
-      </wvobject>
-   </wvobject>
-   <wvobject fp_name="group83" type="group">
+   <wvobject fp_name="group71" type="group">
       <obj_property name="label">FIFO</obj_property>
       <obj_property name="DisplayName">label</obj_property>
       <wvobject fp_name="/sim1/uut/fifo1/clk" type="logic" db_ref_id="1">
@@ -219,7 +173,7 @@
          <obj_property name="ObjectShortName">prog_full</obj_property>
       </wvobject>
    </wvobject>
-   <wvobject fp_name="group72" type="group">
+   <wvobject fp_name="group86" type="group">
       <obj_property name="label">Controller</obj_property>
       <obj_property name="DisplayName">label</obj_property>
       <wvobject fp_name="/sim1/uut/cont1/rst" type="logic" db_ref_id="1">
@@ -230,10 +184,6 @@
          <obj_property name="ElementShortName">clk</obj_property>
          <obj_property name="ObjectShortName">clk</obj_property>
       </wvobject>
-      <wvobject fp_name="/sim1/uut/cont1/pre_full" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">pre_full</obj_property>
-         <obj_property name="ObjectShortName">pre_full</obj_property>
-      </wvobject>
       <wvobject fp_name="/sim1/uut/cont1/fifo_full" type="logic" db_ref_id="1">
          <obj_property name="ElementShortName">fifo_full</obj_property>
          <obj_property name="ObjectShortName">fifo_full</obj_property>
@@ -241,10 +191,19 @@
       <wvobject fp_name="/sim1/uut/cont1/addr" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">addr[5:0]</obj_property>
          <obj_property name="ObjectShortName">addr[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/sim1/uut/cont1/pre_we" type="logic" db_ref_id="1">
-         <obj_property name="ElementShortName">pre_we</obj_property>
-         <obj_property name="ObjectShortName">pre_we</obj_property>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_we</obj_property>
+         <obj_property name="ObjectShortName">fifo_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_re" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_re</obj_property>
+         <obj_property name="ObjectShortName">fifo_re</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/fifo_loop" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">fifo_loop</obj_property>
+         <obj_property name="ObjectShortName">fifo_loop</obj_property>
       </wvobject>
       <wvobject fp_name="/sim1/uut/cont1/fifo_rst" type="logic" db_ref_id="1">
          <obj_property name="ElementShortName">fifo_rst</obj_property>
@@ -270,6 +229,10 @@
       <wvobject fp_name="/sim1/uut/cont1/count_on" type="logic" db_ref_id="1">
          <obj_property name="ElementShortName">count_on</obj_property>
          <obj_property name="ObjectShortName">count_on</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim1/uut/cont1/count_rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">count_rst</obj_property>
+         <obj_property name="ObjectShortName">count_rst</obj_property>
       </wvobject>
    </wvobject>
 </wave_config>

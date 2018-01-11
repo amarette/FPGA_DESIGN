@@ -5,9 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="NgdBuild" num="462" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">CLK_IN</arg>&apos; drives multiple buffers<arg fmt="%s" index="3">:
-  pin I on block clk_1/CLKIN_IBUFG_INST with type IBUFG,
-  pin I on block clk_2/CLKIN_IBUFG_INST with type IBUFG</arg>
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;DAC_CLK&quot; period = 4.76ns HIGH 50%;&gt; [TOP_DAWG.ucf(37)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;CLK_IN&quot; period = 25ns HIGH 50%;&gt; [TOP_DAWG.ucf(38)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
 </msg>
 
 </messages>

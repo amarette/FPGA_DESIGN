@@ -32,24 +32,25 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity CONTROLLER_SLOW is
+entity CONTROLLER is
     Port ( RST       : in STD_LOGIC;
            CLK       : in STD_LOGIC;
-           PRE_FULL  : in STD_LOGIC;
            FIFO_FULL : in STD_LOGIC;
            ADDR      : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
-           PRE_WE    : out STD_LOGIC:='0';
-			  FIFO_RST  : out STD_LOGIC:='1');
-end CONTROLLER_SLOW;
+           FIFO_WE   : out STD_LOGIC:='0';
+			  FIFO_RE	: out STD_LOGIC:='0';
+			  FIFO_LOOP : out STD_LOGIC:='0';
+           FIFO_RST  : out STD_LOGIC:='0');
+end CONTROLLER;
 
-architecture Behavioral of CONTROLLER_SLOW is
+architecture Behavioral of CONTROLLER is
 
-type state_type is (IDLESTATE, LOADSTATE_1, LOADSTATE_2, LOOPSTATE);
+type state_type is (IDLESTATE, LOADSTATE, LOOPSTATE);
 signal PS     : state_type:=IDLESTATE;
 signal NS     : state_type;
 
 signal counter_sig : STD_LOGIC_VECTOR (5 downto 0) := "000000";
-signal d_pre_we	 : STD_LOGIC :='0';
+signal d_fifo_loop : STD_LOGIC :='0';
 signal count_on	 : STD_LOGIC :='0';
 signal count_rst	 : STD_LOGIC :='0';
 
@@ -69,52 +70,54 @@ begin
 		end if;
 		if (rising_edge(CLK)) then
 			PS <= NS;
-			PRE_WE<=d_PRE_WE;
+			FIFO_LOOP<=d_fifo_loop;
 		end if;
 	end process;
 
-	comb_proc: process(PS, PRE_FULL, FIFO_FULL, RST, CLK)
+	comb_proc: process(PS, FIFO_FULL, RST, CLK)
 	begin
 		case PS is
 			when IDLESTATE =>
-            d_PRE_WE<='0';
-				count_on<='0';
-				count_rst<='1';
-				FIFO_RST<='0';
+				count_on    <='0';
+				count_rst   <='1';
+				FIFO_RST    <='0';
+				FIFO_RE     <='0';
+				FIFO_WE     <='0';
+				d_fifo_loop <='0';
 				if (RST = '1') then 
-				NS <= LOADSTATE_1;
-				count_rst<='0';
-            else NS <= IDLESTATE;
+					NS         <= LOADSTATE;
+					count_rst  <='0';
+					count_on   <='1';
+            else 
+					NS         <= IDLESTATE;
 				end if;
 							
-			when LOADSTATE_1 =>
-				count_on<='1';
-				count_rst<='0';
-            d_PRE_WE<='1';
-				FIFO_RST<='0';
-				if (PRE_FULL = '1') then 
-					NS <= LOADSTATE_2;
-					count_on<='0';
-				else NS    <= LOADSTATE_1;
+			when LOADSTATE =>
+				count_on    <='1';
+				count_rst   <='0';
+				FIFO_RST    <='0';
+				FIFO_RE     <='0';
+				FIFO_WE     <='1';
+				d_fifo_loop <='0';
+				if (FIFO_FULL = '1') then 
+					NS       <= LOOPSTATE;
+					count_on <='0';
+				else 
+					NS       <= LOADSTATE;
 				end if;
-								
-			when LOADSTATE_2 =>
-			   count_on<='0';
-            d_PRE_WE<='0';
-				FIFO_RST<='0';
-				if (FIFO_FULL = '1') then
-				NS <= LOOPSTATE;
-				else NS <= LOADSTATE_2;
-				end if;
+
 				
 			when LOOPSTATE =>
-			   count_on<='0';
-            d_PRE_WE<='0';
-				FIFO_RST<='0';
+			   count_on    <='0';
+				FIFO_RST    <='0';
+				FIFO_RE     <='1';
+				FIFO_WE     <='1';
+				d_fifo_loop <='1';
 				if (RST = '1') then
-				NS <= IDLESTATE;
-				FIFO_RST<='1';
-				else NS <= LOOPSTATE;
+					NS       <= IDLESTATE;
+					FIFO_RST <='1';
+				else 
+					NS       <= LOOPSTATE;
 				end if;
 		end case;
 		end process;

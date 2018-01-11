@@ -5,31 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">299</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk1</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">262</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk1</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">307</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk2</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">400</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">full</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">307</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LOCKED_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk2</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">400</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">empty</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">454</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">full</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">454</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">empty</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">454</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FIFO</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">466</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">full</arg>&apos; of component &apos;<arg fmt="%s" index="4">PRE_FIFO</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">466</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">empty</arg>&apos; of component &apos;<arg fmt="%s" index="4">PRE_FIFO</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">466</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">PRE_FIFO</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">400</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FIFO</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
@@ -80,7 +65,7 @@
 <msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd</arg>&quot; line <arg fmt="%d" index="2">58</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd</arg>&quot; line <arg fmt="%d" index="2">59</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
 <arg fmt="%s" index="3">&lt;count_on&gt;, &lt;count_rst&gt;</arg>
 </msg>
 
@@ -141,191 +126,4 @@
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">NORM&lt;13:10&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_rdata</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom15/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom15/DATA_2&gt; &lt;rom15/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom14/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom14/DATA_7&gt; &lt;rom14/DATA_5&gt; &lt;rom14/DATA_4&gt; &lt;rom14/DATA_3&gt; &lt;rom14/DATA_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom7/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom7/DATA_7&gt; &lt;rom7/DATA_5&gt; &lt;rom7/DATA_4&gt; &lt;rom7/DATA_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom15/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rom15/DATA_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom6/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rom6/DATA_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom6/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom6/DATA_2&gt; &lt;rom6/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom9/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom9/DATA_2&gt; &lt;rom9/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom15/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rom15/DATA_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom12/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rom12/DATA_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom6/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rom6/DATA_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom12/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom12/DATA_2&gt; &lt;rom12/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom14/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom14/DATA_2&gt; &lt;rom14/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom3/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rom3/DATA_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom3/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom3/DATA_2&gt; &lt;rom3/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom7/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;rom7/DATA_2&gt; &lt;rom7/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom12/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rom12/DATA_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom15/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom15/DATA_2&gt; &lt;rom15/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom14/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom14/DATA_7&gt; &lt;rom14/DATA_5&gt; &lt;rom14/DATA_4&gt; &lt;rom14/DATA_3&gt; &lt;rom14/DATA_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom7/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom7/DATA_7&gt; &lt;rom7/DATA_5&gt; &lt;rom7/DATA_4&gt; &lt;rom7/DATA_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom15/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom15/DATA_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom6/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom6/DATA_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom6/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom6/DATA_2&gt; &lt;rom6/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom9/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom9/DATA_2&gt; &lt;rom9/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom15/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom15/DATA_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom12/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom12/DATA_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom6/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom6/DATA_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom12/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom12/DATA_2&gt; &lt;rom12/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom14/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom14/DATA_2&gt; &lt;rom14/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom3/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom3/DATA_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom3/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom3/DATA_2&gt; &lt;rom3/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom7/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom7/DATA_2&gt; &lt;rom7/DATA_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom12/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom12/DATA_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">fifo2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
-</msg>
-
 </messages>
-

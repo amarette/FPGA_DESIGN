@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.25 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.25 secs
  
 --> Reading design: TOP_DAWG.prj
 
@@ -109,8 +109,6 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd" in Library work.
 Architecture behavioral of Entity clk1 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" in Library work.
-Architecture behavioral of Entity clk2 is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" in Library work.
 Architecture syn of Entity rom_1 is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd" in Library work.
@@ -144,19 +142,16 @@ Architecture syn of Entity rom_15 is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" in Library work.
 Architecture syn of Entity rom_16 is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" in Library work.
-Architecture behavioral of Entity controller_slow is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd" in Library work.
-Architecture behavioral of Entity controller_fast is up to date.
+Architecture behavioral of Entity controller is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd" in Library work.
 Architecture behavioral of Entity sum_norm is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd" in Library work.
-Entity <fifo> compiled.
-Entity <fifo> (Architecture <fifo_a>) compiled.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd" in Library work.
-Entity <pre_fifo> compiled.
-Entity <pre_fifo> (Architecture <pre_fifo_a>) compiled.
+Architecture fifo_a of Entity fifo is up to date.
+Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" in Library work.
+Architecture behavioral of Entity clk2 is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" in Library work.
-Architecture behavioral of Entity top_dawg is up to date.
+Entity <top_dawg> compiled.
+Entity <top_dawg> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -164,8 +159,6 @@ Architecture behavioral of Entity top_dawg is up to date.
 Analyzing hierarchy for entity <TOP_DAWG> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <clk1> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <clk2> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <ROM_1> in library <work> (architecture <syn>).
 
@@ -199,9 +192,7 @@ Analyzing hierarchy for entity <ROM_15> in library <work> (architecture <syn>).
 
 Analyzing hierarchy for entity <ROM_16> in library <work> (architecture <syn>).
 
-Analyzing hierarchy for entity <CONTROLLER_SLOW> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <CONTROLLER_FAST> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <CONTROLLER> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <SUM_NORM> in library <work> (architecture <behavioral>).
 
@@ -210,15 +201,10 @@ Analyzing hierarchy for entity <SUM_NORM> in library <work> (architecture <behav
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <TOP_DAWG> in library <work> (Architecture <behavioral>).
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 299: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'clk1'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 307: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'clk2'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 307: Unconnected output port 'LOCKED_OUT' of component 'clk2'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 454: Unconnected output port 'full' of component 'FIFO'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 454: Unconnected output port 'empty' of component 'FIFO'.
-WARNING:Xst:2211 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 454: Instantiating black box module <FIFO>.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 466: Unconnected output port 'full' of component 'PRE_FIFO'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 466: Unconnected output port 'empty' of component 'PRE_FIFO'.
-WARNING:Xst:2211 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 466: Instantiating black box module <PRE_FIFO>.
+WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 262: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'clk1'.
+WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 400: Unconnected output port 'full' of component 'FIFO'.
+WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 400: Unconnected output port 'empty' of component 'FIFO'.
+WARNING:Xst:2211 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 400: Instantiating black box module <FIFO>.
 Entity <TOP_DAWG> analyzed. Unit <TOP_DAWG> generated.
 
 Analyzing Entity <clk1> in library <work> (Architecture <behavioral>).
@@ -227,10 +213,10 @@ Analyzing Entity <clk1> in library <work> (Architecture <behavioral>).
     Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <clk1>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <clk1>.
     Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_SP_INST> in unit <clk1>.
-    Set user-defined property "CLKFX_DIVIDE =  10" for instance <DCM_SP_INST> in unit <clk1>.
+    Set user-defined property "CLKFX_DIVIDE =  4" for instance <DCM_SP_INST> in unit <clk1>.
     Set user-defined property "CLKFX_MULTIPLY =  21" for instance <DCM_SP_INST> in unit <clk1>.
     Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <clk1>.
-    Set user-defined property "CLKIN_PERIOD =  10.0000000000000000" for instance <DCM_SP_INST> in unit <clk1>.
+    Set user-defined property "CLKIN_PERIOD =  25.0000000000000000" for instance <DCM_SP_INST> in unit <clk1>.
     Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <clk1>.
     Set user-defined property "CLK_FEEDBACK =  NONE" for instance <DCM_SP_INST> in unit <clk1>.
     Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <clk1>.
@@ -242,28 +228,6 @@ Analyzing Entity <clk1> in library <work> (Architecture <behavioral>).
     Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <clk1>.
     Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <clk1>.
 Entity <clk1> analyzed. Unit <clk1> generated.
-
-Analyzing Entity <clk2> in library <work> (Architecture <behavioral>).
-    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <clk2>.
-    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <clk2>.
-    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <clk2>.
-    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <clk2>.
-    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "CLKFX_DIVIDE =  2" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "CLKFX_MULTIPLY =  2" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "CLKIN_PERIOD =  10.0000000000000000" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "CLK_FEEDBACK =  NONE" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <clk2>.
-    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <clk2>.
-Entity <clk2> analyzed. Unit <clk2> generated.
 
 Analyzing Entity <ROM_1> in library <work> (Architecture <syn>).
 WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
@@ -329,13 +293,10 @@ Analyzing Entity <ROM_16> in library <work> (Architecture <syn>).
 WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_16> analyzed. Unit <ROM_16> generated.
 
-Analyzing Entity <CONTROLLER_SLOW> in library <work> (Architecture <behavioral>).
-WARNING:Xst:819 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" line 58: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+Analyzing Entity <CONTROLLER> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" line 59: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <count_on>, <count_rst>
-Entity <CONTROLLER_SLOW> analyzed. Unit <CONTROLLER_SLOW> generated.
-
-Analyzing Entity <CONTROLLER_FAST> in library <work> (Architecture <behavioral>).
-Entity <CONTROLLER_FAST> analyzed. Unit <CONTROLLER_FAST> generated.
+Entity <CONTROLLER> analyzed. Unit <CONTROLLER> generated.
 
 Analyzing Entity <SUM_NORM> in library <work> (Architecture <behavioral>).
 Entity <SUM_NORM> analyzed. Unit <SUM_NORM> generated.
@@ -523,13 +484,13 @@ WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default valu
 Unit <ROM_16> synthesized.
 
 
-Synthesizing Unit <CONTROLLER_SLOW>.
+Synthesizing Unit <CONTROLLER>.
     Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd".
     Found finite state machine <FSM_0> for signal <PS>.
     -----------------------------------------------------------------------
-    | States             | 4                                              |
-    | Transitions        | 8                                              |
-    | Inputs             | 3                                              |
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
     | Outputs            | 4                                              |
     | Clock              | CLK                       (rising_edge)        |
     | Power Up State     | idlestate                                      |
@@ -538,33 +499,13 @@ Synthesizing Unit <CONTROLLER_SLOW>.
     -----------------------------------------------------------------------
 WARNING:Xst:737 - Found 1-bit latch for signal <count_rst>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
-    Found 1-bit register for signal <PRE_WE>.
+    Found 1-bit register for signal <FIFO_LOOP>.
     Found 6-bit up counter for signal <counter_sig>.
     Summary:
 	inferred   1 Finite State Machine(s).
 	inferred   1 Counter(s).
 	inferred   1 D-type flip-flop(s).
-Unit <CONTROLLER_SLOW> synthesized.
-
-
-Synthesizing Unit <CONTROLLER_FAST>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd".
-    Found finite state machine <FSM_1> for signal <PS>.
-    -----------------------------------------------------------------------
-    | States             | 4                                              |
-    | Transitions        | 8                                              |
-    | Inputs             | 3                                              |
-    | Outputs            | 5                                              |
-    | Clock              | CLK                       (rising_edge)        |
-    | Power Up State     | idlestate                                      |
-    | Encoding           | automatic                                      |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Found 1-bit register for signal <FIFO_LOOP>.
-    Summary:
-	inferred   1 Finite State Machine(s).
-	inferred   1 D-type flip-flop(s).
-Unit <CONTROLLER_FAST> synthesized.
+Unit <CONTROLLER> synthesized.
 
 
 Synthesizing Unit <SUM_NORM>.
@@ -622,29 +563,23 @@ Synthesizing Unit <clk1>.
 Unit <clk1> synthesized.
 
 
-Synthesizing Unit <clk2>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd".
-Unit <clk2> synthesized.
-
-
 Synthesizing Unit <TOP_DAWG>.
     Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd".
-WARNING:Xst:1780 - Signal <i> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
     Found 5-bit adder for signal <s_sw_tot>.
-    Found 5-bit adder for signal <s_sw_tot$addsub0000> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0001> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0002> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0003> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0004> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0005> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0006> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0007> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0008> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0009> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0010> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0011> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0012> created at line 528.
-    Found 5-bit adder for signal <s_sw_tot$addsub0013> created at line 528.
+    Found 5-bit adder for signal <s_sw_tot$addsub0000> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0001> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0002> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0003> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0004> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0005> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0006> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0007> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0008> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0009> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0010> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0011> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0012> created at line 462.
+    Found 5-bit adder for signal <s_sw_tot$addsub0013> created at line 462.
     Summary:
 	inferred  15 Adder/Subtractor(s).
 Unit <TOP_DAWG> synthesized.
@@ -663,8 +598,8 @@ Macro Statistics
  5-bit adder                                           : 15
 # Counters                                             : 1
  6-bit up counter                                      : 1
-# Registers                                            : 18
- 1-bit register                                        : 2
+# Registers                                            : 17
+ 1-bit register                                        : 1
  10-bit register                                       : 16
 # Latches                                              : 1
  1-bit latch                                           : 1
@@ -675,30 +610,17 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-Analyzing FSM <FSM_1> for best encoding.
-Optimizing FSM <cont2/PS/FSM> on signal <PS[1:2]> with gray encoding.
--------------------------
- State       | Encoding
--------------------------
- idlestate   | 00
- loadstate_1 | 01
- loadstate_2 | 11
- loopstate   | 10
--------------------------
 Analyzing FSM <FSM_0> for best encoding.
-Optimizing FSM <cont1/PS/FSM> on signal <PS[1:2]> with gray encoding.
--------------------------
- State       | Encoding
--------------------------
- idlestate   | 00
- loadstate_1 | 01
- loadstate_2 | 11
- loopstate   | 10
--------------------------
+Optimizing FSM <cont1/PS/FSM> on signal <PS[1:2]> with user encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idlestate | 00
+ loadstate | 01
+ loopstate | 10
+-----------------------
 Reading core <ipcore_dir/FIFO.ngc>.
-Reading core <ipcore_dir/PRE_FIFO.ngc>.
 Loading core <FIFO> for timing and area information for instance <fifo1>.
-Loading core <PRE_FIFO> for timing and area information for instance <fifo2>.
 
 Synthesizing (advanced) Unit <ROM_1>.
 INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_rdata> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
@@ -768,7 +690,7 @@ Unit <ROM_9> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# FSMs                                                 : 2
+# FSMs                                                 : 1
 # ROMs                                                 : 16
  42x10-bit ROM                                         : 16
 # Adders/Subtractors                                   : 50
@@ -781,8 +703,8 @@ Macro Statistics
  5-bit adder carry in                                  : 7
 # Counters                                             : 1
  6-bit up counter                                      : 1
-# Registers                                            : 162
- Flip-Flops                                            : 162
+# Registers                                            : 161
+ Flip-Flops                                            : 161
 # Latches                                              : 1
  1-bit latch                                           : 1
 
@@ -826,512 +748,4 @@ Optimizing unit <ROM_15> ...
 
 Optimizing unit <ROM_16> ...
 
-Optimizing unit <CONTROLLER_SLOW> ...
-
 Optimizing unit <SUM_NORM> ...
-
-Mapping all equations...
-Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block TOP_DAWG, actual ratio is 50.
-INFO:Xst:2260 - The FF/Latch <rom15/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches : <rom15/DATA_2> <rom15/DATA_0> 
-INFO:Xst:2260 - The FF/Latch <rom14/DATA_8> in Unit <TOP_DAWG> is equivalent to the following 5 FFs/Latches : <rom14/DATA_7> <rom14/DATA_5> <rom14/DATA_4> <rom14/DATA_3> <rom14/DATA_1> 
-INFO:Xst:2260 - The FF/Latch <rom7/DATA_8> in Unit <TOP_DAWG> is equivalent to the following 4 FFs/Latches : <rom7/DATA_7> <rom7/DATA_5> <rom7/DATA_4> <rom7/DATA_3> 
-INFO:Xst:2260 - The FF/Latch <rom15/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch : <rom15/DATA_4> 
-INFO:Xst:2260 - The FF/Latch <rom6/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch : <rom6/DATA_4> 
-INFO:Xst:2260 - The FF/Latch <rom6/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches : <rom6/DATA_2> <rom6/DATA_0> 
-INFO:Xst:2260 - The FF/Latch <rom9/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches : <rom9/DATA_2> <rom9/DATA_0> 
-INFO:Xst:2260 - The FF/Latch <rom15/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch : <rom15/DATA_1> 
-INFO:Xst:2260 - The FF/Latch <rom12/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch : <rom12/DATA_4> 
-INFO:Xst:2260 - The FF/Latch <rom6/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch : <rom6/DATA_1> 
-INFO:Xst:2260 - The FF/Latch <rom12/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches : <rom12/DATA_2> <rom12/DATA_0> 
-INFO:Xst:2260 - The FF/Latch <rom14/DATA_6> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches : <rom14/DATA_2> <rom14/DATA_0> 
-INFO:Xst:2260 - The FF/Latch <rom3/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch : <rom3/DATA_4> 
-INFO:Xst:2260 - The FF/Latch <rom3/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches : <rom3/DATA_2> <rom3/DATA_0> 
-INFO:Xst:2260 - The FF/Latch <rom7/DATA_6> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches : <rom7/DATA_2> <rom7/DATA_0> 
-INFO:Xst:2260 - The FF/Latch <rom12/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch : <rom12/DATA_1> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> in Unit <fifo1> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i> in Unit <fifo1> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> in Unit <fifo2> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_1> in Unit <fifo2> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_0> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <fifo2> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_2> in Unit <fifo2> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_1> 
-INFO:Xst:2261 - The FF/Latch <rom15/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom15/DATA_2> <rom15/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom14/DATA_8> in Unit <TOP_DAWG> is equivalent to the following 5 FFs/Latches, which will be removed : <rom14/DATA_7> <rom14/DATA_5> <rom14/DATA_4> <rom14/DATA_3> <rom14/DATA_1> 
-INFO:Xst:2261 - The FF/Latch <rom7/DATA_8> in Unit <TOP_DAWG> is equivalent to the following 4 FFs/Latches, which will be removed : <rom7/DATA_7> <rom7/DATA_5> <rom7/DATA_4> <rom7/DATA_3> 
-INFO:Xst:2261 - The FF/Latch <rom15/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom15/DATA_4> 
-INFO:Xst:2261 - The FF/Latch <rom6/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom6/DATA_4> 
-INFO:Xst:2261 - The FF/Latch <rom6/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom6/DATA_2> <rom6/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom9/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom9/DATA_2> <rom9/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom15/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom15/DATA_1> 
-INFO:Xst:2261 - The FF/Latch <rom12/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom12/DATA_4> 
-INFO:Xst:2261 - The FF/Latch <rom6/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom6/DATA_1> 
-INFO:Xst:2261 - The FF/Latch <rom12/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom12/DATA_2> <rom12/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom14/DATA_6> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom14/DATA_2> <rom14/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom3/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom3/DATA_4> 
-INFO:Xst:2261 - The FF/Latch <rom3/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom3/DATA_2> <rom3/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom7/DATA_6> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom7/DATA_2> <rom7/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom12/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom12/DATA_1> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> in Unit <fifo1> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i> in Unit <fifo1> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> in Unit <fifo2> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_1> in Unit <fifo2> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_0> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <fifo2> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
-INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_2> in Unit <fifo2> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_1> 
-
-Final Macro Processing ...
-
-=========================================================================
-Final Register Report
-
-Macro Statistics
-# Registers                                            : 142
- Flip-Flops                                            : 142
-
-=========================================================================
-
-=========================================================================
-*                           Partition Report                            *
-=========================================================================
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
-
-=========================================================================
-*                            Final Report                               *
-=========================================================================
-Final Results
-RTL Top Level Output File Name     : TOP_DAWG.ngr
-Top Level Output File Name         : TOP_DAWG
-Output Format                      : NGC
-Optimization Goal                  : Speed
-Keep Hierarchy                     : No
-
-Design Statistics
-# IOs                              : 29
-
-Cell Usage :
-# BELS                             : 2628
-#      GND                         : 3
-#      INV                         : 16
-#      LUT1                        : 111
-#      LUT2                        : 159
-#      LUT2_D                      : 68
-#      LUT2_L                      : 7
-#      LUT3                        : 302
-#      LUT3_D                      : 1
-#      LUT3_L                      : 3
-#      LUT4                        : 664
-#      LUT4_D                      : 7
-#      LUT4_L                      : 11
-#      MULT_AND                    : 1
-#      MUXCY                       : 433
-#      MUXF5                       : 260
-#      MUXF6                       : 128
-#      VCC                         : 3
-#      XORCY                       : 451
-# FlipFlops/Latches                : 305
-#      FD                          : 141
-#      FDC                         : 64
-#      FDCE                        : 55
-#      FDE                         : 10
-#      FDP                         : 20
-#      FDPE                        : 11
-#      FDR                         : 3
-#      LD_1                        : 1
-# RAMS                             : 41
-#      RAM16X1D                    : 40
-#      RAMB16BWE                   : 1
-# Clock Buffers                    : 3
-#      BUFG                        : 3
-# IO Buffers                       : 30
-#      IBUF                        : 17
-#      IBUFG                       : 2
-#      OBUF                        : 11
-# DCMs                             : 2
-#      DCM_SP                      : 2
-=========================================================================
-
-Device utilization summary:
----------------------------
-
-Selected Device : 3s200avq100-4 
-
- Number of Slices:                      827  out of   1792    46%  
- Number of Slice Flip Flops:            305  out of   3584     8%  
- Number of 4 input LUTs:               1429  out of   3584    39%  
-    Number used as logic:              1349
-    Number used as RAMs:                 80
- Number of IOs:                          29
- Number of bonded IOBs:                  28  out of     68    41%  
- Number of BRAMs:                         1  out of     16     6%  
- Number of GCLKs:                         3  out of     24    12%  
- Number of DCMs:                          2  out of      4    50%  
-
----------------------------
-Partition Resource Summary:
----------------------------
-
-  No Partitions were found in this design.
-
----------------------------
-
-
-=========================================================================
-TIMING REPORT
-
-NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
-      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
-      GENERATED AFTER PLACE-and-ROUTE.
-
-Clock Information:
-------------------
------------------------------------+------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)  | Load  |
------------------------------------+------------------------+-------+
-CLK_IN                             | clk_1/DCM_SP_INST:CLKFX| 146   |
-CLK_IN                             | clk_2/DCM_SP_INST:CLKFX| 200   |
-cont1/PS_FSM_FFd1                  | NONE(cont1/count_rst)  | 1     |
------------------------------------+------------------------+-------+
-INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
-
-Asynchronous Control Signals Information:
-----------------------------------------
--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+-------+
-Control Signal                                                                                                                             | Buffer(FF name)                                                                                                    | Load  |
--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+-------+
-fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg<1>(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_1:Q)| NONE(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/Q_reg_0)| 24    |
-fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg<0>(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_0:Q)| NONE(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].wr_stg_inst/Q_reg_0)| 24    |
-fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg<1>(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_1:Q)| NONE(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.gpf.wrpf/diff_pntr_pad_1)       | 24    |
-fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg<1>(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_1:Q)| NONE(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.gpf.wrpf/diff_pntr_pad_1)       | 20    |
-fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg<2>(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_2:Q)| NONE(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i)            | 14    |
-fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg<2>(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_2:Q)| NONE(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i)            | 14    |
-cont1/count_rst(cont1/count_rst:Q)                                                                                                         | NONE(cont1/counter_sig_0)                                                                                          | 6     |
-s_fifo_rst(cont2/FIFO_RST1:O)                                                                                                              | NONE(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/RST_FULL_GEN)                                          | 6     |
-s_pre_rst(cont1/FIFO_RST1:O)                                                                                                               | NONE(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/RST_FULL_GEN)                                          | 6     |
-fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rst_d2(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rst_d2:Q)             | NONE(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.gpf.wrpf/prog_full_i)           | 3     |
-fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rst_d2(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rst_d2:Q)             | NONE(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.gpf.wrpf/prog_full_i)           | 3     |
-fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_comb(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_comb1:O)  | NONE(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_1)                                          | 2     |
-fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_comb(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_comb1:O)  | NONE(fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_0)                                          | 2     |
-fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_comb(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_comb1:O)  | NONE(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_2)                                          | 1     |
-fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_comb(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_comb1:O)  | NONE(fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_1)                                          | 1     |
--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+-------+
-
-Timing Summary:
----------------
-Speed Grade: -4
-
-   Minimum period: 91.976ns (Maximum Frequency: 10.872MHz)
-   Minimum input arrival time before clock: 92.910ns
-   Maximum output required time after clock: 5.558ns
-   Maximum combinational path delay: No path found
-
-Timing Detail:
---------------
-All values displayed in nanoseconds (ns)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'CLK_IN'
-  Clock period: 91.976ns (frequency: 10.872MHz)
-  Total number of paths / destination ports: 271001847294609900000000000000 / 799
--------------------------------------------------------------------------
-Delay:               91.976ns (Levels of Logic = 102)
-  Source:            rom3/DATA_1 (FF)
-  Destination:       fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram (RAM)
-  Source Clock:      CLK_IN rising
-  Destination Clock: CLK_IN rising
-
-  Data Path: rom3/DATA_1 to fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q               2   0.591   0.527  rom3/DATA_1 (rom3/DATA_1)
-     LUT2:I1->O            1   0.643   0.423  s_sum_norm_3<1>1 (s_sum_norm_3<1>)
-     LUT4:I3->O            1   0.648   0.423  sum_norm1/Madd_sum_addsub0001C1 (sum_norm1/Madd_sum_addsub0001C)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0001_Madd_lut<2> (sum_norm1/Madd_sum_addsub0001_Madd_lut<2>)
-     XORCY:LI->O           2   0.720   0.450  sum_norm1/Madd_sum_addsub0001_Madd_xor<2> (sum_norm1/sum_addsub0001<2>)
-     LUT4:I3->O            1   0.648   0.423  sum_norm1/Madd_sum_addsub0003C11 (sum_norm1/Madd_sum_addsub0003C1)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0003_Madd_lut<3> (sum_norm1/Madd_sum_addsub0003_Madd_lut<3>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0003_Madd_cy<3> (sum_norm1/Madd_sum_addsub0003_Madd_cy<3>)
-     XORCY:CI->O           3   0.844   0.563  sum_norm1/Madd_sum_addsub0003_Madd_xor<4> (sum_norm1/sum_addsub0003<4>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/Madd_sum_addsub0005C31 (sum_norm1/Madd_sum_addsub0005C3)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Madd_sum_addsub0005_Madd_cy<5> (sum_norm1/Madd_sum_addsub0005_Madd_cy<5>)
-     XORCY:CI->O           3   0.844   0.563  sum_norm1/Madd_sum_addsub0005_Madd_xor<6> (sum_norm1/sum_addsub0005<6>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/Madd_sum_addsub0007C51 (sum_norm1/Madd_sum_addsub0007C5)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Madd_sum_addsub0007_Madd_cy<7> (sum_norm1/Madd_sum_addsub0007_Madd_cy<7>)
-     XORCY:CI->O           3   0.844   0.563  sum_norm1/Madd_sum_addsub0007_Madd_xor<8> (sum_norm1/sum_addsub0007<8>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/Madd_sum_addsub0009C71 (sum_norm1/Madd_sum_addsub0009C7)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Madd_sum_addsub0009_Madd_cy<9> (sum_norm1/Madd_sum_addsub0009_Madd_cy<9>)
-     XORCY:CI->O           1   0.844   0.423  sum_norm1/Madd_sum_addsub0009_Madd_xor<10> (sum_norm1/sum_addsub0009<10>)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0011_Madd_lut<10> (sum_norm1/Madd_sum_addsub0011_Madd_lut<10>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0011_Madd_cy<10> (sum_norm1/Madd_sum_addsub0011_Madd_cy<10>)
-     XORCY:CI->O           1   0.844   0.563  sum_norm1/Madd_sum_addsub0011_Madd_xor<11> (sum_norm1/sum_addsub0011<11>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<11>_rt (sum_norm1/Madd_sum_addsub0013_Madd_cy<11>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<11> (sum_norm1/Madd_sum_addsub0013_Madd_cy<11>)
-     XORCY:CI->O           1   0.844   0.563  sum_norm1/Madd_sum_addsub0013_Madd_xor<12> (sum_norm1/sum_addsub0013<12>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_cy<12>_rt (sum_norm1/Madd_sum_cy<12>_rt)
-     MUXCY:S->O            0   0.632   0.000  sum_norm1/Madd_sum_cy<12> (sum_norm1/Madd_sum_cy<12>)
-     XORCY:CI->O          15   0.844   1.160  sum_norm1/Madd_sum_xor<13> (sum_norm1/sum<13>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0000_cy<0>_rt (sum_norm1/Madd_p1_addsub0000_cy<0>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0000_cy<0> (sum_norm1/Madd_p1_addsub0000_cy<0>)
-     XORCY:CI->O           2   0.844   0.479  sum_norm1/Madd_p1_addsub0000_xor<1> (sum_norm1/p1_addsub0000<1>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0000<1>1 (sum_norm1/p1_mux0000<1>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0001_cy<2> (sum_norm1/Msub_p1_sub0001_cy<2>)
-     XORCY:CI->O           3   0.844   0.611  sum_norm1/Msub_p1_sub0001_xor<3> (sum_norm1/p1_sub0001<3>)
-     LUT2:I1->O            1   0.643   0.000  sum_norm1/Madd_p1_addsub0001_lut<3> (sum_norm1/Madd_p1_addsub0001_lut<3>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0001_cy<3> (sum_norm1/Madd_p1_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_p1_addsub0001_cy<4> (sum_norm1/Madd_p1_addsub0001_cy<4>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0001_xor<5> (sum_norm1/p1_addsub0001<5>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0002_lut<6> (sum_norm1/Msub_p1_sub0002_lut<6>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0002_cy<6> (sum_norm1/Msub_p1_sub0002_cy<6>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0002_xor<7> (sum_norm1/p1_sub0002<7>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0002_cy<7>_rt (sum_norm1/Madd_p1_addsub0002_cy<7>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0002_cy<7> (sum_norm1/Madd_p1_addsub0002_cy<7>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0002_xor<8> (sum_norm1/p1_addsub0002<8>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0003_lut<9> (sum_norm1/Msub_p1_sub0003_lut<9>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0003_cy<9> (sum_norm1/Msub_p1_sub0003_cy<9>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0003_xor<10> (sum_norm1/p1_sub0003<10>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0003_cy<10>_rt (sum_norm1/Madd_p1_addsub0003_cy<10>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0003_cy<10> (sum_norm1/Madd_p1_addsub0003_cy<10>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0003_xor<11> (sum_norm1/p1_addsub0003<11>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0004_lut<12> (sum_norm1/Msub_p1_sub0004_lut<12>)
-     MUXCY:S->O            0   0.632   0.000  sum_norm1/Msub_p1_sub0004_cy<12> (sum_norm1/Msub_p1_sub0004_cy<12>)
-     XORCY:CI->O          18   0.844   1.100  sum_norm1/Msub_p1_sub0004_xor<13> (sum_norm1/p1_sub0004<13>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0004<0>1 (sum_norm1/p1_mux0004<0>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0005_cy<1> (sum_norm1/Msub_p1_sub0005_cy<1>)
-     XORCY:CI->O           3   0.844   0.611  sum_norm1/Msub_p1_sub0005_xor<2> (sum_norm1/p1_sub0005<2>)
-     LUT2:I1->O            1   0.643   0.000  sum_norm1/Madd_p1_addsub0005_lut<2> (sum_norm1/Madd_p1_addsub0005_lut<2>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0005_cy<2> (sum_norm1/Madd_p1_addsub0005_cy<2>)
-     XORCY:CI->O           2   0.844   0.479  sum_norm1/Madd_p1_addsub0005_xor<3> (sum_norm1/p1_addsub0005<3>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0005<3>1 (sum_norm1/p1_mux0005<3>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0006_cy<4> (sum_norm1/Msub_p1_sub0006_cy<4>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Msub_p1_sub0006_cy<5> (sum_norm1/Msub_p1_sub0006_cy<5>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Msub_p1_sub0006_cy<6> (sum_norm1/Msub_p1_sub0006_cy<6>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0006_xor<7> (sum_norm1/p1_sub0006<7>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0007_cy<7>_rt (sum_norm1/Madd_p1_addsub0007_cy<7>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0007_cy<7> (sum_norm1/Madd_p1_addsub0007_cy<7>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0007_xor<8> (sum_norm1/p1_addsub0007<8>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0007_lut<9> (sum_norm1/Msub_p1_sub0007_lut<9>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0007_cy<9> (sum_norm1/Msub_p1_sub0007_cy<9>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0007_xor<10> (sum_norm1/p1_sub0007<10>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0009_cy<10>_rt (sum_norm1/Madd_p1_addsub0009_cy<10>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0009_cy<10> (sum_norm1/Madd_p1_addsub0009_cy<10>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0009_xor<11> (sum_norm1/p1_addsub0009<11>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0008_lut<12> (sum_norm1/Msub_p1_sub0008_lut<12>)
-     MUXCY:S->O            0   0.632   0.000  sum_norm1/Msub_p1_sub0008_cy<12> (sum_norm1/Msub_p1_sub0008_cy<12>)
-     XORCY:CI->O          18   0.844   1.100  sum_norm1/Msub_p1_sub0008_xor<13> (sum_norm1/p1_sub0008<13>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0008<0>1 (sum_norm1/p1_mux0008<0>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0009_cy<1> (sum_norm1/Msub_p1_sub0009_cy<1>)
-     XORCY:CI->O           3   0.844   0.611  sum_norm1/Msub_p1_sub0009_xor<2> (sum_norm1/p1_sub0009<2>)
-     LUT2:I1->O            1   0.643   0.000  sum_norm1/Madd_p1_addsub0012_lut<2> (sum_norm1/Madd_p1_addsub0012_lut<2>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0012_cy<2> (sum_norm1/Madd_p1_addsub0012_cy<2>)
-     XORCY:CI->O           2   0.844   0.479  sum_norm1/Madd_p1_addsub0012_xor<3> (sum_norm1/p1_addsub0012<3>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0009<3>1 (sum_norm1/p1_mux0009<3>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0010_cy<4> (sum_norm1/Msub_p1_sub0010_cy<4>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0010_xor<5> (sum_norm1/p1_sub0010<5>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0006_cy<5>_rt (sum_norm1/Madd_p1_addsub0006_cy<5>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0006_cy<5> (sum_norm1/Madd_p1_addsub0006_cy<5>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0006_xor<6> (sum_norm1/p1_addsub0006<6>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0011_lut<7> (sum_norm1/Msub_p1_sub0011_lut<7>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0011_cy<7> (sum_norm1/Msub_p1_sub0011_cy<7>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0011_xor<8> (sum_norm1/p1_sub0011<8>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0008_cy<8>_rt (sum_norm1/Madd_p1_addsub0008_cy<8>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0008_cy<8> (sum_norm1/Madd_p1_addsub0008_cy<8>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0008_xor<9> (sum_norm1/p1_addsub0008<9>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0012_Madd_lut<10> (sum_norm1/Msub_p1_sub0012_Madd_lut<10>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0012_Madd_cy<10> (sum_norm1/Msub_p1_sub0012_Madd_cy<10>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0012_Madd_xor<11> (sum_norm1/p1_sub0012<11>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0010_Madd_cy<11>_rt (sum_norm1/Madd_p1_addsub0010_Madd_cy<11>_rt)
-     MUXCY:S->O            0   0.632   0.000  sum_norm1/Madd_p1_addsub0010_Madd_cy<11> (sum_norm1/Madd_p1_addsub0010_Madd_cy<11>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0010_Madd_xor<12> (sum_norm1/p1_addsub0010<12>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/Msub_p1_sub0013_Madd_lut<13> (sum_norm1/Msub_p1_sub0013_Madd_lut<13>)
-     XORCY:LI->O           1   0.720   0.420  sum_norm1/Msub_p1_sub0013_Madd_xor<13> (sum_norm1/p1_sub0013<13>)
-     INV:I->O              1   0.648   0.420  sum_norm1/a1_0_mux00131_INV_0 (s_dout_sum_norm<0>)
-     begin scope: 'fifo2'
-     RAMB16BWE:DIA0            0.222          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram
-    ----------------------------------------
-    Total                     91.976ns (71.276ns logic, 20.700ns route)
-                                       (77.5% logic, 22.5% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_IN'
-  Total number of paths / destination ports: 256204269199607340000000000000 / 14
--------------------------------------------------------------------------
-Offset:              92.910ns (Levels of Logic = 107)
-  Source:            SW<14> (PAD)
-  Destination:       fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram (RAM)
-  Destination Clock: CLK_IN rising
-
-  Data Path: SW<14> to fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O            23   0.849   1.345  SW_14_IBUF (SW_14_IBUF)
-     LUT2:I0->O            1   0.648   0.452  s_sum_norm_2<0>1 (s_sum_norm_2<0>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0001_Madd_lut<0> (sum_norm1/Madd_sum_addsub0001_Madd_lut<0>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0001_Madd_cy<0> (sum_norm1/Madd_sum_addsub0001_Madd_cy<0>)
-     XORCY:CI->O           3   0.844   0.534  sum_norm1/Madd_sum_addsub0001_Madd_xor<1> (sum_norm1/sum_addsub0001<1>)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0003R4 (sum_norm1/Madd_sum_addsub0003R)
-     XORCY:LI->O           2   0.720   0.450  sum_norm1/Madd_sum_addsub0003_Madd_xor<1> (sum_norm1/sum_addsub0003<1>)
-     LUT4:I3->O            1   0.648   0.423  sum_norm1/Madd_sum_addsub0005C5 (sum_norm1/Madd_sum_addsub0005C)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0005_Madd_lut<2> (sum_norm1/Madd_sum_addsub0005_Madd_lut<2>)
-     XORCY:LI->O           2   0.720   0.479  sum_norm1/Madd_sum_addsub0005_Madd_xor<2> (sum_norm1/sum_addsub0005<2>)
-     LUT3:I2->O            1   0.648   0.423  sum_norm1/Madd_sum_addsub0007C11 (sum_norm1/Madd_sum_addsub0007C1)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0007_Madd_lut<3> (sum_norm1/Madd_sum_addsub0007_Madd_lut<3>)
-     XORCY:LI->O           2   0.720   0.479  sum_norm1/Madd_sum_addsub0007_Madd_xor<3> (sum_norm1/sum_addsub0007<3>)
-     LUT3:I2->O            1   0.648   0.423  sum_norm1/Madd_sum_addsub0009C21 (sum_norm1/Madd_sum_addsub0009C2)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0009_Madd_lut<4> (sum_norm1/Madd_sum_addsub0009_Madd_lut<4>)
-     XORCY:LI->O           2   0.720   0.479  sum_norm1/Madd_sum_addsub0009_Madd_xor<4> (sum_norm1/sum_addsub0009<4>)
-     LUT3:I2->O            1   0.648   0.423  sum_norm1/Madd_sum_addsub0011C31 (sum_norm1/Madd_sum_addsub0011C3)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0011_Madd_lut<5> (sum_norm1/Madd_sum_addsub0011_Madd_lut<5>)
-     XORCY:LI->O           2   0.720   0.479  sum_norm1/Madd_sum_addsub0011_Madd_xor<5> (sum_norm1/sum_addsub0011<5>)
-     LUT3:I2->O            1   0.648   0.423  sum_norm1/Madd_sum_addsub0013C41 (sum_norm1/Madd_sum_addsub0013C4)
-     LUT4:I3->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0013_Madd_lut<6> (sum_norm1/Madd_sum_addsub0013_Madd_lut<6>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<6> (sum_norm1/Madd_sum_addsub0013_Madd_cy<6>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<7> (sum_norm1/Madd_sum_addsub0013_Madd_cy<7>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<8> (sum_norm1/Madd_sum_addsub0013_Madd_cy<8>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<9> (sum_norm1/Madd_sum_addsub0013_Madd_cy<9>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<10> (sum_norm1/Madd_sum_addsub0013_Madd_cy<10>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<11> (sum_norm1/Madd_sum_addsub0013_Madd_cy<11>)
-     XORCY:CI->O           1   0.844   0.563  sum_norm1/Madd_sum_addsub0013_Madd_xor<12> (sum_norm1/sum_addsub0013<12>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_cy<12>_rt (sum_norm1/Madd_sum_cy<12>_rt)
-     MUXCY:S->O            0   0.632   0.000  sum_norm1/Madd_sum_cy<12> (sum_norm1/Madd_sum_cy<12>)
-     XORCY:CI->O          15   0.844   1.160  sum_norm1/Madd_sum_xor<13> (sum_norm1/sum<13>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0000_cy<0>_rt (sum_norm1/Madd_p1_addsub0000_cy<0>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0000_cy<0> (sum_norm1/Madd_p1_addsub0000_cy<0>)
-     XORCY:CI->O           2   0.844   0.479  sum_norm1/Madd_p1_addsub0000_xor<1> (sum_norm1/p1_addsub0000<1>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0000<1>1 (sum_norm1/p1_mux0000<1>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0001_cy<2> (sum_norm1/Msub_p1_sub0001_cy<2>)
-     XORCY:CI->O           3   0.844   0.611  sum_norm1/Msub_p1_sub0001_xor<3> (sum_norm1/p1_sub0001<3>)
-     LUT2:I1->O            1   0.643   0.000  sum_norm1/Madd_p1_addsub0001_lut<3> (sum_norm1/Madd_p1_addsub0001_lut<3>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0001_cy<3> (sum_norm1/Madd_p1_addsub0001_cy<3>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_p1_addsub0001_cy<4> (sum_norm1/Madd_p1_addsub0001_cy<4>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0001_xor<5> (sum_norm1/p1_addsub0001<5>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0002_lut<6> (sum_norm1/Msub_p1_sub0002_lut<6>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0002_cy<6> (sum_norm1/Msub_p1_sub0002_cy<6>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0002_xor<7> (sum_norm1/p1_sub0002<7>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0002_cy<7>_rt (sum_norm1/Madd_p1_addsub0002_cy<7>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0002_cy<7> (sum_norm1/Madd_p1_addsub0002_cy<7>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0002_xor<8> (sum_norm1/p1_addsub0002<8>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0003_lut<9> (sum_norm1/Msub_p1_sub0003_lut<9>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0003_cy<9> (sum_norm1/Msub_p1_sub0003_cy<9>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0003_xor<10> (sum_norm1/p1_sub0003<10>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0003_cy<10>_rt (sum_norm1/Madd_p1_addsub0003_cy<10>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0003_cy<10> (sum_norm1/Madd_p1_addsub0003_cy<10>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0003_xor<11> (sum_norm1/p1_addsub0003<11>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0004_lut<12> (sum_norm1/Msub_p1_sub0004_lut<12>)
-     MUXCY:S->O            0   0.632   0.000  sum_norm1/Msub_p1_sub0004_cy<12> (sum_norm1/Msub_p1_sub0004_cy<12>)
-     XORCY:CI->O          18   0.844   1.100  sum_norm1/Msub_p1_sub0004_xor<13> (sum_norm1/p1_sub0004<13>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0004<0>1 (sum_norm1/p1_mux0004<0>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0005_cy<1> (sum_norm1/Msub_p1_sub0005_cy<1>)
-     XORCY:CI->O           3   0.844   0.611  sum_norm1/Msub_p1_sub0005_xor<2> (sum_norm1/p1_sub0005<2>)
-     LUT2:I1->O            1   0.643   0.000  sum_norm1/Madd_p1_addsub0005_lut<2> (sum_norm1/Madd_p1_addsub0005_lut<2>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0005_cy<2> (sum_norm1/Madd_p1_addsub0005_cy<2>)
-     XORCY:CI->O           2   0.844   0.479  sum_norm1/Madd_p1_addsub0005_xor<3> (sum_norm1/p1_addsub0005<3>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0005<3>1 (sum_norm1/p1_mux0005<3>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0006_cy<4> (sum_norm1/Msub_p1_sub0006_cy<4>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Msub_p1_sub0006_cy<5> (sum_norm1/Msub_p1_sub0006_cy<5>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Msub_p1_sub0006_cy<6> (sum_norm1/Msub_p1_sub0006_cy<6>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0006_xor<7> (sum_norm1/p1_sub0006<7>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0007_cy<7>_rt (sum_norm1/Madd_p1_addsub0007_cy<7>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0007_cy<7> (sum_norm1/Madd_p1_addsub0007_cy<7>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0007_xor<8> (sum_norm1/p1_addsub0007<8>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0007_lut<9> (sum_norm1/Msub_p1_sub0007_lut<9>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0007_cy<9> (sum_norm1/Msub_p1_sub0007_cy<9>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0007_xor<10> (sum_norm1/p1_sub0007<10>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0009_cy<10>_rt (sum_norm1/Madd_p1_addsub0009_cy<10>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0009_cy<10> (sum_norm1/Madd_p1_addsub0009_cy<10>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0009_xor<11> (sum_norm1/p1_addsub0009<11>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0008_lut<12> (sum_norm1/Msub_p1_sub0008_lut<12>)
-     MUXCY:S->O            0   0.632   0.000  sum_norm1/Msub_p1_sub0008_cy<12> (sum_norm1/Msub_p1_sub0008_cy<12>)
-     XORCY:CI->O          18   0.844   1.100  sum_norm1/Msub_p1_sub0008_xor<13> (sum_norm1/p1_sub0008<13>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0008<0>1 (sum_norm1/p1_mux0008<0>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0009_cy<1> (sum_norm1/Msub_p1_sub0009_cy<1>)
-     XORCY:CI->O           3   0.844   0.611  sum_norm1/Msub_p1_sub0009_xor<2> (sum_norm1/p1_sub0009<2>)
-     LUT2:I1->O            1   0.643   0.000  sum_norm1/Madd_p1_addsub0012_lut<2> (sum_norm1/Madd_p1_addsub0012_lut<2>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0012_cy<2> (sum_norm1/Madd_p1_addsub0012_cy<2>)
-     XORCY:CI->O           2   0.844   0.479  sum_norm1/Madd_p1_addsub0012_xor<3> (sum_norm1/p1_addsub0012<3>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/p1_mux0009<3>1 (sum_norm1/p1_mux0009<3>)
-     MUXCY:DI->O           1   0.787   0.000  sum_norm1/Msub_p1_sub0010_cy<4> (sum_norm1/Msub_p1_sub0010_cy<4>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0010_xor<5> (sum_norm1/p1_sub0010<5>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0006_cy<5>_rt (sum_norm1/Madd_p1_addsub0006_cy<5>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0006_cy<5> (sum_norm1/Madd_p1_addsub0006_cy<5>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0006_xor<6> (sum_norm1/p1_addsub0006<6>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0011_lut<7> (sum_norm1/Msub_p1_sub0011_lut<7>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0011_cy<7> (sum_norm1/Msub_p1_sub0011_cy<7>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0011_xor<8> (sum_norm1/p1_sub0011<8>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0008_cy<8>_rt (sum_norm1/Madd_p1_addsub0008_cy<8>_rt)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0008_cy<8> (sum_norm1/Madd_p1_addsub0008_cy<8>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0008_xor<9> (sum_norm1/p1_addsub0008<9>)
-     LUT3:I2->O            1   0.648   0.000  sum_norm1/Msub_p1_sub0012_Madd_lut<10> (sum_norm1/Msub_p1_sub0012_Madd_lut<10>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Msub_p1_sub0012_Madd_cy<10> (sum_norm1/Msub_p1_sub0012_Madd_cy<10>)
-     XORCY:CI->O           2   0.844   0.590  sum_norm1/Msub_p1_sub0012_Madd_xor<11> (sum_norm1/p1_sub0012<11>)
-     LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0010_Madd_cy<11>_rt (sum_norm1/Madd_p1_addsub0010_Madd_cy<11>_rt)
-     MUXCY:S->O            0   0.632   0.000  sum_norm1/Madd_p1_addsub0010_Madd_cy<11> (sum_norm1/Madd_p1_addsub0010_Madd_cy<11>)
-     XORCY:CI->O           1   0.844   0.452  sum_norm1/Madd_p1_addsub0010_Madd_xor<12> (sum_norm1/p1_addsub0010<12>)
-     LUT3:I2->O            0   0.648   0.000  sum_norm1/Msub_p1_sub0013_Madd_lut<13> (sum_norm1/Msub_p1_sub0013_Madd_lut<13>)
-     XORCY:LI->O           1   0.720   0.420  sum_norm1/Msub_p1_sub0013_Madd_xor<13> (sum_norm1/p1_sub0013<13>)
-     INV:I->O              1   0.648   0.420  sum_norm1/a1_0_mux00131_INV_0 (s_dout_sum_norm<0>)
-     begin scope: 'fifo2'
-     RAMB16BWE:DIA0            0.222          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram
-    ----------------------------------------
-    Total                     92.910ns (70.319ns logic, 22.591ns route)
-                                       (75.7% logic, 24.3% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'cont1/PS_FSM_FFd1'
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              2.489ns (Levels of Logic = 2)
-  Source:            BUT (PAD)
-  Destination:       cont1/count_rst (LATCH)
-  Destination Clock: cont1/PS_FSM_FFd1 rising
-
-  Data Path: BUT to cont1/count_rst
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             7   0.849   0.740  BUT_IBUF (BUT_IBUF)
-     LUT3:I2->O            1   0.648   0.000  cont1/count_rst_mux00011 (cont1/count_rst_mux0001)
-     LD_1:D                    0.252          cont1/count_rst
-    ----------------------------------------
-    Total                      2.489ns (1.749ns logic, 0.740ns route)
-                                       (70.3% logic, 29.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_IN'
-  Total number of paths / destination ports: 10 / 10
--------------------------------------------------------------------------
-Offset:              5.558ns (Levels of Logic = 2)
-  Source:            fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_9 (FF)
-  Destination:       DATA_OUT<9> (PAD)
-  Source Clock:      CLK_IN rising 2.1X
-
-  Data Path: fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_9 to DATA_OUT<9>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDE:C->Q              2   0.591   0.447  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_9 (dout<9>)
-     end scope: 'fifo1'
-     OBUF:I->O                 4.520          DATA_OUT_9_OBUF (DATA_OUT<9>)
-    ----------------------------------------
-    Total                      5.558ns (5.111ns logic, 0.447ns route)
-                                       (92.0% logic, 8.0% route)
-
-=========================================================================
-
-
-Total REAL time to Xst completion: 23.00 secs
-Total CPU time to Xst completion: 22.72 secs
- 
---> 
-
-Total memory usage is 293964 kilobytes
-
-Number of errors   :    0 (   0 filtered)
-Number of warnings :   45 (   0 filtered)
-Number of infos    :   62 (   0 filtered)
-

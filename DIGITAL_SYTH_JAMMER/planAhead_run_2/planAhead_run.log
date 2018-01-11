@@ -1,0 +1,149 @@
+
+****** PlanAhead v14.5 (64-bit)
+  **** Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -709 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/pa.fromHdl.tcl
+# create_project -name DIGITAL_SYTH_JAMMER -dir "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/planAhead_run_2" -part xc3s200avq100-4
+create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 379.371 ; gain = 22.828
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "TOP_DAWG.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ipcore_dir/FIFO.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {SUM_NORM.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_9.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_8.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_7.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_6.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_5.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_4.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_3.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_2.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_16.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_15.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_14.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_13.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_12.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_11.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_10.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROM_1.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# add_files [list {ipcore_dir/FIFO.ngc}]
+# set hdlfile [add_files [list {clk1.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CONTROLLER.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TOP_DAWG.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top TOP_DAWG $srcset
+# add_files [list {TOP_DAWG.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/FIFO.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/PRE_FIFO.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s200avq100-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" into library work
+Release 14.5 - ngc2edif P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design FIFO.ngc ...
+WARNING:NetListWriters:298 - No output is written to FIFO.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file FIFO.edif ...
+ngc2edif: Total memory usage is 77788 kilobytes
+
+Reading core file 'C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.ngc' for (cell view 'FIFO', library 'work', file 'FIFO.vhd')
+Parsing EDIF File [./.Xil/PlanAhead-1856-Mustachio_Jr/ngc2edif/FIFO.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-1856-Mustachio_Jr/ngc2edif/FIFO.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/xc3s200a/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/xc3s200a/ClockBuffers.xml
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/xc3s200a/vq100/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/xc3s200a/vq100/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3a/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/spartan3a-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3a/spartan3a/spartan3a-4.lib.
+Parsing UCF File [C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.ucf]
+Finished Parsing UCF File [C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 136ab1ed
+open_rtl_design: Time (s): elapsed = 00:00:28 . Memory (MB): peak = 567.387 ; gain = 145.301
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Jan 10 07:50:20 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -90,7 +90,7 @@ BEGIN
       wait for CLK_IN_period*10;
 
       -- insert stimulus here 
-		SW<="1111011101111101";
+		SW<="1111111111111111";
 		BUT<='1';
 		wait for 20 ns;
 		BUT<='0';

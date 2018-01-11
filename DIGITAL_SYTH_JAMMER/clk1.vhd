@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.5
 --  \   \         Application : xaw2vhdl
 --  /   /         Filename : clk1.vhd
--- /___/   /\     Timestamp : 01/08/2018 21:48:17
+-- /___/   /\     Timestamp : 01/10/2018 00:39:07
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -58,10 +58,10 @@ begin
    DCM_SP_INST : DCM_SP
    generic map( CLK_FEEDBACK => "NONE",
             CLKDV_DIVIDE => 2.0,
-            CLKFX_DIVIDE => 10,
+            CLKFX_DIVIDE => 4,
             CLKFX_MULTIPLY => 21,
             CLKIN_DIVIDE_BY_2 => FALSE,
-            CLKIN_PERIOD => 10.000,
+            CLKIN_PERIOD => 25.000,
             CLKOUT_PHASE_SHIFT => "NONE",
             DESKEW_ADJUST => "SYSTEM_SYNCHRONOUS",
             DFS_FREQUENCY_MODE => "LOW",
