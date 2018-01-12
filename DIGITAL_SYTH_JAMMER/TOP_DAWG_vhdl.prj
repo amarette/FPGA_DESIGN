@@ -16,6 +16,7 @@ vhdl work "C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\R
 vhdl work "C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\ROM_11.vhd"
 vhdl work "C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\ROM_10.vhd"
 vhdl work "C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\ROM_1.vhd"
+vhdl work "C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\ipcore_dir\Divider.vhd"
 vhdl work "C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\clk1.vhd"
 vhdl work "C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\CONTROLLER.vhd"
 vhdl work "C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\TOP_DAWG.vhd"

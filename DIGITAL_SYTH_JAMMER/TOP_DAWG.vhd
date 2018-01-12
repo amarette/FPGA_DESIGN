@@ -92,9 +92,18 @@ component SUM_NORM
            C14      : in STD_LOGIC_VECTOR (9 downto 0);
            C15      : in STD_LOGIC_VECTOR (9 downto 0);
            C16      : in STD_LOGIC_VECTOR (9 downto 0);
-           SW_TOT   : in STD_LOGIC_VECTOR (4 downto 0);
-           Dout     : out STD_LOGIC_VECTOR(9 downto 0));
+           Dout     : out STD_LOGIC_VECTOR(13 downto 0));
 end component;
+
+component Divider
+	 PORT (CLK        : IN STD_LOGIC;
+			 DIVIDEND   : IN STD_LOGIC_VECTOR(13 downto 0);
+			 DIVISOR    : IN STD_LOGIC_VECTOR(4 downto 0);
+			 RFD		   : OUT STD_LOGIC;
+			 QUOTIENT   : OUT STD_LOGIC_VECTOR(13 downto 0);
+			 FRACTIONAL : OUT STD_LOGIC_VECTOR(4 downto 0));
+end component;
+
 
 component ROM_1
     PORT (CLK  : IN STD_LOGIC;
@@ -212,7 +221,8 @@ end component;
 signal s_addr          : STD_LOGIC_VECTOR(5 downto 0);
 signal s_sw_tot        : STD_LOGIC_VECTOR(4 downto 0);
 signal s_dac_clk       : STD_LOGIC;
-signal s_dout_sum_norm : STD_LOGIC_VECTOR(9 downto 0);
+signal s_dout_sum_norm : STD_LOGIC_VECTOR(13 downto 0);
+signal s_dout_sum      : STD_LOGIC_VECTOR(13 downto 0);
 signal s_we            : STD_LOGIC;
 signal s_re            : STD_LOGIC;
 signal s_full          : STD_LOGIC;
@@ -394,8 +404,16 @@ sum_norm1:SUM_NORM
         C14     =>  s_sum_norm_14,
         C15     =>  s_sum_norm_15,
         C16     =>  s_sum_norm_16,
-        SW_TOT  =>  s_sw_tot,
-        Dout    =>  s_dout_sum_norm);        
+        Dout    =>  s_dout_sum);        
+ 
+div1:Divider
+	 PORT MAP (
+		  CLK        => s_dac_clk,
+		  DIVIDEND   => s_dout_sum,
+		  DIVISOR    => s_sw_tot,
+		  RFD		       => OPEN,
+		  QUOTIENT      => s_dout_sum_norm,
+		  FRACTIONAL    => OPEN);
  
 fifo1:FIFO
     PORT MAP(
@@ -463,7 +481,7 @@ fifo1:FIFO
 
 	with s_fifo_loop select
 		s_fifo_din<=s_dout     when '1',
-					   s_dout_sum_norm when others;
+					   s_dout_sum_norm(9 downto 0) when others;
   
 
 DATA_OUT<=s_dout;

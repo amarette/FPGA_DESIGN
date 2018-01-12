@@ -11,5 +11,8 @@
 <msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;CLK_IN&quot; period = 25ns HIGH 50%;&gt; [TOP_DAWG.ucf(38)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
 </msg>
 
+<msg type="warning" file="NgdBuild" num="483" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">div1/blk00000003/sig000000c8</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
 </messages>
 

@@ -1,6 +1,6 @@
 SET busformat = BusFormatAngleBracketNotRipped
 SET designentry = VHDL
-SET device = xc3s50a
+SET device = xc3s200a
 SET devicefamily = spartan3a
 SET flowvendor = Other
 SET package = vq100

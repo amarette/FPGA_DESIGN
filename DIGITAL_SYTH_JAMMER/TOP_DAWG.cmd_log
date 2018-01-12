@@ -61,3 +61,19 @@ par -w -intstyle ise -ol high -t 1 TOP_DAWG_map.ncd TOP_DAWG.ncd TOP_DAWG.pcf
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_DAWG.twx TOP_DAWG.ncd -o TOP_DAWG.twr TOP_DAWG.pcf -ucf TOP_DAWG.ucf 
 xst -intstyle ise -ifn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.xst" -ofn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.syr" 
 xst -intstyle ise -ifn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.xst" -ofn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.syr" 
+xst -intstyle ise -ifn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.xst" -ofn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TOP_DAWG.ucf -p xc3s200a-vq100-4 TOP_DAWG.ngc TOP_DAWG.ngd  
+map -intstyle ise -p xc3s200a-vq100-4 -cm area -ir off -pr off -c 100 -o TOP_DAWG_map.ncd TOP_DAWG.ngd TOP_DAWG.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_DAWG_map.ncd TOP_DAWG.ncd TOP_DAWG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_DAWG.twx TOP_DAWG.ncd -o TOP_DAWG.twr TOP_DAWG.pcf -ucf TOP_DAWG.ucf 
+xst -intstyle ise -ifn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.xst" -ofn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TOP_DAWG.ucf -p xc3s200a-vq100-4 TOP_DAWG.ngc TOP_DAWG.ngd  
+xst -intstyle ise -ifn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.xst" -ofn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TOP_DAWG.ucf -p xc3s200a-vq100-4 TOP_DAWG.ngc TOP_DAWG.ngd  
+map -intstyle ise -p xc3s200a-vq100-4 -cm area -ir off -pr off -c 100 -o TOP_DAWG_map.ncd TOP_DAWG.ngd TOP_DAWG.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_DAWG_map.ncd TOP_DAWG.ncd TOP_DAWG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_DAWG.twx TOP_DAWG.ncd -o TOP_DAWG.twr TOP_DAWG.pcf -ucf TOP_DAWG.ucf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -a -uc TOP_DAWG.ucf -p xc3s200a-vq100-4 TOP_DAWG.ngc TOP_DAWG.ngd  
+map -intstyle ise -p xc3s200a-vq100-4 -cm area -ir off -pr off -c 100 -o TOP_DAWG_map.ncd TOP_DAWG.ngd TOP_DAWG.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_DAWG_map.ncd TOP_DAWG.ncd TOP_DAWG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_DAWG.twx TOP_DAWG.ncd -o TOP_DAWG.twr TOP_DAWG.pcf -ucf TOP_DAWG.ucf 

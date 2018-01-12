@@ -4,8 +4,8 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="12">
-<DesignStatistics TimeStamp="Wed Jan 10 12:56:26 2018"><group name="NetStatistics">
+<DeviceUsageSummary rev="15">
+<DesignStatistics TimeStamp="Thu Jan 11 16:51:03 2018"><group name="NetStatistics">
 <item name="NumNets_Active" rev="9">
 <attrib name="value" value="1571"/></item>
 <item name="NumNets_Gnd" rev="9">
@@ -88,41 +88,41 @@
 <attrib name="value" value="229"/></item>
 </group>
 <group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="12">
+<item name="AGG_BONDED_IO" rev="15">
 <attrib name="value" value="29"/></item>
-<item name="AGG_IO" rev="12">
+<item name="AGG_IO" rev="15">
 <attrib name="value" value="29"/></item>
-<item name="AGG_SLICE" rev="12">
-<attrib name="value" value="775"/></item>
-<item name="NUM_4_INPUT_LUT" rev="12">
-<attrib name="value" value="1469"/></item>
-<item name="NUM_BONDED_IBUF" rev="12">
+<item name="AGG_SLICE" rev="15">
+<attrib name="value" value="791"/></item>
+<item name="NUM_4_INPUT_LUT" rev="15">
+<attrib name="value" value="1186"/></item>
+<item name="NUM_BONDED_IBUF" rev="15">
 <attrib name="value" value="18"/></item>
-<item name="NUM_BONDED_IOB" rev="12">
+<item name="NUM_BONDED_IOB" rev="15">
 <attrib name="value" value="11"/></item>
-<item name="NUM_BUFGMUX" rev="12">
+<item name="NUM_BUFGMUX" rev="15">
 <attrib name="value" value="2"/></item>
-<item name="NUM_CYMUX" rev="12">
-<attrib name="value" value="427"/></item>
-<item name="NUM_DCM" rev="12">
+<item name="NUM_CYMUX" rev="15">
+<attrib name="value" value="177"/></item>
+<item name="NUM_DCM" rev="15">
 <attrib name="value" value="1"/></item>
-<item name="NUM_DP_RAM" rev="12">
+<item name="NUM_DP_RAM" rev="15">
 <attrib name="value" value="80"/></item>
-<item name="NUM_LUT_RT" rev="12">
-<attrib name="value" value="123"/></item>
-<item name="NUM_MULTAND" rev="12">
+<item name="NUM_LUT_RT" rev="15">
+<attrib name="value" value="28"/></item>
+<item name="NUM_MULTAND" rev="15">
 <attrib name="value" value="1"/></item>
-<item name="NUM_SLICEL" rev="12">
-<attrib name="value" value="735"/></item>
-<item name="NUM_SLICEM" rev="12">
+<item name="NUM_SLICEL" rev="15">
+<attrib name="value" value="751"/></item>
+<item name="NUM_SLICEM" rev="15">
 <attrib name="value" value="40"/></item>
-<item name="NUM_SLICE_FF" rev="12">
-<attrib name="value" value="198"/></item>
-<item name="NUM_SLICE_LATCH" rev="12">
+<item name="NUM_SLICE_FF" rev="15">
+<attrib name="value" value="535"/></item>
+<item name="NUM_XOR" rev="15">
+<attrib name="value" value="191"/></item>
+<item name="Xilinx Core div_gen_v3_0, Xilinx CORE Generator 14.5" rev="15">
 <attrib name="value" value="1"/></item>
-<item name="NUM_XOR" rev="12">
-<attrib name="value" value="445"/></item>
-<item name="Xilinx Core fifo_generator_v9_3, Xilinx CORE Generator 14.5" rev="12">
+<item name="Xilinx Core fifo_generator_v9_3, Xilinx CORE Generator 14.5" rev="15">
 <attrib name="value" value="1"/></item>
 </group>
 </DesignStatistics>
@@ -489,6 +489,14 @@
 <item name="1" rev="9">
 <attrib name="value" value="52"/></item>
 </group>
+<group name="SLICEL_XORF">
+<item name="0" rev="9">
+<attrib name="value" value="229"/></item>
+<item name="1" rev="9">
+<attrib name="value" value="229"/></item>
+<item name="O" rev="9">
+<attrib name="value" value="229"/></item>
+</group>
 <group name="SLICEL_FFX">
 <item name="CE" rev="9">
 <attrib name="value" value="25"/></item>
@@ -500,14 +508,6 @@
 <attrib name="value" value="33"/></item>
 <item name="SR" rev="9">
 <attrib name="value" value="20"/></item>
-</group>
-<group name="SLICEL_XORF">
-<item name="0" rev="9">
-<attrib name="value" value="229"/></item>
-<item name="1" rev="9">
-<attrib name="value" value="229"/></item>
-<item name="O" rev="9">
-<attrib name="value" value="229"/></item>
 </group>
 <group name="SLICEL_FFY">
 <item name="CE" rev="9">

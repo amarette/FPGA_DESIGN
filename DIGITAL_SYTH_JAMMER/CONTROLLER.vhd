@@ -109,6 +109,7 @@ begin
 				
 			when LOOPSTATE =>
 			   count_on    <='0';
+				count_rst   <='0';
 				FIFO_RST    <='0';
 				FIFO_RE     <='1';
 				FIFO_WE     <='1';

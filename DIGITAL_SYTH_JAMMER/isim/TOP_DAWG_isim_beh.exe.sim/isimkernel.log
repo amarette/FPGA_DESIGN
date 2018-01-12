@@ -1,0 +1,29 @@
+Command line:
+   TOP_DAWG_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50019
+
+Thu Jan 11 15:47:29 2018
+
+
+ Elaboration Time: 0.21875 sec
+
+ Current Memory Usage: 383.205 Meg
+
+ Total Signals          : 4205
+ Total Nets             : 10649
+ Total Signal Drivers   : 1529
+ Total Blocks           : 764
+ Total Primitive Blocks : 745
+ Total Processes        : 1351
+ Total Traceable Variables  : 1022
+ Total Scalar Nets and Variables : 17435
+Total Line Count : 3123
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 697.795 Meg
+
+Thu Jan 11 15:47:59 2018
+

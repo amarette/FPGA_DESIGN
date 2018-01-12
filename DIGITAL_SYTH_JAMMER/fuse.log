@@ -4,6 +4,7 @@ Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/Divider.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd" into library work
@@ -25,6 +26,7 @@ Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" into library work
 Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1.vhd" into library work
+Parsing VHDL file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -63,6 +65,17 @@ Compiling architecture syn of entity ROM_15 [rom_15_default]
 Compiling architecture syn of entity ROM_16 [rom_16_default]
 Compiling architecture behavioral of entity CONTROLLER [controller_default]
 Compiling architecture behavioral of entity SUM_NORM [sum_norm_default]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture lut3_v of entity LUT3 [\LUT3("01101010")(0,7)\]
+Compiling architecture lut2_v of entity LUT2 [\LUT2("1001")(0,3)\]
+Compiling architecture lut1_v of entity LUT1 [\LUT1("0001")(0,3)\]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture mult_and_v of entity MULT_AND [mult_and_default]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity XORCY [xorcy_default]
+Compiling architecture structure of entity Divider [divider_default]
 Compiling architecture behavioral of entity fifo_generator_v9_3_bhv_ss [\fifo_generator_v9_3_bhv_ss(6,10...]
 Compiling architecture behavioral of entity fifo_generator_v9_3_conv [\fifo_generator_v9_3_conv(1,0,6,...]
 Compiling architecture behavioral of entity fifo_generator_v9_3 [\fifo_generator_v9_3(1,0,6,"Blan...]
@@ -70,8 +83,8 @@ Compiling architecture fifo_a of entity FIFO [fifo_default]
 Compiling architecture behavioral of entity TOP_DAWG [top_dawg_default]
 Compiling architecture behavior of entity sim1
 Time Resolution for simulation is 1ps.
-Waiting for 27 sub-compilation(s) to finish...
-Compiled 73 VHDL Units
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 99 VHDL Units
 Built simulation executable C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/sim1_isim_beh.exe
-Fuse Memory Usage: 64644 KB
-Fuse CPU Usage: 1421 ms
+Fuse Memory Usage: 68080 KB
+Fuse CPU Usage: 2281 ms
