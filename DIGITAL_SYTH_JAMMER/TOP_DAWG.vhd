@@ -50,12 +50,6 @@ component clk1
           CLKIN_IBUFG_OUT : out   std_logic);
    end component;
 	
-component clk2 
-   port ( CLKIN_IN        : in    std_logic; 
-          RST_IN          : in    std_logic; 
-          CLKFX_OUT       : out   std_logic; 
-          CLKIN_IBUFG_OUT : out   std_logic);
-   end component;
 
 component CONTROLLER_SLOW
     Port ( RST       : in STD_LOGIC;
@@ -292,7 +286,6 @@ signal s_sum_norm_14 : STD_LOGIC_VECTOR(9 downto 0);
 signal s_sum_norm_15 : STD_LOGIC_VECTOR(9 downto 0);
 signal s_sum_norm_16 : STD_LOGIC_VECTOR(9 downto 0);
 
-signal i : integer:=0;
 
 begin
 
@@ -302,14 +295,8 @@ clk_1:clk1
         clkin_in    => CLK_IN,
         clkfx_out    => s_DAC_CLK,
         clkfx180_out=> DAC_CLK,
-		  clkin_ibufg_out => OPEN);
-		
-clk_2:clk2 
-    Port MAP(
-		  rst_in      => '0',
-        clkin_in    => CLK_IN,
-        clkfx_out    => s_clk,
-		  clkin_ibufg_out => OPEN);		
+		  clkin_ibufg_out => s_clk);
+			
 
 rom1:ROM_1
     Port MAP(
