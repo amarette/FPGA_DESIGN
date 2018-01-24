@@ -1,0 +1,74 @@
+----------------------------------------------------------------------
+FPGA SmartXplorer (tm) Version 14.5
+
+----------------------------------------------------------------------
+ Strategy : MapTimingExtraEffort
+----------------------------------------------------------------------
+ Run index                           : run1
+ Map options                         : -timing -ol high -xe n 
+ Par options                         : -ol high 
+ Number of Luts                      : 1,484 (41%)
+ Number of Slice Registers           : 304 (8%)
+ Status                              : Done
+ Achieved Timing Score               : 467
+ Worst Case Slack                : -0.206ns
+
+ Current Best (Lowest) Timing Score  : 467
+ Current Best Strategy               : MapTimingExtraEffort
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : MapPhysSynthesis
+----------------------------------------------------------------------
+ Run index                           : run2
+ Map options                         : -timing -ol high -xe n -register_duplication on -logic_opt on 
+ Par options                         : -ol high 
+ Number of Luts                      : 1,484 (41%)
+ Number of Slice Registers           : 304 (8%)
+ Status                              : Done
+ Achieved Timing Score               : 467
+ Worst Case Slack                : -0.206ns
+
+ Current Best (Lowest) Timing Score  : 467
+ Current Best Strategy               : MapTimingExtraEffort
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : ParHighEffort1
+----------------------------------------------------------------------
+ Run index                           : run3
+ Map options                         : -cm area 
+ Par options                         : -ol high 
+ Number of Luts                      : 1,484 (41%)
+ Number of Slice Registers           : 304 (8%)
+ Status                              : Done
+ Achieved Timing Score               : 107
+ Worst Case Slack                : -0.013ns
+
+ Current Best (Lowest) Timing Score  : 107
+ Current Best Strategy               : ParHighEffort1
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : ParHighEffort2
+----------------------------------------------------------------------
+ Run index                           : run4
+ Map options                         : -cm area -t 2
+ Par options                         : -ol high -t 2
+ Number of Luts                      : 1,484 (41%)
+ Number of Slice Registers           : 304 (8%)
+ Status                              : Done
+ Achieved Timing Score               : 2690
+ Worst Case Slack                : -0.210ns
+
+ Current Best (Lowest) Timing Score  : 107
+ Current Best Strategy               : ParHighEffort1
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : MapTiming1
+----------------------------------------------------------------------
+ Run index                           : run5
+ Map options                         : -timing -ol high 
+ Par options                         : -ol high 
+ Status                              : Done
+ Achieved Timing Score               : 1397
+ Current Best (Lowest) Timing Score  : 107
+ Current Best Strategy               : ParHighEffort1
+----------------------------------------------------------------------

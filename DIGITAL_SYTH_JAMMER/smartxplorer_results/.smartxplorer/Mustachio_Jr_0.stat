@@ -1,0 +1,101 @@
+START:Strategy:1:MapTimingExtraEffort
+REMOTE_PID:7652
+RUNNING:7652:6088:MapTimingExtraEffort:map:TOP_DAWG.ngd: -timing -ol high -xe n  -p xc3s200a-vq100-4 -o TOP_DAWG_map.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun1:bslTOP_DAWG.pcf
+STATUS:MapTimingExtraEffort:map:Score:None:lut:None:slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.29 secs 
+STATUS:MapTimingExtraEffort:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.29 secs 
+STATUS:MapTimingExtraEffort:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:858 (47%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.29 secs 
+STATUS:MapTimingExtraEffort:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:858 (47%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.29 secs 
+STATUS:MapTimingExtraEffort:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:858 (47%):bram:1:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.29 secs 
+DONE:map:0
+RUNNING:7652:3468:MapTimingExtraEffort:par:TOP_DAWG_map.ncd: -ol high  -w TOP_DAWG.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun1:bslTOP_DAWG.pcf
+STATUS:MapTimingExtraEffort:par:Score:2796:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:60.37 secs 
+STATUS:MapTimingExtraEffort:par:Score:2655:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:70.38 secs 
+STATUS:MapTimingExtraEffort:par:Score:1648:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:90.40 secs 
+STATUS:MapTimingExtraEffort:par:Score:1222:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:90.40 secs 
+STATUS:MapTimingExtraEffort:par:Score:467:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:90.40 secs 
+STATUS:MapTimingExtraEffort:par:Score:467:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:-0.206ns:Time:90.40 secs 
+DONE:par:0
+RUNNING:7652:7748:MapTimingExtraEffort:trce:C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run1\TOP_DAWG.ncd:C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun1:bslTOP_DAWG.pcf -xml C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun1:bslTOP_DAWG.twx -v 3 -s 4 -n 3 -fastpaths   -ucf TOP_DAWG.ucf -o C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun1:bslTOP_DAWG.twr
+STATUS:MapTimingExtraEffort:trce:Score:467:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:100.48 secs 
+DONE:trce:0
+START:Strategy:2:MapPhysSynthesis
+REMOTE_PID:2924
+RUNNING:2924:6376:MapPhysSynthesis:map:TOP_DAWG.ngd: -timing -ol high -xe n -register_duplication on -logic_opt on  -p xc3s200a-vq100-4 -o TOP_DAWG_map.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun2:bslTOP_DAWG.pcf
+STATUS:MapPhysSynthesis:map:Score:None:lut:None:slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.40 secs 
+STATUS:MapPhysSynthesis:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.40 secs 
+STATUS:MapPhysSynthesis:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:858 (47%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.40 secs 
+STATUS:MapPhysSynthesis:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:858 (47%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.40 secs 
+STATUS:MapPhysSynthesis:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:858 (47%):bram:1:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.40 secs 
+DONE:map:0
+RUNNING:2924:9140:MapPhysSynthesis:par:TOP_DAWG_map.ncd: -ol high  -w TOP_DAWG.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun2:bslTOP_DAWG.pcf
+STATUS:MapPhysSynthesis:par:Score:2796:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:110.50 secs 
+STATUS:MapPhysSynthesis:par:Score:2655:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:130.53 secs 
+STATUS:MapPhysSynthesis:par:Score:1648:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:170.54 secs 
+STATUS:MapPhysSynthesis:par:Score:1222:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:170.54 secs 
+STATUS:MapPhysSynthesis:par:Score:467:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:170.54 secs 
+STATUS:MapPhysSynthesis:par:Score:467:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:-0.206ns:Time:170.54 secs 
+DONE:par:0
+RUNNING:2924:6008:MapPhysSynthesis:trce:C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run2\TOP_DAWG.ncd:C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun2:bslTOP_DAWG.pcf -xml C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun2:bslTOP_DAWG.twx -v 3 -s 4 -n 3 -fastpaths   -ucf TOP_DAWG.ucf -o C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun2:bslTOP_DAWG.twr
+STATUS:MapPhysSynthesis:trce:Score:467:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:180.72 secs 
+DONE:trce:0
+START:Strategy:3:ParHighEffort1
+REMOTE_PID:4996
+RUNNING:4996:3076:ParHighEffort1:map:TOP_DAWG.ngd: -cm area  -p xc3s200a-vq100-4 -o TOP_DAWG_map.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun3:bslTOP_DAWG.pcf
+STATUS:ParHighEffort1:map:Score:None:lut:None:slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+STATUS:ParHighEffort1:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+STATUS:ParHighEffort1:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:824 (45%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+STATUS:ParHighEffort1:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:824 (45%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+STATUS:ParHighEffort1:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:824 (45%):bram:1:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.32 secs 
+DONE:map:0
+RUNNING:4996:7488:ParHighEffort1:par:TOP_DAWG_map.ncd: -ol high  -w TOP_DAWG.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun3:bslTOP_DAWG.pcf
+STATUS:ParHighEffort1:par:Score:4395:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:55.42 secs 
+STATUS:ParHighEffort1:par:Score:1515:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:60.43 secs 
+STATUS:ParHighEffort1:par:Score:1045:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:85.45 secs 
+STATUS:ParHighEffort1:par:Score:107:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:85.45 secs 
+STATUS:ParHighEffort1:par:Score:107:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:-0.013ns:Time:85.45 secs 
+DONE:par:0
+RUNNING:4996:8904:ParHighEffort1:trce:C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run3\TOP_DAWG.ncd:C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun3:bslTOP_DAWG.pcf -xml C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun3:bslTOP_DAWG.twx -v 3 -s 4 -n 3 -fastpaths   -ucf TOP_DAWG.ucf -o C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun3:bslTOP_DAWG.twr
+STATUS:ParHighEffort1:trce:Score:107:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:100.61 secs 
+DONE:trce:0
+START:Strategy:4:ParHighEffort2
+REMOTE_PID:3488
+RUNNING:3488:8480:ParHighEffort2:map:TOP_DAWG.ngd: -cm area -t 2 -p xc3s200a-vq100-4 -o TOP_DAWG_map.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun4:bslTOP_DAWG.pcf
+STATUS:ParHighEffort2:map:Score:None:lut:None:slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+STATUS:ParHighEffort2:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+STATUS:ParHighEffort2:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:824 (45%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+STATUS:ParHighEffort2:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:824 (45%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+STATUS:ParHighEffort2:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:824 (45%):bram:1:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:15.31 secs 
+DONE:map:0
+RUNNING:3488:8140:ParHighEffort2:par:TOP_DAWG_map.ncd: -ol high -t 2 -w TOP_DAWG.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun4:bslTOP_DAWG.pcf
+STATUS:ParHighEffort2:par:Score:4322:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:50.39 secs 
+STATUS:ParHighEffort2:par:Score:4280:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:65.40 secs 
+STATUS:ParHighEffort2:par:Score:4050:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.41 secs 
+STATUS:ParHighEffort2:par:Score:3862:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.41 secs 
+STATUS:ParHighEffort2:par:Score:2690:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.41 secs 
+STATUS:ParHighEffort2:par:Score:2690:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:-0.210ns:Time:75.41 secs 
+DONE:par:0
+RUNNING:3488:6928:ParHighEffort2:trce:C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run4\TOP_DAWG.ncd:C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun4:bslTOP_DAWG.pcf -xml C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun4:bslTOP_DAWG.twx -v 3 -s 4 -n 3 -fastpaths   -ucf TOP_DAWG.ucf -o C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun4:bslTOP_DAWG.twr
+STATUS:ParHighEffort2:trce:Score:2690:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:90.59 secs 
+DONE:trce:0
+START:Strategy:5:MapTiming1
+REMOTE_PID:8692
+RUNNING:8692:4392:MapTiming1:map:TOP_DAWG.ngd: -timing -ol high  -p xc3s200a-vq100-4 -o TOP_DAWG_map.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun5:bslTOP_DAWG.pcf
+STATUS:MapTiming1:map:Score:None:lut:None:slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.32 secs 
+STATUS:MapTiming1:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.32 secs 
+STATUS:MapTiming1:map:Score:None:lut:1,362 (38%):slice_reg:304 (8%):slice:866 (48%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.32 secs 
+STATUS:MapTiming1:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:866 (48%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.32 secs 
+STATUS:MapTiming1:map:Score:None:lut:1,484 (41%):slice_reg:304 (8%):slice:866 (48%):bram:1:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:45.32 secs 
+DONE:map:0
+RUNNING:8692:9060:MapTiming1:par:TOP_DAWG_map.ncd: -ol high  -w TOP_DAWG.ncd  C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun5:bslTOP_DAWG.pcf
+STATUS:MapTiming1:par:Score:4595:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:75.41 secs 
+STATUS:MapTiming1:par:Score:4935:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:80.42 secs 
+STATUS:MapTiming1:par:Score:3743:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:115.44 secs 
+STATUS:MapTiming1:par:Score:2755:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:165.45 secs 
+STATUS:MapTiming1:par:Score:2326:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:165.45 secs 
+STATUS:MapTiming1:par:Score:1397:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:165.45 secs 
+STATUS:MapTiming1:par:Score:1397:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:-0.433ns:Time:165.45 secs 
+DONE:par:0
+RUNNING:8692:8736:MapTiming1:trce:C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.ncd:C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun5:bslTOP_DAWG.pcf -xml C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun5:bslTOP_DAWG.twx -v 3 -s 4 -n 3 -fastpaths   -ucf TOP_DAWG.ucf -o C:cl:bslUsers:bslalexm_000:bslDocuments:bslGitHub:bslFPGA_DESIGN:bslDIGITAL_SYTH_JAMMER:bslsmartxplorer_results:bslrun5:bslTOP_DAWG.twr
+STATUS:MapTiming1:trce:Score:1397:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:170.52 secs 
+DONE:trce:0
+START:Strategy:6:MapTiming2

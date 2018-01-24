@@ -1,0 +1,32 @@
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "XIL_ISE_DIR/smartxplorer.py", line 67, in run
+  File "XIL_ISE_DIR/smartxplorer.py", line 128, in run
+  File "XIL_ISE_DIR\rateLimiter.py", line 22, in newF
+  File "XIL_ISE_DIR/smartxplorer.py", line 319, in readStatus
+  File "XIL_ISE_DIR/smartxplorer.py", line 307, in getBestStrategyCLines
+IOError: [Errno 2] No such file or directory: 'C:\\Users\\alexm_000\\Documents\\GitHub\\FPGA_DESIGN\\DIGITAL_SYTH_JAMMER\\smartxplorer_results\\.smartxplorer\\run3.sx.debug'
+------------------------------------------------------------
+
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+Mustachio_Jr_0 no new lines in stat file
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "XIL_ISE_DIR/smartxplorer.py", line 3329, in mainHelper
+  File "XIL_ISE_DIR/smartxplorer.py", line 1323, in run
+  File "XIL_ISE_DIR/smartxplorer.py", line 1544, in runSmartXplorer
+  File "XIL_ISE_DIR/smartxplorer.py", line 2374, in runListOfStrategies
+  File "XIL_ISE_DIR\sxCluster.py", line 71, in runStrategyOnCluster
+  File "XIL_ISE_DIR\cluster.py", line 181, in getJobParams
+AssertionError
+------------------------------------------------------------
+

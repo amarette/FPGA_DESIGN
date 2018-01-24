@@ -59,7 +59,7 @@ ARCHITECTURE behavior OF sim1 IS
    signal DATA_OUT : STD_LOGIC_VECTOR (9 downto 0);
 
    -- Clock period definitions
-   constant CLK_IN_period : time := 10 ns;
+   constant CLK_IN_period : time := 25 ns;
  
 BEGIN
  
@@ -87,12 +87,13 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 
-      wait for CLK_IN_period*10;
+      wait for CLK_IN_period*20;
 
       -- insert stimulus here 
-		SW<="1111011101111101";
+		SW<="1111111111111111";
+		wait for 100 ns;
 		BUT<='1';
-		wait for 20 ns;
+		wait for 400 ns;
 		BUT<='0';
       wait;
    end process;

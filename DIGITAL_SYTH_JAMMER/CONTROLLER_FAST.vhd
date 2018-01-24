@@ -37,7 +37,6 @@ entity CONTROLLER_FAST is
            CLK       : in STD_LOGIC;
            PRE_FULL  : in STD_LOGIC;
            FIFO_FULL : in STD_LOGIC;
-           PRE_RE    : out STD_LOGIC:='0';
            FIFO_RE   : out STD_LOGIC:='0';
            FIFO_WE   : out STD_LOGIC:='0';
            FIFO_LOOP : out STD_LOGIC:='0';
@@ -51,6 +50,7 @@ signal PS     : state_type:=IDLESTATE;
 signal NS     : state_type;
 
 signal d_fifo_loop : std_logic :='0';
+signal d_2_fifo_loop : std_logic :='0';
 
 begin
 
@@ -59,6 +59,7 @@ begin
 		if (rising_edge(CLK)) then
 			PS <= NS;
 			FIFO_LOOP<=d_fifo_loop;
+			d_FIFO_LOOP<=d_2_fifo_loop;
 		end if;
 	end process;
 
@@ -66,10 +67,9 @@ begin
 	begin
 		case PS is
 			when IDLESTATE =>
-            PRE_RE<='0';
             FIFO_RE<='0';
             FIFO_WE<='0';
-            d_FIFO_LOOP<='0';
+            d_2_FIFO_LOOP<='0';
 				FIFO_RST<='0';
 				if (RST = '1') then 
 				NS <= LOADSTATE_1;
@@ -77,24 +77,21 @@ begin
 				end if;
 				
 			when LOADSTATE_1 =>
-				PRE_RE<='0';
             FIFO_RE<='0';
             FIFO_WE<='0';
-            d_FIFO_LOOP<='0';
+            d_2_FIFO_LOOP<='0';
             FIFO_RST<='0';
 				
 				if (PRE_FULL = '1') then 
 					NS <= LOADSTATE_2;
-					PRE_RE<='1';
 				else NS    <= LOADSTATE_1;
 				end if;
 				
 				
 			when LOADSTATE_2 =>
-            PRE_RE<='1';
             FIFO_RE<='0';
             FIFO_WE<='1';
-            d_FIFO_LOOP<='0';
+            d_2_FIFO_LOOP<='0';
             FIFO_RST<='0';
 				if (FIFO_FULL = '1') then
 				NS <= LOOPSTATE;
@@ -102,10 +99,9 @@ begin
 				end if;
 				
 			when LOOPSTATE =>
-            PRE_RE<='0';
             FIFO_RE<='1';
             FIFO_WE<='1';
-            d_FIFO_LOOP<='1';
+            d_2_FIFO_LOOP<='1';
             FIFO_RST<='0';
 				if (RST = '1') then
 				NS <= IDLESTATE;

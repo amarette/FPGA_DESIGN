@@ -1,0 +1,200 @@
+Release 14.5 par P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+MUSTACHIO_JR::  Mon Jan 15 09:47:51 2018
+
+par -ol high -w TOP_DAWG_map.ncd TOP_DAWG.ncd
+C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer
+_results\run5\TOP_DAWG.pcf 
+
+
+Constraints file:
+C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.pcf.
+Loading device for application Rf_Device from file '3s200a.nph' in environment C:\Xilinx\14.5\ISE_DS\ISE\.
+   "TOP_DAWG" is an NCD, version 3.2, device xc3s200a, package vq100, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.42 2013-03-26".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                          29 out of 68     42%
+
+   Number of External Input IOBs                 18
+
+      Number of External Input IBUFs             18
+        Number of LOCed External Input IBUFs     18 out of 18    100%
+
+
+   Number of External Output IOBs                11
+
+      Number of External Output IOBs             11
+        Number of LOCed External Output IOBs     10 out of 11     90%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        4 out of 24     16%
+   Number of DCMs                            2 out of 4      50%
+   Number of RAMB16BWEs                      1 out of 16      6%
+   Number of Slices                        866 out of 1792   48%
+      Number of SLICEMs                     41 out of 896     4%
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 12 secs 
+Finished initial Timing Analysis.  REAL time: 12 secs 
+
+Starting Router
+
+
+Phase  1  : 5834 unrouted;      REAL time: 18 secs 
+
+Phase  2  : 5449 unrouted;      REAL time: 18 secs 
+
+Phase  3  : 1414 unrouted;      REAL time: 20 secs 
+
+Phase  4  : 1469 unrouted; (Setup:2470, Hold:0, Component Switching Limit:0)     REAL time: 22 secs 
+
+Phase  5  : 0 unrouted; (Setup:4595, Hold:0, Component Switching Limit:0)     REAL time: 27 secs 
+
+Updating file: TOP_DAWG.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:4935, Hold:0, Component Switching Limit:0)     REAL time: 29 secs 
+
+Phase  7  : 0 unrouted; (Setup:4935, Hold:0, Component Switching Limit:0)     REAL time: 45 secs 
+
+Phase  8  : 0 unrouted; (Setup:3743, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 2 secs 
+
+Updating file: TOP_DAWG.ncd with current fully routed design.
+
+Phase  9  : 0 unrouted; (Setup:2755, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 55 secs 
+
+Phase 10  : 0 unrouted; (Setup:2326, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 55 secs 
+
+Phase 11  : 0 unrouted; (Setup:2326, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 55 secs 
+
+Phase 12  : 0 unrouted; (Setup:1397, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 56 secs 
+
+Total REAL time to Router completion: 1 mins 56 secs 
+Total CPU time to Router completion: 1 mins 55 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           s_dac_clk | BUFGMUX_X2Y11| No   |  127 |  0.160     |  1.122      |
++---------------------+--------------+------+------+------------+-------------+
+|               s_clk |  BUFGMUX_X1Y0| No   |  183 |  0.129     |  1.091      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 1397 (Setup: 1397, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
+   your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to
+   ensure the best options are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 5
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* NET "s_dac_clk" PERIOD = 4.7 ns HIGH 50%  | SETUP       |    -0.433ns|     5.133ns|       8|        1397
+                                            | HOLD        |     0.732ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "CLK_BUF" PERIOD = 25 ns HIGH 50%     | MAXPERIOD   |     0.000ns|            |       0|           0
+                                            | MINLOWPULSE |    15.000ns|    10.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "s_clk" PERIOD = 200 ns HIGH 50%      | SETUP       |    89.439ns|   110.561ns|       0|           0
+                                            | HOLD        |     0.884ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "DAC_CLK_OBUF" PERIOD = 4.7 ns HIGH 5 | N/A         |         N/A|         N/A|     N/A|         N/A
+  0%                                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "clk_1/CLKFX180_BUF" PERIOD = 4.7 ns  | N/A         |         N/A|         N/A|     N/A|         N/A
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "clk_1/CLKFX_BUF" PERIOD = 4.7 ns HIG | N/A         |         N/A|         N/A|     N/A|         N/A
+  H 50%                                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "clk_2/CLKFX_BUF" PERIOD = 200 ns HIG | N/A         |         N/A|         N/A|     N/A|         N/A
+  H 50%                                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+1 constraint not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 mins 56 secs 
+Total CPU time to PAR completion: 1 mins 56 secs 
+
+Peak Memory Usage:  313 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 8 errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 0
+
+Writing design to file TOP_DAWG.ncd
+
+
+
+PAR done!

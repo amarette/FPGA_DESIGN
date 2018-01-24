@@ -39,6 +39,7 @@ entity CONTROLLER_SLOW is
            FIFO_FULL : in STD_LOGIC;
            ADDR      : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
            PRE_WE    : out STD_LOGIC:='0';
+			  PRE_RE    : out STD_LOGIC:='0';
 			  FIFO_RST  : out STD_LOGIC:='1');
 end CONTROLLER_SLOW;
 
@@ -50,6 +51,8 @@ signal NS     : state_type;
 
 signal counter_sig : STD_LOGIC_VECTOR (5 downto 0) := "000000";
 signal d_pre_we	 : STD_LOGIC :='0';
+signal d_pre_re	 : STD_LOGIC :='0';
+signal d_2_pre_re	 : STD_LOGIC :='0';
 signal count_on	 : STD_LOGIC :='0';
 signal count_rst	 : STD_LOGIC :='0';
 
@@ -70,6 +73,8 @@ begin
 		if (rising_edge(CLK)) then
 			PS <= NS;
 			PRE_WE<=d_PRE_WE;
+			PRE_RE<=d_PRE_RE;
+			d_PRE_RE<=d_2_PRE_RE;
 		end if;
 	end process;
 
@@ -78,6 +83,7 @@ begin
 		case PS is
 			when IDLESTATE =>
             d_PRE_WE<='0';
+				d_2_PRE_RE<='0';
 				count_on<='0';
 				count_rst<='1';
 				FIFO_RST<='0';
@@ -91,6 +97,7 @@ begin
 				count_on<='1';
 				count_rst<='0';
             d_PRE_WE<='1';
+				d_2_PRE_RE<='0';
 				FIFO_RST<='0';
 				if (PRE_FULL = '1') then 
 					NS <= LOADSTATE_2;
@@ -100,7 +107,9 @@ begin
 								
 			when LOADSTATE_2 =>
 			   count_on<='0';
+				count_rst<='0';
             d_PRE_WE<='0';
+				d_2_PRE_RE<='1';
 				FIFO_RST<='0';
 				if (FIFO_FULL = '1') then
 				NS <= LOOPSTATE;
@@ -109,11 +118,14 @@ begin
 				
 			when LOOPSTATE =>
 			   count_on<='0';
+				count_rst<='0';
             d_PRE_WE<='0';
+				d_2_PRE_RE<='1';
 				FIFO_RST<='0';
 				if (RST = '1') then
 				NS <= IDLESTATE;
 				FIFO_RST<='1';
+				d_2_PRE_RE<='0';
 				else NS <= LOOPSTATE;
 				end if;
 		end case;

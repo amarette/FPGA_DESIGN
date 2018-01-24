@@ -22,6 +22,8 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
+Library UNISIM;
+use UNISIM.vcomponents.all;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -46,8 +48,13 @@ component clk1
    port ( CLKIN_IN        : in    std_logic; 
           RST_IN          : in    std_logic; 
           CLKFX_OUT       : out   std_logic; 
-          CLKFX180_OUT    : out   std_logic; 
-          CLKIN_IBUFG_OUT : out   std_logic);
+          CLKFX180_OUT    : out   std_logic);
+   end component;
+	
+component clk2 
+   port ( CLKIN_IN        : in    std_logic; 
+          RST_IN          : in    std_logic; 
+          CLKFX_OUT       : out   std_logic);
    end component;
 	
 
@@ -58,6 +65,7 @@ component CONTROLLER_SLOW
            FIFO_FULL : in STD_LOGIC;
            ADDR      : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
            PRE_WE    : out STD_LOGIC:='0';
+			  PRE_RE    : out STD_LOGIC:='0';
            FIFO_RST  : out STD_LOGIC:='0');
     end component;
 	 
@@ -66,7 +74,6 @@ component CONTROLLER_FAST
            CLK       : in STD_LOGIC;
            PRE_FULL  : in STD_LOGIC;
            FIFO_FULL : in STD_LOGIC;
-           PRE_RE    : out STD_LOGIC:='0';
            FIFO_RE   : out STD_LOGIC:='0';
            FIFO_WE   : out STD_LOGIC:='0';
            FIFO_LOOP : out STD_LOGIC:='0';
@@ -232,6 +239,8 @@ component ROM_16
 end component;
 
 --------------------SIGNALS----------------------
+signal CLK				  : STD_LOGIC;
+signal CLK_BUF  		  : STD_LOGIC;
 signal s_addr          : STD_LOGIC_VECTOR(5 downto 0);
 signal s_sw_tot        : STD_LOGIC_VECTOR(4 downto 0);
 signal s_clk           : STD_LOGIC;
@@ -288,15 +297,32 @@ signal s_sum_norm_16 : STD_LOGIC_VECTOR(9 downto 0);
 
 
 begin
+IBUFG_inst : IBUFG
+	generic map (
+		IBUF_DELAY_VALUE => "0", -- Specify the amount of added input delay for buffer, 
+                               -- "0"-"16" 
+		IOSTANDARD => "DEFAULT")
+	port map (
+		O => CLK_BUF, 
+		I => CLK_IN);
+
+BUFG_inst : BUFG
+	port map (
+		O => CLK, 
+		I => CLK_BUF);
 
 clk_1:clk1 
     Port MAP(
-		  rst_in      => '0',
-        clkin_in    => CLK_IN,
-        clkfx_out    => s_DAC_CLK,
-        clkfx180_out=> DAC_CLK,
-		  clkin_ibufg_out => s_clk);
+		  rst_in          => '0',
+        clkin_in        => CLK,
+        clkfx_out       => s_DAC_CLK,
+        clkfx180_out    => DAC_CLK);
 			
+clk_2:clk2 
+    Port MAP(
+		  rst_in          => '0',
+        clkin_in        => CLK,
+        clkfx_out       => s_clk);
 
 rom1:ROM_1
     Port MAP(
@@ -401,18 +427,20 @@ cont1:CONTROLLER_SLOW
         CLK        => s_CLK,
         ADDR       => s_addr,
         PRE_WE     => s_pre_we,
+        PRE_RE     => s_pre_re,
         PRE_FULL   => s_pre_full,
         FIFO_FULL  => s_full,
         FIFO_RST   => s_pre_rst);
+		  
+s_we<=s_pre_re;
 
 cont2:CONTROLLER_FAST
     Port MAP( 
         RST        => BUT,
         CLK        => s_dac_CLK,
-        PRE_RE     => s_pre_re,
         PRE_FULL   => s_pre_full,
         FIFO_RE    => s_re,
-        FIFO_WE    => s_we,
+        FIFO_WE    => open, --s_we,
         FIFO_FULL  => s_full,
         FIFO_LOOP  => s_fifo_loop,
         FIFO_RST   => s_fifo_rst);

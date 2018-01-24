@@ -1,0 +1,760 @@
+
+WARNING: The Trce option "-ucf" is either illegal or not supported by projNav and hence will not be added in the strategy file(maptiming1.xds) created by Smartxplorer.
+
+Command Line : 
+-------------
+map C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.ngd -timing -ol high -p xc3s200a-vq100-4 -o TOP_DAWG_map.ncd C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.pcf
+
+Release 14.5 - Map P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Using target part "3s200avq100-4".
+Mapping design into LUTs...
+Writing file TOP_DAWG_map.ngm...
+Running directed packing...
+WARNING:Pack:2780 - The register "cont1/d_pre_re_BRB0" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "cont1/d_pre_re_BRB2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "cont1/PS_FSM_FFd1" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "cont1/PS_FSM_FFd2" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom1/DATA_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_4" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom1/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_4" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom2/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom3/DATA_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom3/DATA_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom3/DATA_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom3/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom3/DATA_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom3/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom3/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_4" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom4/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cont2/PS_FSM_Out31_FRB" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_4" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom5/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom6/DATA_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom6/DATA_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom6/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom6/DATA_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom6/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom6/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom7/DATA_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom7/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom7/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom7/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_4" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom8/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom9/DATA_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom9/DATA_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom9/DATA_4" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom9/DATA_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom9/DATA_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom9/DATA_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom9/DATA_8" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rom9/DATA_9" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "cont1/PRE_RE" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "cont1/PRE_WE" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "cont1/counter_sig_0" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "cont1/counter_sig_1" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "cont1/counter_sig_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "cont1/counter_sig_3" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "cont1/counter_sig_4" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "cont1/counter_sig_5" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "cont2/PS_FSM_FFd1" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "cont2/PS_FSM_FFd2" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_0" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_1" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_2" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_3" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_4" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_5" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_6" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_7" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_8" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom10/DATA_9" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_0" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_1" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_2" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_3" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_4" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_5" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_6" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_7" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_8" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom11/DATA_9" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom12/DATA_3" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom12/DATA_5" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom12/DATA_6" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom12/DATA_7" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom12/DATA_8" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom12/DATA_9" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_0" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_1" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_2" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_3" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_4" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_5" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_6" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_7" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_8" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom13/DATA_9" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom14/DATA_6" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom14/DATA_8" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom14/DATA_9" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "cont2/FIFO_LOOP" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom15/DATA_3" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom15/DATA_5" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom15/DATA_6" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom15/DATA_7" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom15/DATA_8" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom15/DATA_9" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_0" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_1" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_2" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_3" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_4" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_5" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_6" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_7" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_8" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rom16/DATA_9" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:266 - The function generator rom3/Mrom_rdata9 failed to merge with
+   F5 multiplexer rom15/Mrom_rdata2_f6/MUXF5.I1.  There is a conflict for the
+   GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rom7/Mrom_rdata8 failed to merge with
+   F5 multiplexer rom7/Mrom_rdata8_f6/MUXF5.I1.  There is a conflict for the
+   GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rom7/Mrom_rdata8 failed to merge with
+   F5 multiplexer rom7/Mrom_rdata1_f6/MUXF5.I1.  There is a conflict for the
+   GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rom3/Mrom_rdata9 failed to merge with
+   F5 multiplexer rom3/Mrom_rdata9_f6/MUXF5.I1.  There is a conflict for the
+   GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rom3/Mrom_rdata9 failed to merge with
+   F5 multiplexer rom9/Mrom_rdata6_f6/MUXF5.I1.  There is a conflict for the
+   GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rom3/Mrom_rdata9 failed to merge with
+   F5 multiplexer rom9/Mrom_rdata4_f6/MUXF5.I1.  There is a conflict for the
+   GYMUX.  The design will exhibit suboptimal timing.
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 9 secs 
+Total CPU  time at the beginning of Placer: 9 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:57506b46) REAL time: 10 secs 
+
+Phase 2.7  Design Feasibility Check
+INFO:Place:834 - Only a subset of IOs are locked. Out of 11 IOs, 10 are locked
+   and 1 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+Phase 2.7  Design Feasibility Check (Checksum:57506b46) REAL time: 10 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:57506b46) REAL time: 10 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+......
+Phase 4.2  Initial Clock and IO Placement (Checksum:1a50477) REAL time: 15 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:1a50477) REAL time: 15 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:1a50477) REAL time: 15 secs 
+
+Phase 7.3  Local Placement Optimization
+......
+Phase 7.3  Local Placement Optimization (Checksum:ae08ad43) REAL time: 15 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:ae08ad43) REAL time: 16 secs 
+
+Phase 9.8  Global Placement
+...........
+......................................................
+....
+...............................................................................................................................................................................
+................
+................
+........................................................................
+............................
+Phase 9.8  Global Placement (Checksum:f045ba1c) REAL time: 23 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:f045ba1c) REAL time: 23 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:30b5fb98) REAL time: 39 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:30b5fb98) REAL time: 39 secs 
+
+Total REAL time to Placer completion: 39 secs 
+Total CPU  time to Placer completion: 39 secs 
+Running post-placement packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  152
+Logic Utilization:
+  Number of Slice Flip Flops:           304 out of   3,584    8%
+  Number of 4 input LUTs:             1,362 out of   3,584   38%
+Logic Distribution:
+  Number of occupied Slices:            866 out of   1,792   48%
+    Number of Slices containing only related logic:     866 out of     866 100%
+    Number of Slices containing unrelated logic:          0 out of     866   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,484 out of   3,584   41%
+    Number used as logic:             1,281
+    Number used as a route-thru:        122
+    Number used for Dual Port RAMs:      80
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:       1
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 29 out of      68   42%
+    IOB Flip Flops:                       1
+  Number of BUFGMUXs:                     4 out of      24   16%
+  Number of DCMs:                         2 out of       4   50%
+  Number of RAMB16BWEs:                   1 out of      16    6%
+
+Average Fanout of Non-Clock Nets:                3.54
+
+Peak Memory Usage:  364 MB
+Total REAL time to MAP completion:  41 secs 
+Total CPU time to MAP completion:   40 secs 
+
+Mapping completed.
+See MAP report file "TOP_DAWG_map.mrp" for details.
+
+Command Line : 
+-------------
+par C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.ngd -ol high -w TOP_DAWG.ncd C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.pcf
+
+Release 14.5 - par P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+
+Constraints file:
+C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.pcf.
+Loading device for application Rf_Device from file '3s200a.nph' in environment C:\Xilinx\14.5\ISE_DS\ISE\.
+   "TOP_DAWG" is an NCD, version 3.2, device xc3s200a, package vq100, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.42 2013-03-26".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                          29 out of 68     42%
+
+   Number of External Input IOBs                 18
+
+      Number of External Input IBUFs             18
+        Number of LOCed External Input IBUFs     18 out of 18    100%
+
+
+   Number of External Output IOBs                11
+
+      Number of External Output IOBs             11
+        Number of LOCed External Output IOBs     10 out of 11     90%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        4 out of 24     16%
+   Number of DCMs                            2 out of 4      50%
+   Number of RAMB16BWEs                      1 out of 16      6%
+   Number of Slices                        866 out of 1792   48%
+      Number of SLICEMs                     41 out of 896     4%
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 12 secs 
+Finished initial Timing Analysis.  REAL time: 12 secs 
+
+Starting Router
+
+
+Phase  1  : 5834 unrouted;      REAL time: 18 secs 
+
+Phase  2  : 5449 unrouted;      REAL time: 18 secs 
+
+Phase  3  : 1414 unrouted;      REAL time: 20 secs 
+
+Phase  4  : 1469 unrouted; (Setup:2470, Hold:0, Component Switching Limit:0)     REAL time: 22 secs 
+
+Phase  5  : 0 unrouted; (Setup:4595, Hold:0, Component Switching Limit:0)     REAL time: 27 secs 
+
+Updating file: TOP_DAWG.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:4935, Hold:0, Component Switching Limit:0)     REAL time: 29 secs 
+
+Phase  7  : 0 unrouted; (Setup:4935, Hold:0, Component Switching Limit:0)     REAL time: 45 secs 
+
+Phase  8  : 0 unrouted; (Setup:3743, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 2 secs 
+
+Updating file: TOP_DAWG.ncd with current fully routed design.
+
+Phase  9  : 0 unrouted; (Setup:2755, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 55 secs 
+
+Phase 10  : 0 unrouted; (Setup:2326, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 55 secs 
+
+Phase 11  : 0 unrouted; (Setup:2326, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 55 secs 
+
+Phase 12  : 0 unrouted; (Setup:1397, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 56 secs 
+
+Total REAL time to Router completion: 1 mins 56 secs 
+Total CPU time to Router completion: 1 mins 55 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           s_dac_clk | BUFGMUX_X2Y11| No   |  127 |  0.160     |  1.122      |
++---------------------+--------------+------+------+------------+-------------+
+|               s_clk |  BUFGMUX_X1Y0| No   |  183 |  0.129     |  1.091      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 1397 (Setup: 1397, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
+   your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to
+   ensure the best options are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 5
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* NET "s_dac_clk" PERIOD = 4.7 ns HIGH 50%  | SETUP       |    -0.433ns|     5.133ns|       8|        1397
+                                            | HOLD        |     0.732ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "CLK_BUF" PERIOD = 25 ns HIGH 50%     | MAXPERIOD   |     0.000ns|            |       0|           0
+                                            | MINLOWPULSE |    15.000ns|    10.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "s_clk" PERIOD = 200 ns HIGH 50%      | SETUP       |    89.439ns|   110.561ns|       0|           0
+                                            | HOLD        |     0.884ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "DAC_CLK_OBUF" PERIOD = 4.7 ns HIGH 5 | N/A         |         N/A|         N/A|     N/A|         N/A
+  0%                                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "clk_1/CLKFX180_BUF" PERIOD = 4.7 ns  | N/A         |         N/A|         N/A|     N/A|         N/A
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "clk_1/CLKFX_BUF" PERIOD = 4.7 ns HIG | N/A         |         N/A|         N/A|     N/A|         N/A
+  H 50%                                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET "clk_2/CLKFX_BUF" PERIOD = 200 ns HIG | N/A         |         N/A|         N/A|     N/A|         N/A
+  H 50%                                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+1 constraint not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 mins 56 secs 
+Total CPU time to PAR completion: 1 mins 56 secs 
+
+Peak Memory Usage:  313 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 8 errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 0
+
+Writing design to file TOP_DAWG.ncd
+
+
+
+PAR done!
+
+Command Line : 
+-------------
+trce C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.ngd C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.pcf -xml C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.twx -v 3 -s 4 -n 3 -fastpaths -ucf TOP_DAWG.ucf -o C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer_results\run5\TOP_DAWG.twr
+
+Release 14.5 - Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+Loading device for application Rf_Device from file '3s200a.nph' in environment
+C:\Xilinx\14.5\ISE_DS\ISE\.
+   "TOP_DAWG" is an NCD, version 3.2, device xc3s200a, package vq100, speed -4
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe
+C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer
+_results\run5\TOP_DAWG.ncd
+C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer
+_results\run5\TOP_DAWG.pcf
+-xml
+C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer
+_results\run5\TOP_DAWG.twx
+-v 3 -s 4 -n 3 -fastpaths -ucf TOP_DAWG.ucf -o
+C:\Users\alexm_000\Documents\GitHub\FPGA_DESIGN\DIGITAL_SYTH_JAMMER\smartxplorer
+_results\run5\TOP_DAWG.twr
+
+
+Design file:              TOP_DAWG.ncd
+Physical constraint file: TOP_DAWG.pcf
+Device,speed:             xc3s200a,-4 (PRODUCTION 1.42 2013-03-26)
+Report level:             verbose report
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a
+   50 Ohm transmission line loading model.  For the details of this model, and
+   for more information on accounting for different loading conditions, please
+   see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and
+   'Phase Error' calculations, these terms will be zero in the Clock Uncertainty
+   calculation.  Please make appropriate modification to SYSTEM_JITTER to
+   account for the unsupported Discrete Jitter and Phase Error.
+
+
+Timing summary:
+---------------
+
+Timing errors: 8  Score: 1397 (Setup/Max: 1397, Hold: 0)
+
+Constraints cover 496462203277520370000000000000 paths, 0 nets, and 5221
+connections
+
+Design statistics:
+   Minimum period: 110.561ns (Maximum frequency:   9.045MHz)
+
+
+Analysis completed Mon Jan 15 09:49:51 2018
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 5
+Total time: 2 secs 

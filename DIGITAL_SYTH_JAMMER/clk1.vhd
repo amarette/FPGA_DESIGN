@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.5
 --  \   \         Application : xaw2vhdl
 --  /   /         Filename : clk1.vhd
--- /___/   /\     Timestamp : 01/08/2018 21:48:17
+-- /___/   /\     Timestamp : 01/15/2018 09:47:22
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -28,21 +28,18 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity clk1 is
-   port ( CLKIN_IN        : in    std_logic; 
-          RST_IN          : in    std_logic; 
-          CLKFX_OUT       : out   std_logic; 
-          CLKFX180_OUT    : out   std_logic; 
-          CLKIN_IBUFG_OUT : out   std_logic);
+   port ( CLKIN_IN     : in    std_logic; 
+          RST_IN       : in    std_logic; 
+          CLKFX_OUT    : out   std_logic; 
+          CLKFX180_OUT : out   std_logic);
 end clk1;
 
 architecture BEHAVIORAL of clk1 is
-   signal CLKFX_BUF       : std_logic;
-   signal CLKFX180_BUF    : std_logic;
-   signal CLKIN_IBUFG     : std_logic;
-   signal GND_BIT         : std_logic;
+   signal CLKFX_BUF    : std_logic;
+   signal CLKFX180_BUF : std_logic;
+   signal GND_BIT      : std_logic;
 begin
    GND_BIT <= '0';
-   CLKIN_IBUFG_OUT <= CLKIN_IBUFG;
    CLKFX_BUFG_INST : BUFG
       port map (I=>CLKFX_BUF,
                 O=>CLKFX_OUT);
@@ -51,17 +48,13 @@ begin
       port map (I=>CLKFX180_BUF,
                 O=>CLKFX180_OUT);
    
-   CLKIN_IBUFG_INST : IBUFG
-      port map (I=>CLKIN_IN,
-                O=>CLKIN_IBUFG);
-   
    DCM_SP_INST : DCM_SP
    generic map( CLK_FEEDBACK => "NONE",
             CLKDV_DIVIDE => 2.0,
-            CLKFX_DIVIDE => 10,
+            CLKFX_DIVIDE => 4,
             CLKFX_MULTIPLY => 21,
             CLKIN_DIVIDE_BY_2 => FALSE,
-            CLKIN_PERIOD => 10.000,
+            CLKIN_PERIOD => 25.000,
             CLKOUT_PHASE_SHIFT => "NONE",
             DESKEW_ADJUST => "SYSTEM_SYNCHRONOUS",
             DFS_FREQUENCY_MODE => "LOW",
@@ -71,7 +64,7 @@ begin
             PHASE_SHIFT => 0,
             STARTUP_WAIT => FALSE)
       port map (CLKFB=>GND_BIT,
-                CLKIN=>CLKIN_IBUFG,
+                CLKIN=>CLKIN_IN,
                 DSSEN=>GND_BIT,
                 PSCLK=>GND_BIT,
                 PSEN=>GND_BIT,

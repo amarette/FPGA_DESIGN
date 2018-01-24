@@ -16,12 +16,39 @@ Done.
 Annotating constraints to design from ucf file "TOP_DAWG.ucf" ...
 Resolving constraint associations...
 Checking Constraint Associations...
+INFO:ConstraintSystem - The Period constraint <net "CLK_IN" period = 25ns HIGH
+   50%;> [TOP_DAWG.ucf(13)], is specified using the Net Period method which is
+   not recommended. Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <net "dac_clk_obuf" period = 4.7ns
+   HIGH 50%  |> [TOP_DAWG.ucf(14)], is specified using the Net Period method
+   which is not recommended. Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <net "clk_1/CLKfx180_buf" period =
+   4.7ns HIGH 50%;> [TOP_DAWG.ucf(15)], is specified using the Net Period method
+   which is not recommended. Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <net "clk_1/clkfx_buf"       
+   period = 4.7ns HIGH 50%;> [TOP_DAWG.ucf(16)], is specified using the Net
+   Period method which is not recommended. Please use the Timespec PERIOD
+   method.
+
+INFO:ConstraintSystem - The Period constraint <net "clk_2/clkfx_buf"       
+   period = 200ns high 50%;> [TOP_DAWG.ucf(17)], is specified using the Net
+   Period method which is not recommended. Please use the Timespec PERIOD
+   method.
+
+INFO:ConstraintSystem - The Period constraint <net "s_clk"             period =
+   200ns HIGH 50%;> [TOP_DAWG.ucf(18)], is specified using the Net Period method
+   which is not recommended. Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <net "s_dac_clk" period = 4.7ns
+   HIGH 50%;> [TOP_DAWG.ucf(19)], is specified using the Net Period method which
+   is not recommended. Please use the Timespec PERIOD method.
+
 Done...
 
 Checking expanded design ...
-ERROR:NgdBuild:462 - input pad net 'CLK_IN' drives multiple buffers:
-     pin I on block clk_1/CLKIN_IBUFG_INST with type IBUFG,
-     pin I on block clk_2/CLKIN_IBUFG_INST with type IBUFG
 
 Partition Implementation Status
 -------------------------------
@@ -31,14 +58,13 @@ Partition Implementation Status
 -------------------------------
 
 NGDBUILD Design Results Summary:
-  Number of errors:     1
+  Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 171960 kilobytes
+Total memory usage is 176068 kilobytes
 
-Total REAL time to NGDBUILD completion:  4 sec
-Total CPU time to NGDBUILD completion:   3 sec
-
-One or more errors were found during NGDBUILD.  No NGD file will be written.
+Writing NGD file "TOP_DAWG.ngd" ...
+Total REAL time to NGDBUILD completion:  11 sec
+Total CPU time to NGDBUILD completion:   4 sec
 
 Writing NGDBUILD log file "TOP_DAWG.bld"...

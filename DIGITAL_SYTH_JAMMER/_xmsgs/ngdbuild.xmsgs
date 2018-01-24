@@ -5,9 +5,25 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="NgdBuild" num="462" delta="new" ><arg fmt="%s" index="1">input</arg> pad net &apos;<arg fmt="%s" index="2">CLK_IN</arg>&apos; drives multiple buffers<arg fmt="%s" index="3">:
-  pin I on block clk_1/CLKIN_IBUFG_INST with type IBUFG,
-  pin I on block clk_2/CLKIN_IBUFG_INST with type IBUFG</arg>
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;CLK_IN&quot; period = 25ns HIGH 50%;&gt; [TOP_DAWG.ucf(13)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;dac_clk_obuf&quot; period = 4.7ns HIGH 50%  |&gt; [TOP_DAWG.ucf(14)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;clk_1/CLKfx180_buf&quot; period = 4.7ns HIGH 50%;&gt; [TOP_DAWG.ucf(15)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;clk_1/clkfx_buf&quot;        period = 4.7ns HIGH 50%;&gt; [TOP_DAWG.ucf(16)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;clk_2/clkfx_buf&quot;        period = 200ns high 50%;&gt; [TOP_DAWG.ucf(17)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;s_clk&quot;             period = 200ns HIGH 50%;&gt; [TOP_DAWG.ucf(18)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;net &quot;s_dac_clk&quot; period = 4.7ns HIGH 50%;&gt; [TOP_DAWG.ucf(19)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
 </msg>
 
 </messages>
