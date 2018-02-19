@@ -1,58 +1,56 @@
---------------------------------------------------------------------------------
---
---   FileName:         debounce.vhd
---   Dependencies:     none
---   Design Software:  Quartus II 32-bit Version 11.1 Build 173 SJ Full Version
---
---   HDL CODE IS PROVIDED "AS IS."  DIGI-KEY EXPRESSLY DISCLAIMS ANY
---   WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT
---   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
---   PARTICULAR PURPOSE, OR NON-INFRINGEMENT. IN NO EVENT SHALL DIGI-KEY
---   BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL
---   DAMAGES, LOST PROFITS OR LOST DATA, HARM TO YOUR EQUIPMENT, COST OF
---   PROCUREMENT OF SUBSTITUTE GOODS, TECHNOLOGY OR SERVICES, ANY CLAIMS
---   BY THIRD PARTIES (INCLUDING BUT NOT LIMITED TO ANY DEFENSE THEREOF),
---   ANY CLAIMS FOR INDEMNITY OR CONTRIBUTION, OR OTHER SIMILAR COSTS.
---
---   Version History
---   Version 1.0 3/26/2012 Scott Larson
---     Initial Public Release
---
---------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
-LIBRARY ieee;
-USE ieee.std_logic_1164.all;
-USE ieee.std_logic_unsigned.all;
 
-ENTITY debounce IS
-  GENERIC(
-    counter_size  :  INTEGER := 19); --counter size (19 bits gives 10.5ms with 50MHz clock)
-  PORT(
-    clk     : IN  STD_LOGIC;  --input clock
-    button  : IN  STD_LOGIC;  --input signal to be debounced
-    result  : OUT STD_LOGIC); --debounced signal
-END debounce;
+entity DeBounce is
+    port(   CLK : in std_logic;
+            Reset : in std_logic;
+            BUTTON : in std_logic;
+            RESULT : out std_logic
+        );
+end DeBounce;
 
-ARCHITECTURE logic OF debounce IS
-  SIGNAL flipflops   : STD_LOGIC_VECTOR(1 DOWNTO 0); --input flip flops
-  SIGNAL counter_set : STD_LOGIC;                    --sync reset to zero
-  SIGNAL counter_out : STD_LOGIC_VECTOR(counter_size DOWNTO 0) := (OTHERS => '0'); --counter output
-BEGIN
+architecture behav of DeBounce is
 
-  counter_set <= flipflops(0) xor flipflops(1);   --determine when to start/reset counter
+--the below constants decide the working parameters.
+--the higher this is, the more longer time the user has to press the button.
+constant COUNT_MAX : integer := 100000; 
+--set it '1' if the button creates a high pulse when its pressed, otherwise '0'.
+constant BTN_ACTIVE : std_logic := '1';
+
+signal count : integer := 0;
+type state_type is (idle,wait_time); --state machine
+signal state : state_type := idle;
+
+begin
   
-  PROCESS(clk)
-  BEGIN
-    IF(clk'EVENT and clk = '1') THEN
-      flipflops(0) <= button;
-      flipflops(1) <= flipflops(0);
-      If(counter_set = '1') THEN                  --reset counter because input is changing
-        counter_out <= (OTHERS => '0');
-      ELSIF(counter_out(counter_size) = '0') THEN --stable input time is not yet met
-        counter_out <= counter_out + 1;
-      ELSE                                        --stable input time is met
-        result <= flipflops(1);
-      END IF;    
-    END IF;
-  END PROCESS;
-END logic;
+process(Reset,CLK)
+begin
+    if(Reset = '1') then
+        state <= idle;
+        RESULT <= '0';
+   elsif(rising_edge(CLK)) then
+        case (state) is
+            when idle =>
+                if(BUTTON = BTN_ACTIVE) then  
+                    state <= wait_time;
+                else
+                    state <= idle; --wait until button is pressed.
+                end if;
+                RESULT <= '0';
+            when wait_time =>
+                if(count = COUNT_MAX) then
+                    count <= 0;
+                    if(BUTTON = BTN_ACTIVE) then
+                        RESULT <= '1';
+                    end if;
+                    state <= idle;  
+                else
+                    count <= count + 1;
+                end if; 
+        end case;       
+    end if;        
+end process;                  
+                                                                                
+end architecture behav;

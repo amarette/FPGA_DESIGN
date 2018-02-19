@@ -1,21 +1,21 @@
-Release 14.7 par P.20131013 (nt)
-Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Release 14.5 par P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-FAST_ASS_MOFO::  Mon Feb 19 12:27:11 2018
+MUSTACHIO_JR::  Mon Feb 19 13:54:54 2018
 
 par -w -intstyle ise -pl high -rl high -xe n -t 1 TOP_DAWG_map.ncd TOP_DAWG.ncd
 TOP_DAWG.pcf 
 
 
 Constraints file: TOP_DAWG.pcf.
-Loading device for application Rf_Device from file '3s200a.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '3s200a.nph' in environment C:\Xilinx\14.5\ISE_DS\ISE\.
    "TOP_DAWG" is an NCD, version 3.2, device xc3s200a, package vq100, speed -4
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
 Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
 
 
-Device speed data version:  "PRODUCTION 1.42 2013-10-13".
+Device speed data version:  "PRODUCTION 1.42 2013-03-26".
 
 
 
@@ -41,7 +41,7 @@ Design Summary Report:
    Number of BUFGMUXs                        4 out of 24     16%
    Number of DCMs                            2 out of 4      50%
    Number of RAMB16BWEs                      1 out of 16      6%
-   Number of Slices                        867 out of 1792   48%
+   Number of Slices                        887 out of 1792   49%
       Number of SLICEMs                     41 out of 896     4%
 
 
@@ -49,42 +49,42 @@ Design Summary Report:
 Overall effort level (-ol):   Not applicable because -pl and -rl switches are used
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 25 secs 
-Finished initial Timing Analysis.  REAL time: 25 secs 
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
 
 Starting Router
 
 
-Phase  1  : 5976 unrouted;      REAL time: 33 secs 
+Phase  1  : 6044 unrouted;      REAL time: 5 secs 
 
-Phase  2  : 5567 unrouted;      REAL time: 34 secs 
+Phase  2  : 5637 unrouted;      REAL time: 5 secs 
 
-Phase  3  : 1612 unrouted;      REAL time: 37 secs 
+Phase  3  : 1498 unrouted;      REAL time: 6 secs 
 
-Phase  4  : 1667 unrouted; (Setup:2234, Hold:0, Component Switching Limit:0)     REAL time: 42 secs 
+Phase  4  : 1538 unrouted; (Setup:1008, Hold:0, Component Switching Limit:0)     REAL time: 6 secs 
 
-Phase  5  : 0 unrouted; (Setup:5547, Hold:0, Component Switching Limit:0)     REAL time: 55 secs 
-
-Updating file: TOP_DAWG.ncd with current fully routed design.
-
-Phase  6  : 0 unrouted; (Setup:5547, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
-
-Phase  7  : 0 unrouted; (Setup:5547, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 27 secs 
-
-Phase  8  : 0 unrouted; (Setup:3839, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 3 secs 
+Phase  5  : 0 unrouted; (Setup:3659, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 
 Updating file: TOP_DAWG.ncd with current fully routed design.
 
-Phase  9  : 0 unrouted; (Setup:2871, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 9 secs 
+Phase  6  : 0 unrouted; (Setup:3350, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
 
-Phase 10  : 0 unrouted; (Setup:2323, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 11 secs 
+Phase  7  : 0 unrouted; (Setup:3350, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
 
-Phase 11  : 0 unrouted; (Setup:2323, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 11 secs 
+Phase  8  : 0 unrouted; (Setup:1170, Hold:0, Component Switching Limit:0)     REAL time: 21 secs 
 
-Phase 12  : 0 unrouted; (Setup:1371, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 12 secs 
+Updating file: TOP_DAWG.ncd with current fully routed design.
 
-Total REAL time to Router completion: 5 mins 12 secs 
-Total CPU time to Router completion: 4 mins 43 secs 
+Phase  9  : 0 unrouted; (Setup:463, Hold:0, Component Switching Limit:0)     REAL time: 36 secs 
+
+Phase 10  : 0 unrouted; (Setup:415, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
+
+Phase 11  : 0 unrouted; (Setup:415, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
+
+Phase 12  : 0 unrouted; (Setup:134, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
+
+Total REAL time to Router completion: 37 secs 
+Total CPU time to Router completion: 36 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -102,11 +102,9 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|           s_dac_clk | BUFGMUX_X2Y11| No   |  119 |  0.157     |  1.119      |
+|               s_clk |  BUFGMUX_X1Y0| No   |  206 |  0.120     |  1.082      |
 +---------------------+--------------+------+------+------------+-------------+
-|               s_clk |  BUFGMUX_X1Y0| No   |  186 |  0.120     |  1.082      |
-+---------------------+--------------+------+------+------------+-------------+
-|                 CLK | BUFGMUX_X1Y11| No   |   15 |  0.020     |  0.990      |
+|           s_dac_clk | BUFGMUX_X2Y11| No   |  127 |  0.173     |  1.135      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -117,7 +115,7 @@ the minimum and maximum path delays which includes logic delays.
 * The fanout is the number of component pins not the individual BEL loads,
 for example SLICE loads not FF loads.
 
-Timing Score: 1371 (Setup: 1371, Hold: 0, Component Switching Limit: 0)
+Timing Score: 134 (Setup: 134, Hold: 0, Component Switching Limit: 0)
 
 WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
    your design.
@@ -138,7 +136,7 @@ WARNING:Par:468 - Your design did not meet timing.  The following are some sugge
    TechXclusives->Timing Closure" for tips and suggestions for meeting timing
    in your design.
 
-Number of Timing Constraints that were not applied: 4
+Number of Timing Constraints that were not applied: 5
 
 Asterisk (*) preceding a constraint indicates it was not met.
    This may be due to a setup or hold violation.
@@ -147,16 +145,14 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-* NET "s_dac_clk" PERIOD = 4.7 ns HIGH 50%  | SETUP       |    -0.329ns|     5.029ns|      12|        1371
-                                            | HOLD        |     0.915ns|            |       0|           0
+* NET "s_dac_clk" PERIOD = 4.7 ns HIGH 50%  | SETUP       |    -0.034ns|     4.734ns|       4|         134
+                                            | HOLD        |     0.807ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  NET "CLK_BUF" PERIOD = 25 ns HIGH 50%     | SETUP       |    18.351ns|     6.649ns|       0|           0
-                                            | HOLD        |     1.131ns|            |       0|           0
-                                            | MAXPERIOD   |     0.000ns|            |       0|           0
+  NET "CLK_BUF" PERIOD = 25 ns HIGH 50%     | MAXPERIOD   |     0.000ns|            |       0|           0
                                             | MINLOWPULSE |    15.000ns|    10.000ns|       0|           0
 ----------------------------------------------------------------------------------------------------------
-  NET "s_clk" PERIOD = 200 ns HIGH 50%      | SETUP       |    91.162ns|   108.838ns|       0|           0
-                                            | HOLD        |     0.888ns|            |       0|           0
+  NET "s_clk" PERIOD = 200 ns HIGH 50%      | SETUP       |    91.410ns|   108.590ns|       0|           0
+                                            | HOLD        |     0.950ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
   NET "DAC_CLK_OBUF" PERIOD = 4.7 ns HIGH 5 | N/A         |         N/A|         N/A|     N/A|         N/A
   0%                                        |             |            |            |        |            
@@ -184,14 +180,14 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 5 mins 15 secs 
-Total CPU time to PAR completion: 4 mins 46 secs 
+Total REAL time to PAR completion: 37 secs 
+Total CPU time to PAR completion: 37 secs 
 
-Peak Memory Usage:  388 MB
+Peak Memory Usage:  323 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
-Timing: Completed - 12 errors found.
+Timing: Completed - 4 errors found.
 
 Number of error messages: 0
 Number of warning messages: 1

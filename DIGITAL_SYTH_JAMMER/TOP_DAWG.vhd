@@ -48,6 +48,7 @@ architecture Behavioral of TOP_DAWG is
 
 component DEBOUNCE
 	 PORT( clk     : IN  STD_LOGIC;  --input clock
+	       Reset   : in std_logic;
 			 button  : IN  STD_LOGIC;  --input signal to be debounced
           result  : OUT STD_LOGIC); --debounced signal
     END component;
@@ -507,7 +508,8 @@ fifo2: PRE_FIFO
 		  
 dbnc: DEBOUNCE
 	port map(
-		  clk			=> CLK,
+		  clk			=> s_CLK,
+		  reset     => '0',
 		  button		=> BUT,
 		  result    => s_BUT);
  

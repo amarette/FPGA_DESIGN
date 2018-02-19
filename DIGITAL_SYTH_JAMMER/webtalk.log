@@ -1,10 +1,10 @@
-Release 14.7 - WebTalk (P.20131013)
+Release 14.5 - WebTalk (P.58f)
 Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
 Project Information
 --------------------
 ProjectID=92098A67BBDC40CEAA215AFC678B88DC
-ProjectIteration=9
+ProjectIteration=10
 
 WebTalk Summary
 ----------------
@@ -13,4 +13,4 @@ INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
 INFO:WebTalk:8 - WebTalk Install setting is ON.
 INFO:WebTalk:6 - WebTalk User setting is ON.
 
-INFO:WebTalk:5 - C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
+INFO:WebTalk:5 - C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/14.5/ISE_DS/ISE/data/reports/webtalk_introduction.html

@@ -1,4 +1,4 @@
-Release 14.7 Map P.20131013 (nt)
+Release 14.5 Map P.58f (nt64)
 Xilinx Map Application Log File for Design 'TOP_DAWG'
 
 Design Information
@@ -10,7 +10,7 @@ Target Device  : xc3s200a
 Target Package : vq100
 Target Speed   : -4
 Mapper Version : spartan3a -- $Revision: 1.55 $
-Mapped Date    : Mon Feb 19 12:24:53 2018
+Mapped Date    : Mon Feb 19 13:54:26 2018
 
 Mapping design into LUTs...
 Running directed packing...
@@ -23,8 +23,74 @@ WARNING:Pack:2780 - The register "cont1/d_pre_re_BRB1" has the property
 WARNING:Pack:2780 - The register "cont1/d_pre_re_BRB2" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
-WARNING:Pack:2780 - The register "dbnc/result" has the property IOB=TRUE, but it
+WARNING:Pack:2780 - The register "dbnc/RESULT" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "dbnc/count_10" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_11" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_12" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_20" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_13" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_21" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_14" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_22" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_30" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_15" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_23" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_31" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_16" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_24" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_17" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_25" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_18" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_26" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_19" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_27" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_28" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_29" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register "cont1/PS_FSM_FFd2" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
@@ -51,9 +117,6 @@ WARNING:Pack:2780 - The register "rom1/DATA_8" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register "rom1/DATA_9" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
-WARNING:Pack:2780 - The register "dbnc/flipflops_1" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
 WARNING:Pack:2780 - The register "rom2/DATA_0" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register "rom2/DATA_1" has the property IOB=TRUE, but it
@@ -147,10 +210,6 @@ WARNING:Pack:2780 - The register "rom7/DATA_0" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register "rom7/DATA_1" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
-WARNING:Pack:2780 - The register "rom7/DATA_2" has the property IOB=TRUE, but it
-   did not join an IO component because it is not connected to any IO element.
-WARNING:Pack:2780 - The register "rom7/DATA_5" has the property IOB=TRUE, but it
-   did not join an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register "rom7/DATA_6" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register "rom7/DATA_8" has the property IOB=TRUE, but it
@@ -171,12 +230,42 @@ WARNING:Pack:2780 - The register "rom8/DATA_5" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register "rom8/DATA_6" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "dbnc/count_0" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register "rom8/DATA_7" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "dbnc/count_1" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register "rom8/DATA_8" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "dbnc/count_2" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register "rom8/DATA_9" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "dbnc/count_3" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_4" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_5" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_6" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_7" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_8" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "dbnc/count_9" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register "rom9/DATA_1" has the property IOB=TRUE, but it
    did not join an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register "rom9/DATA_3" has the property IOB=TRUE, but it
@@ -199,36 +288,9 @@ WARNING:Pack:2780 - The register "cont1/PRE_RE" has the property IOB=TRUE, but
 WARNING:Pack:2780 - The register "cont1/PRE_WE" has the property IOB=TRUE, but
    it did not join an IO component because it is not connected to any IO
    element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_10" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_11" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_12" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_13" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_14" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_15" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_16" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_17" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_18" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_19" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
+WARNING:Pack:2780 - The register "dbnc/state_0" has the property IOB=TRUE, but
+   it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register "cont1/counter_sig_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -251,36 +313,6 @@ WARNING:Pack:2780 - The register "cont2/PS_FSM_FFd1" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
 WARNING:Pack:2780 - The register "cont2/PS_FSM_FFd2" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_0" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_1" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_2" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_3" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_4" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_5" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_6" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_7" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_8" has the property IOB=TRUE,
-   but it did not join an IO component because it is not connected to any IO
-   element.
-WARNING:Pack:2780 - The register "dbnc/counter_out_9" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
 WARNING:Pack:2780 - The register "rom10/DATA_0" has the property IOB=TRUE, but
@@ -457,9 +489,6 @@ WARNING:Pack:2780 - The register "rom16/DATA_8" has the property IOB=TRUE, but
 WARNING:Pack:2780 - The register "rom16/DATA_9" has the property IOB=TRUE, but
    it did not join an IO component because it is not connected to any IO
    element.
-WARNING:Pack:266 - The function generator rom7/Mrom_rdata8 failed to merge with
-   F5 multiplexer rom7/Mrom_rdata5_f6/MUXF5.I1.  There is a conflict for the
-   GYMUX.  The design will exhibit suboptimal timing.
 WARNING:Pack:266 - The function generator rom3/Mrom_rdata9 failed to merge with
    F5 multiplexer rom15/Mrom_rdata_f6/MUXF5.I1.  There is a conflict for the
    GYMUX.  The design will exhibit suboptimal timing.
@@ -484,62 +513,62 @@ WARNING:Pack:266 - The function generator rom3/Mrom_rdata9 failed to merge with
 Running delay-based LUT packing...
 Updating timing models...
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 25 secs 
-Total CPU  time at the beginning of Placer: 23 secs 
+Total REAL time at the beginning of Placer: 7 secs 
+Total CPU  time at the beginning of Placer: 3 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:93afc547) REAL time: 28 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:1df25a71) REAL time: 10 secs 
 
 Phase 2.7  Design Feasibility Check
 INFO:Place:834 - Only a subset of IOs are locked. Out of 18 IOs, 17 are locked
    and 1 are not locked. If you would like to print the names of these IOs,
    please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
-Phase 2.7  Design Feasibility Check (Checksum:93afc547) REAL time: 28 secs 
+Phase 2.7  Design Feasibility Check (Checksum:1df25a71) REAL time: 10 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:93afc547) REAL time: 28 secs 
+Phase 3.31  Local Placement Optimization (Checksum:1df25a71) REAL time: 10 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 .......
-Phase 4.2  Initial Clock and IO Placement (Checksum:70ed7b38) REAL time: 36 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:87ea5792) REAL time: 11 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:70ed7b38) REAL time: 36 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:87ea5792) REAL time: 11 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:70ed7b38) REAL time: 36 secs 
+Phase 6.36  Local Placement Optimization (Checksum:87ea5792) REAL time: 11 secs 
 
 Phase 7.3  Local Placement Optimization
 .......
-Phase 7.3  Local Placement Optimization (Checksum:910db998) REAL time: 37 secs 
+Phase 7.3  Local Placement Optimization (Checksum:4968452) REAL time: 11 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:910db998) REAL time: 37 secs 
+Phase 8.5  Local Placement Optimization (Checksum:4968452) REAL time: 11 secs 
 
 Phase 9.8  Global Placement
 ..............
-.........................................................................................................
-..
-............................................................................................................
+....................................................
+...
+............................................................................................................................
 ................
 ................
-...............................................................................
-......................
-Phase 9.8  Global Placement (Checksum:e6252e08) REAL time: 54 secs 
+................
+...........................
+Phase 9.8  Global Placement (Checksum:2c283803) REAL time: 14 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:e6252e08) REAL time: 55 secs 
+Phase 10.5  Local Placement Optimization (Checksum:2c283803) REAL time: 14 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:6894b768) REAL time: 1 mins 32 secs 
+Phase 11.18  Placement Optimization (Checksum:8a916817) REAL time: 20 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:6894b768) REAL time: 1 mins 32 secs 
+Phase 12.5  Local Placement Optimization (Checksum:8a916817) REAL time: 20 secs 
 
-Total REAL time to Placer completion: 1 mins 33 secs 
-Total CPU  time to Placer completion: 1 mins 24 secs 
+Total REAL time to Placer completion: 20 secs 
+Total CPU  time to Placer completion: 14 secs 
 Running physical synthesis...
-..
+...
 Physical synthesis completed.
 Running post-placement packing...
 
@@ -548,18 +577,18 @@ Design Summary
 
 Design Summary:
 Number of errors:      0
-Number of warnings:  182
+Number of warnings:  191
 Logic Utilization:
-  Number of Slice Flip Flops:           332 out of   3,584    9%
-  Number of 4 input LUTs:             1,387 out of   3,584   38%
+  Number of Slice Flip Flops:           342 out of   3,584    9%
+  Number of 4 input LUTs:             1,389 out of   3,584   38%
 Logic Distribution:
-  Number of occupied Slices:            867 out of   1,792   48%
-    Number of Slices containing only related logic:     867 out of     867 100%
-    Number of Slices containing unrelated logic:          0 out of     867   0%
+  Number of occupied Slices:            887 out of   1,792   49%
+    Number of Slices containing only related logic:     887 out of     887 100%
+    Number of Slices containing unrelated logic:          0 out of     887   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:       1,530 out of   3,584   42%
-    Number used as logic:             1,306
-    Number used as a route-thru:        143
+  Total Number of 4 input LUTs:       1,543 out of   3,584   43%
+    Number used as logic:             1,308
+    Number used as a route-thru:        154
     Number used for Dual Port RAMs:      80
       (Two LUTs used per Dual Port RAM)
     Number used as Shift registers:       1
@@ -568,16 +597,16 @@ Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
   Number of bonded IOBs:                 36 out of      68   52%
-    IOB Flip Flops:                       2
+    IOB Flip Flops:                       1
   Number of BUFGMUXs:                     4 out of      24   16%
   Number of DCMs:                         2 out of       4   50%
   Number of RAMB16BWEs:                   1 out of      16    6%
 
-Average Fanout of Non-Clock Nets:                3.53
+Average Fanout of Non-Clock Nets:                3.52
 
-Peak Memory Usage:  445 MB
-Total REAL time to MAP completion:  2 mins 2 secs 
-Total CPU time to MAP completion:   1 mins 49 secs 
+Peak Memory Usage:  346 MB
+Total REAL time to MAP completion:  24 secs 
+Total CPU time to MAP completion:   17 secs 
 
 Mapping completed.
 See MAP report file "TOP_DAWG_map.mrp" for details.

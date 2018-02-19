@@ -44,7 +44,9 @@ ARCHITECTURE behavior OF sim1 IS
          SW : IN  std_logic_vector(15 downto 0);
          BUT : IN  std_logic;
          CLK_IN : IN  std_logic;
-         DAC_CLK : OUT  std_logic;
+         LED    : out std_logic;
+			DAC_CLK : OUT  std_logic;
+			TP      : out STD_LOGIC_VECTOR (5 downto 0);
 			DATA_OUT : out STD_LOGIC_VECTOR (9 downto 0));
     END COMPONENT;
     
@@ -53,11 +55,11 @@ ARCHITECTURE behavior OF sim1 IS
    signal SW : std_logic_vector(15 downto 0) := (others => '0');
    signal BUT : std_logic := '0';
    signal CLK_IN : std_logic := '0';
-
  	--Outputs
    signal DAC_CLK  : std_logic;
+   signal LED : std_logic;
    signal DATA_OUT : STD_LOGIC_VECTOR (9 downto 0);
-
+   signal TP       : STD_LOGIC_VECTOR (5 downto 0);
    -- Clock period definitions
    constant CLK_IN_period : time := 25 ns;
  
@@ -67,8 +69,10 @@ BEGIN
    uut: TOP_DAWG PORT MAP (
           SW => SW,
           BUT => BUT,
+			 LED=>LED,
           CLK_IN => CLK_IN,
           DAC_CLK => DAC_CLK,
+			 TP=>TP,
           DATA_OUT => DATA_OUT
         );
 
@@ -93,7 +97,7 @@ BEGIN
 		SW<="1111111111111111";
 		wait for 100 ns;
 		BUT<='1';
-		wait for 400 ns;
+		wait for 2 us;
 		BUT<='0';
       wait;
    end process;
