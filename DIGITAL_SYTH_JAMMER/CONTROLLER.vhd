@@ -40,6 +40,8 @@ entity CONTROLLER_SLOW is
            ADDR      : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
            PRE_WE    : out STD_LOGIC:='0';
 			  PRE_RE    : out STD_LOGIC:='0';
+			  LED			: out STD_LOGIC:='0';
+			  STATE     : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
 			  FIFO_RST  : out STD_LOGIC:='1');
 end CONTROLLER_SLOW;
 
@@ -87,6 +89,8 @@ begin
 				count_on<='0';
 				count_rst<='1';
 				FIFO_RST<='0';
+				STATE<="000000";
+				LED<='0';
 				if (RST = '1') then 
 				NS <= LOADSTATE_1;
 				count_rst<='0';
@@ -99,6 +103,8 @@ begin
             d_PRE_WE<='1';
 				d_2_PRE_RE<='0';
 				FIFO_RST<='0';
+				STATE<="000001";
+				LED<='0';
 				if (PRE_FULL = '1') then 
 					NS <= LOADSTATE_2;
 					count_on<='0';
@@ -111,6 +117,8 @@ begin
             d_PRE_WE<='0';
 				d_2_PRE_RE<='1';
 				FIFO_RST<='0';
+				STATE<="000010";
+				LED<='0';
 				if (FIFO_FULL = '1') then
 				NS <= LOOPSTATE;
 				else NS <= LOADSTATE_2;
@@ -122,6 +130,8 @@ begin
             d_PRE_WE<='0';
 				d_2_PRE_RE<='1';
 				FIFO_RST<='0';
+				STATE<="000011";
+				LED<='1';
 				if (RST = '1') then
 				NS <= IDLESTATE;
 				FIFO_RST<='1';

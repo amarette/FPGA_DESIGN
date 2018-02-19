@@ -1,0 +1,155 @@
+iMPACT Version: 14.7
+
+iMPACT log file Started on Mon Feb 19 12:39:10 2018
+
+Welcome to iMPACT
+iMPACT Version: 14.7
+Project: C:\Xilinx\14.7\ISE_DS\\auto_project.ipf created.
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
+INFO:iMPACT - Digilent Plugin: found 1 device(s).
+INFO:iMPACT - Digilent Plugin: opening device: "JtagSmt2", SN:210251A1B103
+INFO:iMPACT - Digilent Plugin: User Name: JtagSmt2
+INFO:iMPACT - Digilent Plugin: Product Name: Digilent JTAG-SMT2
+INFO:iMPACT - Digilent Plugin: Serial Number: 210251A1B103
+INFO:iMPACT - Digilent Plugin: Product ID: 31000154
+INFO:iMPACT - Digilent Plugin: Firmware Version: 010B
+INFO:iMPACT - Digilent Plugin: JTAG Port Number: 0
+INFO:iMPACT - Digilent Plugin: JTAG Clock Frequency: 10000000 Hz
+Attempting to identify devices in the boundary-scan chain configuration...
+INFO:iMPACT - Current time: 2/19/2018 12:39:26 PM
+// *** BATCH CMD : Identify -inferir 
+PROGRESS_START - Starting Operation.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc3s200a, Version : 0
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.7/ISE_DS/ISE/spartan3a/data/xc3s200a.bsd...
+INFO:iMPACT:501 - '1': Added Device xc3s200a successfully.
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 1 -file "C:/Users/AlexMaretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/top_dawg.bit"
+'1': Loading file 'C:/Users/AlexMaretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/top_dawg.bit' ...
+done.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+INFO:iMPACT:501 - '1': Added Device xc3s200a successfully.
+----------------------------------------------------------------------
+INFO:iMPACT - Current time: 2/19/2018 12:41:07 PM
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+'1': Reading status register contents...
+CRC error                                                                  :        0
+IDCODE not validated while writing FDRI                                    :        0
+DCM Locked                                                                 :        1
+status of GTS_CFG_B                                                        :        1
+status of GWE                                                              :        1
+status of GHIGH                                                            :        1
+value of VSEL pin 0                                                        :        1
+value of VSEL pin 1                                                        :        1
+value of VSEL pin 2                                                        :        1
+value of MODE pin M0                                                       :        1
+value of MODE pin M1                                                       :        0
+value of MODE pin M2                                                       :        1
+value of CFG_RDY (INIT_B)                                                  :        0
+DONEIN input from Done Pin                                                 :        1
+SYNC word not found                                                        :        0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1101 0100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:188 - '1': Programming completed successfully.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+INFO:iMPACT - Current time: 2/19/2018 12:41:15 PM
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+'1': Reading status register contents...
+CRC error                                                                  :        0
+IDCODE not validated while writing FDRI                                    :        0
+DCM Locked                                                                 :        1
+status of GTS_CFG_B                                                        :        1
+status of GWE                                                              :        1
+status of GHIGH                                                            :        1
+value of VSEL pin 0                                                        :        1
+value of VSEL pin 1                                                        :        1
+value of VSEL pin 2                                                        :        1
+value of MODE pin M0                                                       :        1
+value of MODE pin M1                                                       :        0
+value of MODE pin M2                                                       :        1
+value of CFG_RDY (INIT_B)                                                  :        0
+DONEIN input from Done Pin                                                 :        1
+SYNC word not found                                                        :        0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1101 0100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:188 - '1': Programming completed successfully.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+INFO:iMPACT - Current time: 2/19/2018 12:43:29 PM
+// *** BATCH CMD : CheckIntegrity 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+Attempting to identify devices in the boundary-scan chain configuration...
+INFO:iMPACT - Current time: 2/19/2018 12:43:51 PM
+// *** BATCH CMD : Identify -inferir 
+PROGRESS_START - Starting Operation.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc3s200a, Version : 0
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.7/ISE_DS/ISE/spartan3a/data/xc3s200a.bsd...
+INFO:iMPACT:501 - '1': Added Device xc3s200a successfully.
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM 
+Project: 'C:\Xilinx\14.7\ISE_DS\\auto_project.ipf' created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : saveProjectFile -file"C:\Xilinx\14.7\ISE_DS\\auto_project.ipf"
+// *** BATCH CMD : setMode -bs
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   C:\Xilinx\14.7\ISE_DS\webtalk.log for details.
+INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff

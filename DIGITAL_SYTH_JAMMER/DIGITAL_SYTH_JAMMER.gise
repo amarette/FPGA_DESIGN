@@ -15,7 +15,7 @@
 
   <!--                                                          -->
 
-  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
 
   <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
 
@@ -39,6 +39,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="TOP_DAWG.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="TOP_DAWG.twx" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="TOP_DAWG.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="TOP_DAWG.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="TOP_DAWG.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TOP_DAWG.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="TOP_DAWG_envsettings.html"/>
@@ -59,6 +60,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TOP_DAWG_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TOP_DAWG_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
@@ -70,6 +72,11 @@
     <file xil_pn:fileType="FILE_UCF" xil_pn:name="clk2_arwz.ucf" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir/clk1.vhd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir/clk2.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="top_dawg.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="top_dawg.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="top_dawg.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="xaw2vhdl.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -107,7 +114,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1516039689" xil_pn:in_ck="-5768117529781837786" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8587675315678332009" xil_pn:start_ts="1516039637">
+    <transform xil_pn:end_ts="1519069422" xil_pn:in_ck="-3588626212127689240" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8587675315678332009" xil_pn:start_ts="1519069278">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -126,11 +133,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1516038542" xil_pn:in_ck="4370381200050137121" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3112583878137737805" xil_pn:start_ts="1516038542">
+    <transform xil_pn:end_ts="1519071850" xil_pn:in_ck="4370381200050137121" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3112583878137737805" xil_pn:start_ts="1519071850">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1516643371" xil_pn:in_ck="-2582728149943825228" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8922972088679831390" xil_pn:start_ts="1516643344">
+    <transform xil_pn:end_ts="1519071885" xil_pn:in_ck="-2582728149943825228" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8922972088679831390" xil_pn:start_ts="1519071850">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="TOP_DAWG.bld"/>
@@ -139,10 +146,12 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1516643417" xil_pn:in_ck="-2585655436818752259" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="1194079905181082118" xil_pn:start_ts="1516643371">
+    <transform xil_pn:end_ts="1519072024" xil_pn:in_ck="-2585655436818752259" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="1194079905181082118" xil_pn:start_ts="1519071885">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TOP_DAWG.pcf"/>
       <outfile xil_pn:name="TOP_DAWG_map.map"/>
       <outfile xil_pn:name="TOP_DAWG_map.mrp"/>
@@ -154,7 +163,7 @@
       <outfile xil_pn:name="TOP_DAWG_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1516643474" xil_pn:in_ck="3788723323640099350" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1273851214515203448" xil_pn:start_ts="1516643417">
+    <transform xil_pn:end_ts="1519072378" xil_pn:in_ck="3788723323640099350" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1273851214515203448" xil_pn:start_ts="1519072024">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -169,11 +178,31 @@
       <outfile xil_pn:name="TOP_DAWG_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1516643475" xil_pn:in_ck="4370381200050129496" xil_pn:name="TRAN_XPower" xil_pn:prop_ck="-5727871551030652425" xil_pn:start_ts="1516643474">
+    <transform xil_pn:end_ts="1519072446" xil_pn:in_ck="4370381200050129496" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="-426368325978129584" xil_pn:start_ts="1519072378">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TOP_DAWG.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="top_dawg.bgn"/>
+      <outfile xil_pn:name="top_dawg.bit"/>
+      <outfile xil_pn:name="top_dawg.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1519072681" xil_pn:in_ck="6038225709926131970" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="931393531105821285" xil_pn:start_ts="1519072680">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1516643474" xil_pn:in_ck="-1386142526098147719" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1516643466">
+    <transform xil_pn:end_ts="1516643475" xil_pn:in_ck="4370381200050129496" xil_pn:name="TRAN_XPower" xil_pn:prop_ck="-5727871551030652425" xil_pn:start_ts="1516643474">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1519072378" xil_pn:in_ck="-1386142526098147719" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1519072354">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="TOP_DAWG.twr"/>

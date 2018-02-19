@@ -1,13 +1,12 @@
-Release 14.5 ngdbuild P.58f (nt64)
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
--intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TOP_DAWG.ucf -p
-xc3s200a-vq100-4 TOP_DAWG.ngc TOP_DAWG.ngd
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TOP_DAWG.ucf -p xc3s200a-vq100-4
+TOP_DAWG.ngc TOP_DAWG.ngd
 
-Reading NGO file
-"C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.ng
-c" ...
+Reading NGO file "C:/Users/Alex
+Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.ngc" ...
 Loading design module "ipcore_dir/FIFO.ngc"...
 Loading design module "ipcore_dir/PRE_FIFO.ngc"...
 Gathering constraint information from source properties...
@@ -61,10 +60,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 176068 kilobytes
+Total memory usage is 246100 kilobytes
 
 Writing NGD file "TOP_DAWG.ngd" ...
-Total REAL time to NGDBUILD completion:  11 sec
-Total CPU time to NGDBUILD completion:   4 sec
+Total REAL time to NGDBUILD completion:  28 sec
+Total CPU time to NGDBUILD completion:   26 sec
 
 Writing NGDBUILD log file "TOP_DAWG.bld"...

@@ -1,16 +1,16 @@
-Release 14.5 - xst P.58f (nt64)
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.83 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.84 secs
  
 --> Reading design: TOP_DAWG.prj
 
@@ -109,55 +109,57 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd" in Library work.
 Architecture behavioral of Entity clk1 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" in Library work.
 Architecture behavioral of Entity clk2 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" in Library work.
 Architecture syn of Entity rom_1 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd" in Library work.
 Architecture syn of Entity rom_2 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd" in Library work.
 Architecture syn of Entity rom_3 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd" in Library work.
 Architecture syn of Entity rom_4 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd" in Library work.
 Architecture syn of Entity rom_5 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd" in Library work.
 Architecture syn of Entity rom_6 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd" in Library work.
 Architecture syn of Entity rom_7 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd" in Library work.
 Architecture syn of Entity rom_8 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd" in Library work.
 Architecture syn of Entity rom_9 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd" in Library work.
 Architecture syn of Entity rom_10 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd" in Library work.
 Architecture syn of Entity rom_11 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd" in Library work.
 Architecture syn of Entity rom_12 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd" in Library work.
 Architecture syn of Entity rom_13 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd" in Library work.
 Architecture syn of Entity rom_14 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd" in Library work.
 Architecture syn of Entity rom_15 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" in Library work.
 Architecture syn of Entity rom_16 is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" in Library work.
 Architecture behavioral of Entity controller_slow is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd" in Library work.
 Architecture behavioral of Entity controller_fast is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd" in Library work.
-Entity <sum_norm> compiled.
-Entity <sum_norm> (Architecture <behavioral>) compiled.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd" in Library work.
+Architecture behavioral of Entity sum_norm is up to date.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd" in Library work.
 Architecture fifo_a of Entity fifo is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd" in Library work.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd" in Library work.
 Architecture pre_fifo_a of Entity pre_fifo is up to date.
-Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" in Library work.
-Architecture behavioral of Entity top_dawg is up to date.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd" in Library work.
+Architecture logic of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" in Library work.
+Entity <top_dawg> compiled.
+Entity <top_dawg> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -206,6 +208,9 @@ Analyzing hierarchy for entity <CONTROLLER_FAST> in library <work> (architecture
 
 Analyzing hierarchy for entity <SUM_NORM> in library <work> (architecture <behavioral>).
 
+Analyzing hierarchy for entity <DEBOUNCE> in library <work> (architecture <logic>) with generics.
+	counter_size = 19
+
 
 =========================================================================
 *                            HDL Analysis                               *
@@ -215,14 +220,14 @@ Analyzing Entity <TOP_DAWG> in library <work> (Architecture <behavioral>).
     Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFG_inst> in unit <TOP_DAWG>.
     Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFG_inst> in unit <TOP_DAWG>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUFG_inst> in unit <TOP_DAWG>.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 321: Unconnected output port 'LOCKED_OUT' of component 'clk2'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 437: Unconnected output port 'FIFO_WE' of component 'CONTROLLER_FAST'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 469: Unconnected output port 'full' of component 'FIFO'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 469: Unconnected output port 'empty' of component 'FIFO'.
-WARNING:Xst:2211 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 469: Instantiating black box module <FIFO>.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 481: Unconnected output port 'full' of component 'PRE_FIFO'.
-WARNING:Xst:753 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 481: Unconnected output port 'empty' of component 'PRE_FIFO'.
-WARNING:Xst:2211 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 481: Instantiating black box module <PRE_FIFO>.
+WARNING:Xst:753 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 333: Unconnected output port 'LOCKED_OUT' of component 'clk2'.
+WARNING:Xst:753 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 451: Unconnected output port 'FIFO_WE' of component 'CONTROLLER_FAST'.
+WARNING:Xst:753 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 483: Unconnected output port 'full' of component 'FIFO'.
+WARNING:Xst:753 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 483: Unconnected output port 'empty' of component 'FIFO'.
+WARNING:Xst:2211 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 483: Instantiating black box module <FIFO>.
+WARNING:Xst:753 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 495: Unconnected output port 'full' of component 'PRE_FIFO'.
+WARNING:Xst:753 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 495: Unconnected output port 'empty' of component 'PRE_FIFO'.
+WARNING:Xst:2211 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" line 495: Instantiating black box module <PRE_FIFO>.
 Entity <TOP_DAWG> analyzed. Unit <TOP_DAWG> generated.
 
 Analyzing Entity <clk1> in library <work> (Architecture <behavioral>).
@@ -262,71 +267,71 @@ Analyzing Entity <clk2> in library <work> (Architecture <behavioral>).
 Entity <clk2> analyzed. Unit <clk2> generated.
 
 Analyzing Entity <ROM_1> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_1> analyzed. Unit <ROM_1> generated.
 
 Analyzing Entity <ROM_2> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd" line 29: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd" line 29: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_2> analyzed. Unit <ROM_2> generated.
 
 Analyzing Entity <ROM_3> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_3> analyzed. Unit <ROM_3> generated.
 
 Analyzing Entity <ROM_4> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_4> analyzed. Unit <ROM_4> generated.
 
 Analyzing Entity <ROM_5> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_5> analyzed. Unit <ROM_5> generated.
 
 Analyzing Entity <ROM_6> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_6> analyzed. Unit <ROM_6> generated.
 
 Analyzing Entity <ROM_7> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_7> analyzed. Unit <ROM_7> generated.
 
 Analyzing Entity <ROM_8> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_8> analyzed. Unit <ROM_8> generated.
 
 Analyzing Entity <ROM_9> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_9> analyzed. Unit <ROM_9> generated.
 
 Analyzing Entity <ROM_10> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_10> analyzed. Unit <ROM_10> generated.
 
 Analyzing Entity <ROM_11> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_11> analyzed. Unit <ROM_11> generated.
 
 Analyzing Entity <ROM_12> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_12> analyzed. Unit <ROM_12> generated.
 
 Analyzing Entity <ROM_13> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_13> analyzed. Unit <ROM_13> generated.
 
 Analyzing Entity <ROM_14> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_14> analyzed. Unit <ROM_14> generated.
 
 Analyzing Entity <ROM_15> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_15> analyzed. Unit <ROM_15> generated.
 
 Analyzing Entity <ROM_16> in library <work> (Architecture <syn>).
-WARNING:Xst:790 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" line 28: Index value(s) does not match array range, simulation mismatch.
 Entity <ROM_16> analyzed. Unit <ROM_16> generated.
 
 Analyzing Entity <CONTROLLER_SLOW> in library <work> (Architecture <behavioral>).
-WARNING:Xst:819 - "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" line 61: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" line 63: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <count_on>, <count_rst>
 Entity <CONTROLLER_SLOW> analyzed. Unit <CONTROLLER_SLOW> generated.
 
@@ -336,6 +341,10 @@ Entity <CONTROLLER_FAST> analyzed. Unit <CONTROLLER_FAST> generated.
 Analyzing Entity <SUM_NORM> in library <work> (Architecture <behavioral>).
 Entity <SUM_NORM> analyzed. Unit <SUM_NORM> generated.
 
+Analyzing generic Entity <DEBOUNCE> in library <work> (Architecture <logic>).
+	counter_size = 19
+Entity <DEBOUNCE> analyzed. Unit <DEBOUNCE> generated.
+
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -344,7 +353,7 @@ Entity <SUM_NORM> analyzed. Unit <SUM_NORM> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <ROM_1>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -355,7 +364,7 @@ Unit <ROM_1> synthesized.
 
 
 Synthesizing Unit <ROM_2>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -366,7 +375,7 @@ Unit <ROM_2> synthesized.
 
 
 Synthesizing Unit <ROM_3>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -377,7 +386,7 @@ Unit <ROM_3> synthesized.
 
 
 Synthesizing Unit <ROM_4>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -388,7 +397,7 @@ Unit <ROM_4> synthesized.
 
 
 Synthesizing Unit <ROM_5>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -399,7 +408,7 @@ Unit <ROM_5> synthesized.
 
 
 Synthesizing Unit <ROM_6>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -410,7 +419,7 @@ Unit <ROM_6> synthesized.
 
 
 Synthesizing Unit <ROM_7>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -421,7 +430,7 @@ Unit <ROM_7> synthesized.
 
 
 Synthesizing Unit <ROM_8>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -432,7 +441,7 @@ Unit <ROM_8> synthesized.
 
 
 Synthesizing Unit <ROM_9>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -443,7 +452,7 @@ Unit <ROM_9> synthesized.
 
 
 Synthesizing Unit <ROM_10>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -454,7 +463,7 @@ Unit <ROM_10> synthesized.
 
 
 Synthesizing Unit <ROM_11>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -465,7 +474,7 @@ Unit <ROM_11> synthesized.
 
 
 Synthesizing Unit <ROM_12>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -476,7 +485,7 @@ Unit <ROM_12> synthesized.
 
 
 Synthesizing Unit <ROM_13>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -487,7 +496,7 @@ Unit <ROM_13> synthesized.
 
 
 Synthesizing Unit <ROM_14>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -498,7 +507,7 @@ Unit <ROM_14> synthesized.
 
 
 Synthesizing Unit <ROM_15>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -509,7 +518,7 @@ Unit <ROM_15> synthesized.
 
 
 Synthesizing Unit <ROM_16>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd".
 WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
     Found 42x10-bit ROM for signal <rdata>.
     Found 10-bit register for signal <DATA>.
@@ -520,13 +529,13 @@ Unit <ROM_16> synthesized.
 
 
 Synthesizing Unit <CONTROLLER_SLOW>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd".
     Found finite state machine <FSM_0> for signal <PS>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
     | Transitions        | 8                                              |
     | Inputs             | 3                                              |
-    | Outputs            | 4                                              |
+    | Outputs            | 10                                             |
     | Clock              | CLK                       (rising_edge)        |
     | Power Up State     | idlestate                                      |
     | Encoding           | automatic                                      |
@@ -544,7 +553,7 @@ Unit <CONTROLLER_SLOW> synthesized.
 
 
 Synthesizing Unit <CONTROLLER_FAST>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd".
     Found finite state machine <FSM_1> for signal <PS>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
@@ -565,7 +574,7 @@ Unit <CONTROLLER_FAST> synthesized.
 
 
 Synthesizing Unit <SUM_NORM>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd".
 WARNING:Xst:646 - Signal <NORM<13:10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 15-bit adder for signal <p1$addsub0000> created at line 74.
     Found 15-bit adder for signal <p1$addsub0001> created at line 74.
@@ -614,33 +623,45 @@ WARNING:Xst:646 - Signal <NORM<13:10>> is assigned but never used. This unconnec
 Unit <SUM_NORM> synthesized.
 
 
+Synthesizing Unit <DEBOUNCE>.
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd".
+    Found 1-bit register for signal <result>.
+    Found 20-bit up counter for signal <counter_out>.
+    Found 1-bit xor2 for signal <counter_set>.
+    Found 2-bit register for signal <flipflops>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   3 D-type flip-flop(s).
+Unit <DEBOUNCE> synthesized.
+
+
 Synthesizing Unit <clk1>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd".
 Unit <clk1> synthesized.
 
 
 Synthesizing Unit <clk2>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd".
 Unit <clk2> synthesized.
 
 
 Synthesizing Unit <TOP_DAWG>.
-    Related source file is "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd".
+    Related source file is "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd".
     Found 5-bit adder for signal <s_sw_tot>.
-    Found 5-bit adder for signal <s_sw_tot$addsub0000> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0001> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0002> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0003> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0004> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0005> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0006> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0007> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0008> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0009> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0010> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0011> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0012> created at line 543.
-    Found 5-bit adder for signal <s_sw_tot$addsub0013> created at line 543.
+    Found 5-bit adder for signal <s_sw_tot$addsub0000> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0001> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0002> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0003> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0004> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0005> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0006> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0007> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0008> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0009> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0010> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0011> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0012> created at line 563.
+    Found 5-bit adder for signal <s_sw_tot$addsub0013> created at line 563.
     Summary:
 	inferred  15 Adder/Subtractor(s).
 Unit <TOP_DAWG> synthesized.
@@ -657,11 +678,14 @@ Macro Statistics
  15-bit adder                                          : 13
  15-bit subtractor                                     : 14
  5-bit adder                                           : 15
-# Counters                                             : 1
+# Counters                                             : 2
+ 20-bit up counter                                     : 1
  6-bit up counter                                      : 1
-# Registers                                            : 21
- 1-bit register                                        : 5
+# Registers                                            : 24
+ 1-bit register                                        : 8
  10-bit register                                       : 16
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
 
 =========================================================================
 
@@ -773,10 +797,13 @@ Macro Statistics
  15-bit subtractor                                     : 12
  5-bit adder                                           : 1
  5-bit adder carry in                                  : 7
-# Counters                                             : 1
+# Counters                                             : 2
+ 20-bit up counter                                     : 1
  6-bit up counter                                      : 1
-# Registers                                            : 165
- Flip-Flops                                            : 165
+# Registers                                            : 168
+ Flip-Flops                                            : 168
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
 
 =========================================================================
 
@@ -824,22 +851,21 @@ Optimizing unit <SUM_NORM> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block TOP_DAWG, actual ratio is 51.
+Found area constraint ratio of 100 (+ 5) on block TOP_DAWG, actual ratio is 52.
 INFO:Xst:2261 - The FF/Latch <rom14/DATA_8> in Unit <TOP_DAWG> is equivalent to the following 5 FFs/Latches, which will be removed : <rom14/DATA_7> <rom14/DATA_5> <rom14/DATA_4> <rom14/DATA_3> <rom14/DATA_1> 
-INFO:Xst:2261 - The FF/Latch <rom7/DATA_8> in Unit <TOP_DAWG> is equivalent to the following 4 FFs/Latches, which will be removed : <rom7/DATA_7> <rom7/DATA_5> <rom7/DATA_4> <rom7/DATA_3> 
+INFO:Xst:2261 - The FF/Latch <rom7/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom7/DATA_7> 
 INFO:Xst:2261 - The FF/Latch <rom15/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom15/DATA_4> 
+INFO:Xst:2261 - The FF/Latch <rom7/DATA_5> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom7/DATA_4> <rom7/DATA_3> 
+INFO:Xst:2261 - The FF/Latch <rom15/DATA_3> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom15/DATA_2> 
 INFO:Xst:2261 - The FF/Latch <rom6/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom6/DATA_4> 
 INFO:Xst:2261 - The FF/Latch <rom6/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom6/DATA_2> <rom6/DATA_0> 
 INFO:Xst:2261 - The FF/Latch <rom9/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom9/DATA_2> <rom9/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom15/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom15/DATA_1> 
 INFO:Xst:2261 - The FF/Latch <rom12/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom12/DATA_4> 
-INFO:Xst:2261 - The FF/Latch <rom15/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom15/DATA_2> <rom15/DATA_0> 
 INFO:Xst:2261 - The FF/Latch <rom6/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom6/DATA_1> 
 INFO:Xst:2261 - The FF/Latch <rom12/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom12/DATA_2> <rom12/DATA_0> 
 INFO:Xst:2261 - The FF/Latch <rom14/DATA_6> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom14/DATA_2> <rom14/DATA_0> 
 INFO:Xst:2261 - The FF/Latch <rom3/DATA_6> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom3/DATA_4> 
 INFO:Xst:2261 - The FF/Latch <rom3/DATA_3> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom3/DATA_2> <rom3/DATA_0> 
-INFO:Xst:2261 - The FF/Latch <rom7/DATA_6> in Unit <TOP_DAWG> is equivalent to the following 2 FFs/Latches, which will be removed : <rom7/DATA_2> <rom7/DATA_0> 
 INFO:Xst:2261 - The FF/Latch <rom12/DATA_8> in Unit <TOP_DAWG> is equivalent to the following FF/Latch, which will be removed : <rom12/DATA_1> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> in Unit <fifo1> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i> in Unit <fifo1> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i> 
@@ -860,6 +886,8 @@ Processing Unit <TOP_DAWG> :
 	Register(s) cont2/PS_FSM_FFd2 cont2/PS_FSM_FFd1 has(ve) been forward balanced into : cont2/PS_FSM_Out31_FRB.
 	Register(s) cont1/d_pre_re has(ve) been backward balanced into : cont1/d_pre_re_BRB0 cont1/d_pre_re_BRB1 cont1/d_pre_re_BRB2.
 Unit <TOP_DAWG> processed.
+Replicating register cont1/PS_FSM_FFd1 to handle IOB=TRUE attribute
+
 
 Final Macro Processing ...
 
@@ -871,8 +899,8 @@ Unit <TOP_DAWG> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 146
- Flip-Flops                                            : 146
+# Registers                                            : 175
+ Flip-Flops                                            : 175
 # Shift Registers                                      : 1
  2-bit shift register                                  : 1
 
@@ -900,33 +928,34 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 29
+# IOs                              : 36
 
 Cell Usage :
-# BELS                             : 2579
+# BELS                             : 2674
 #      GND                         : 3
-#      INV                         : 16
-#      LUT1                        : 111
-#      LUT2                        : 180
-#      LUT3                        : 311
+#      INV                         : 18
+#      LUT1                        : 130
+#      LUT2                        : 186
+#      LUT3                        : 313
 #      LUT3_D                      : 1
-#      LUT4                        : 650
+#      LUT4                        : 663
 #      LUT4_D                      : 4
 #      LUT4_L                      : 6
 #      MULT_AND                    : 1
-#      MUXCY                       : 433
-#      MUXF5                       : 281
-#      MUXF6                       : 128
+#      MUXCY                       : 452
+#      MUXF5                       : 290
+#      MUXF6                       : 133
 #      VCC                         : 3
-#      XORCY                       : 451
-# FlipFlops/Latches                : 309
-#      FD                          : 146
+#      XORCY                       : 471
+# FlipFlops/Latches                : 338
+#      FD                          : 155
 #      FDC                         : 64
 #      FDCE                        : 55
-#      FDE                         : 10
+#      FDE                         : 11
 #      FDP                         : 20
 #      FDPE                        : 11
-#      FDR                         : 3
+#      FDR                         : 2
+#      FDRE                        : 20
 # RAMS                             : 41
 #      RAM16X1D                    : 40
 #      RAMB16BWE                   : 1
@@ -934,10 +963,10 @@ Cell Usage :
 #      SRL16                       : 1
 # Clock Buffers                    : 4
 #      BUFG                        : 4
-# IO Buffers                       : 29
+# IO Buffers                       : 36
 #      IBUF                        : 17
 #      IBUFG                       : 1
-#      OBUF                        : 11
+#      OBUF                        : 18
 # DCMs                             : 2
 #      DCM_SP                      : 2
 =========================================================================
@@ -947,14 +976,15 @@ Device utilization summary:
 
 Selected Device : 3s200avq100-4 
 
- Number of Slices:                      797  out of   1792    44%  
- Number of Slice Flip Flops:            309  out of   3584     8%  
- Number of 4 input LUTs:               1360  out of   3584    37%  
-    Number used as logic:              1279
+ Number of Slices:                      820  out of   1792    45%  
+ Number of Slice Flip Flops:            336  out of   3584     9%  
+ Number of 4 input LUTs:               1402  out of   3584    39%  
+    Number used as logic:              1321
     Number used as Shift registers:       1
     Number used as RAMs:                 80
- Number of IOs:                          29
- Number of bonded IOBs:                  29  out of     68    42%  
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of     68    52%  
+    IOB Flip Flops:                       2
  Number of BRAMs:                         1  out of     16     6%  
  Number of GCLKs:                         4  out of     24    16%  
  Number of DCMs:                          2  out of      4    50%  
@@ -981,7 +1011,8 @@ Clock Information:
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
 CLK_IN                             | clk_1/DCM_SP_INST:CLKFX| 148   |
-CLK_IN                             | clk_2/DCM_SP_INST:CLKFX| 204   |
+CLK_IN                             | clk_2/DCM_SP_INST:CLKFX| 210   |
+CLK_IN                             | IBUFG+BUFG             | 23    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -1011,8 +1042,8 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 31.563ns (Maximum Frequency: 31.683MHz)
-   Minimum input arrival time before clock: 101.935ns
-   Maximum output required time after clock: 5.558ns
+   Minimum input arrival time before clock: 102.298ns
+   Maximum output required time after clock: 7.142ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -1022,7 +1053,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK_IN'
   Clock period: 31.563ns (frequency: 31.683MHz)
-  Total number of paths / destination ports: 496462203277520370000000000000 / 804
+  Total number of paths / destination ports: 540183886740192660000000000000 / 873
 -------------------------------------------------------------------------
 Delay:               6.012ns (Levels of Logic = 10)
   Source:            cont1/PRE_RE (FF)
@@ -1052,9 +1083,9 @@ Delay:               6.012ns (Levels of Logic = 10)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_IN'
-  Total number of paths / destination ports: 496469466998243130000000000000 / 16
+  Total number of paths / destination ports: 540191150460915710000000000000 / 11
 -------------------------------------------------------------------------
-Offset:              101.935ns (Levels of Logic = 120)
+Offset:              102.298ns (Levels of Logic = 120)
   Source:            SW<15> (PAD)
   Destination:       fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram (RAM)
   Destination Clock: CLK_IN rising 0.1X
@@ -1088,11 +1119,11 @@ Offset:              101.935ns (Levels of Logic = 120)
      LUT3:I1->O            1   0.643   0.563  sum_norm1/Madd_sum_addsub0011_Madd_lut<7>_SW0 (N55)
      LUT4:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0011_Madd_lut<7> (sum_norm1/Madd_sum_addsub0011_Madd_lut<7>)
      MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0011_Madd_cy<7> (sum_norm1/Madd_sum_addsub0011_Madd_cy<7>)
-     XORCY:CI->O           2   0.844   0.527  sum_norm1/Madd_sum_addsub0011_Madd_xor<8> (sum_norm1/sum_addsub0011<8>)
-     LUT3:I1->O            1   0.643   0.563  sum_norm1/Madd_sum_addsub0013_Madd_lut<8>_SW0 (N59)
-     LUT4:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0013_Madd_lut<8> (sum_norm1/Madd_sum_addsub0013_Madd_lut<8>)
-     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<8> (sum_norm1/Madd_sum_addsub0013_Madd_cy<8>)
-     MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<9> (sum_norm1/Madd_sum_addsub0013_Madd_cy<9>)
+     XORCY:CI->O           3   0.844   0.674  sum_norm1/Madd_sum_addsub0011_Madd_xor<8> (sum_norm1/sum_addsub0011<8>)
+     LUT4:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0013C711 (sum_norm1/Madd_sum_addsub0013C71)
+     MUXF5:I1->O           1   0.276   0.563  sum_norm1/Madd_sum_addsub0013C71_f5 (sum_norm1/Madd_sum_addsub0013C7)
+     LUT4:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0013_Madd_lut<9> (sum_norm1/Madd_sum_addsub0013_Madd_lut<9>)
+     MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<9> (sum_norm1/Madd_sum_addsub0013_Madd_cy<9>)
      MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<10> (sum_norm1/Madd_sum_addsub0013_Madd_cy<10>)
      MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<11> (sum_norm1/Madd_sum_addsub0013_Madd_cy<11>)
      XORCY:CI->O           1   0.844   0.563  sum_norm1/Madd_sum_addsub0013_Madd_xor<12> (sum_norm1/sum_addsub0013<12>)
@@ -1185,40 +1216,40 @@ Offset:              101.935ns (Levels of Logic = 120)
      begin scope: 'fifo2'
      RAMB16BWE:DIA0            0.222          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram
     ----------------------------------------
-    Total                    101.935ns (75.230ns logic, 26.705ns route)
+    Total                    102.298ns (75.446ns logic, 26.852ns route)
                                        (73.8% logic, 26.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_IN'
-  Total number of paths / destination ports: 10 / 10
+  Total number of paths / destination ports: 15 / 13
 -------------------------------------------------------------------------
-Offset:              5.558ns (Levels of Logic = 2)
-  Source:            fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_9 (FF)
-  Destination:       DATA_OUT<9> (PAD)
-  Source Clock:      CLK_IN rising 5.3X
+Offset:              7.142ns (Levels of Logic = 2)
+  Source:            cont1/PS_FSM_FFd2 (FF)
+  Destination:       LED (PAD)
+  Source Clock:      CLK_IN rising 0.1X
 
-  Data Path: fifo1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_9 to DATA_OUT<9>
+  Data Path: cont1/PS_FSM_FFd2 to LED
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              2   0.591   0.447  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_9 (dout<9>)
-     end scope: 'fifo1'
-     OBUF:I->O                 4.520          DATA_OUT_9_OBUF (DATA_OUT<9>)
+     FD:C->Q               9   0.591   0.963  cont1/PS_FSM_FFd2 (cont1/PS_FSM_FFd2)
+     LUT2:I0->O            1   0.648   0.420  cont1/PS_FSM_Out911 (LED_OBUF)
+     OBUF:I->O                 4.520          LED_OBUF (LED)
     ----------------------------------------
-    Total                      5.558ns (5.111ns logic, 0.447ns route)
-                                       (92.0% logic, 8.0% route)
+    Total                      7.142ns (5.759ns logic, 1.383ns route)
+                                       (80.6% logic, 19.4% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 46.00 secs
-Total CPU time to Xst completion: 45.65 secs
+Total REAL time to Xst completion: 130.00 secs
+Total CPU time to Xst completion: 130.62 secs
  
 --> 
 
-Total memory usage is 329400 kilobytes
+Total memory usage is 385220 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   42 (   0 filtered)
-Number of infos    :   44 (   0 filtered)
+Number of infos    :   43 (   0 filtered)
 

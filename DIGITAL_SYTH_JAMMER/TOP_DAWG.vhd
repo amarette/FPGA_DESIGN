@@ -37,12 +37,20 @@ use IEEE.NUMERIC_STD.ALL;
 entity TOP_DAWG is
     Port ( SW      : in STD_LOGIC_VECTOR (15 downto 0);
            BUT     : in STD_LOGIC;
+			  LED     : out STD_LOGIC;
            CLK_IN  : in STD_LOGIC;
            DAC_CLK : out STD_LOGIC;
+			  TP      : out STD_LOGIC_VECTOR (5 downto 0);
 			  DATA_OUT : out STD_LOGIC_VECTOR (9 downto 0));
 end TOP_DAWG;
 
 architecture Behavioral of TOP_DAWG is
+
+component DEBOUNCE
+	 PORT( clk     : IN  STD_LOGIC;  --input clock
+			 button  : IN  STD_LOGIC;  --input signal to be debounced
+          result  : OUT STD_LOGIC); --debounced signal
+    END component;
 
 component clk1 
    port ( CLKIN_IN        : in    std_logic; 
@@ -66,6 +74,8 @@ component CONTROLLER_SLOW
            ADDR      : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
            PRE_WE    : out STD_LOGIC:='0';
 			  PRE_RE    : out STD_LOGIC:='0';
+			  LED			: out STD_LOGIC:='0';
+			  STATE     : out STD_LOGIC_VECTOR (5 downto 0) := "000000";
            FIFO_RST  : out STD_LOGIC:='0');
     end component;
 	 
@@ -258,6 +268,8 @@ signal s_fifo_rst      : STD_LOGIC;
 signal s_pre_rst       : STD_LOGIC;
 signal s_fifo_loop     : STD_LOGIC;
 signal S_fifo_din      : STD_LOGIC_VECTOR(9downto 0);
+signal s_led			  : STD_LOGIC;
+signal s_but			  : STD_LOGIC;
 
 --------------------ROM SIGNALS------------------
 signal s_rom_1 : STD_LOGIC_VECTOR(9 downto 0);
@@ -423,20 +435,22 @@ rom16:ROM_16
 
 cont1:CONTROLLER_SLOW
     Port MAP( 
-        RST        => BUT,
+        RST        => s_BUT,
         CLK        => s_CLK,
         ADDR       => s_addr,
         PRE_WE     => s_pre_we,
         PRE_RE     => s_pre_re,
         PRE_FULL   => s_pre_full,
         FIFO_FULL  => s_full,
-        FIFO_RST   => s_pre_rst);
+        FIFO_RST   => s_pre_rst,
+		  STATE      => TP,
+		  LED        => s_LED);
 		  
 s_we<=s_pre_re;
 
 cont2:CONTROLLER_FAST
     Port MAP( 
-        RST        => BUT,
+        RST        => s_BUT,
         CLK        => s_dac_CLK,
         PRE_FULL   => s_pre_full,
         FIFO_RE    => s_re,
@@ -490,6 +504,12 @@ fifo2: PRE_FIFO
         full      =>open,
         empty     =>open,
         prog_full =>s_pre_full);
+		  
+dbnc: DEBOUNCE
+	port map(
+		  clk			=> CLK,
+		  button		=> BUT,
+		  result    => s_BUT);
  
 	with SW(15) select
 		s_sum_norm_1 <= s_rom_1      when '1',
@@ -546,7 +566,7 @@ fifo2: PRE_FIFO
 		s_fifo_din<=s_dout     when '1',
 					   s_pre_dout when others;
   
-
+LED<=s_led;
 DATA_OUT<=s_dout;
 
 end Behavioral;

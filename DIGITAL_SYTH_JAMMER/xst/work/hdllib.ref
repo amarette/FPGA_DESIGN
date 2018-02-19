@@ -1,48 +1,50 @@
-AR rom_6 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd sub00/vhpl15 1516039658
-EN controller_fast NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd sub00/vhpl38 1516039681
-AR rom_2 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd sub00/vhpl07 1516039650
-AR fifo fifo_a C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd sub00/vhpl43 1516039686
-AR sum_norm behavioral C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd sub00/vhpl41 1516039684
-EN clk1 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd sub00/vhpl00 1516039643
-EN clk2 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd sub00/vhpl02 1516039645
-AR rom_14 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd sub00/vhpl31 1516039674
-AR clk2 behavioral C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd sub00/vhpl03 1516039646
-AR rom_10 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd sub00/vhpl23 1516039666
-AR pre_fifo pre_fifo_a C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd sub00/vhpl45 1516039688
-AR rom_7 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd sub00/vhpl17 1516039660
-AR rom_3 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd sub00/vhpl09 1516039652
-AR top_dawg behavioral C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd sub00/vhpl47 1516039690
-AR rom_15 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd sub00/vhpl33 1516039676
-EN top_dawg NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd sub00/vhpl46 1516039689
-AR rom_11 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd sub00/vhpl25 1516039668
-AR rom_8 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd sub00/vhpl19 1516039662
-AR rom_4 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd sub00/vhpl11 1516039654
-AR rom_16 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd sub00/vhpl35 1516039678
-AR rom_12 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd sub00/vhpl27 1516039670
-AR clk1 behavioral C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd sub00/vhpl01 1516039644
-EN rom_10 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd sub00/vhpl22 1516039665
-AR rom_9 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd sub00/vhpl21 1516039664
-EN rom_11 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd sub00/vhpl24 1516039667
-EN rom_12 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd sub00/vhpl26 1516039669
-EN rom_13 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd sub00/vhpl28 1516039671
-EN rom_14 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd sub00/vhpl30 1516039673
-EN rom_15 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd sub00/vhpl32 1516039675
-EN rom_16 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd sub00/vhpl34 1516039677
-AR rom_5 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd sub00/vhpl13 1516039656
-EN controller_slow NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd sub00/vhpl36 1516039679
-AR rom_1 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd sub00/vhpl05 1516039648
-AR controller_fast behavioral C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd sub00/vhpl39 1516039682
-EN fifo NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd sub00/vhpl42 1516039685
-EN rom_1 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd sub00/vhpl04 1516039647
-EN rom_2 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd sub00/vhpl06 1516039649
-EN rom_3 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd sub00/vhpl08 1516039651
-EN rom_4 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd sub00/vhpl10 1516039653
-EN rom_5 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd sub00/vhpl12 1516039655
-AR controller_slow behavioral C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd sub00/vhpl37 1516039680
-AR rom_13 syn C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd sub00/vhpl29 1516039672
-EN rom_6 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd sub00/vhpl14 1516039657
-EN rom_7 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd sub00/vhpl16 1516039659
-EN rom_8 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd sub00/vhpl18 1516039661
-EN rom_9 NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd sub00/vhpl20 1516039663
-EN pre_fifo NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd sub00/vhpl44 1516039687
-EN sum_norm NULL C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd sub00/vhpl40 1516039683
+AR rom_6 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd" sub00/vhpl15 1519069309
+AR controller_fast behavioral "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd" sub00/vhpl39 1519069333
+AR rom_2 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd" sub00/vhpl07 1519069301
+EN controller_slow NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" sub00/vhpl36 1519069330
+AR clk1 behavioral "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd" sub00/vhpl01 1519069295
+AR fifo fifo_a "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd" sub00/vhpl43 1519069337
+EN clk1 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd" sub00/vhpl00 1519069294
+EN clk2 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" sub00/vhpl02 1519069296
+AR rom_14 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd" sub00/vhpl31 1519069325
+AR rom_10 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd" sub00/vhpl23 1519069317
+AR rom_7 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd" sub00/vhpl17 1519069311
+AR rom_3 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd" sub00/vhpl09 1519069303
+EN controller_fast NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd" sub00/vhpl38 1519069332
+AR rom_15 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd" sub00/vhpl33 1519069327
+EN top_dawg NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" sub00/vhpl46 1519069342
+AR rom_11 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd" sub00/vhpl25 1519069319
+EN debounce NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd" sub00/vhpl48 1519069340
+AR rom_8 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd" sub00/vhpl19 1519069313
+AR sum_norm behavioral "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd" sub00/vhpl41 1519069335
+AR rom_4 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd" sub00/vhpl11 1519069305
+AR top_dawg behavioral "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" sub00/vhpl47 1519069343
+AR clk2 behavioral "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" sub00/vhpl03 1519069297
+AR rom_16 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" sub00/vhpl35 1519069329
+AR rom_12 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd" sub00/vhpl27 1519069321
+EN rom_10 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd" sub00/vhpl22 1519069316
+AR rom_9 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd" sub00/vhpl21 1519069315
+EN rom_11 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd" sub00/vhpl24 1519069318
+EN rom_12 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd" sub00/vhpl26 1519069320
+EN rom_13 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd" sub00/vhpl28 1519069322
+EN rom_14 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd" sub00/vhpl30 1519069324
+EN rom_15 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd" sub00/vhpl32 1519069326
+EN rom_16 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd" sub00/vhpl34 1519069328
+AR rom_5 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd" sub00/vhpl13 1519069307
+AR controller_slow behavioral "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd" sub00/vhpl37 1519069331
+AR rom_1 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" sub00/vhpl05 1519069299
+EN fifo NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd" sub00/vhpl42 1519069336
+EN rom_1 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd" sub00/vhpl04 1519069298
+EN rom_2 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd" sub00/vhpl06 1519069300
+EN rom_3 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd" sub00/vhpl08 1519069302
+EN rom_4 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd" sub00/vhpl10 1519069304
+EN rom_5 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd" sub00/vhpl12 1519069306
+AR rom_13 syn "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd" sub00/vhpl29 1519069323
+AR pre_fifo pre_fifo_a "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd" sub00/vhpl45 1519069339
+EN rom_6 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd" sub00/vhpl14 1519069308
+EN rom_7 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd" sub00/vhpl16 1519069310
+AR debounce logic "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd" sub00/vhpl49 1519069341
+EN rom_8 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd" sub00/vhpl18 1519069312
+EN rom_9 NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd" sub00/vhpl20 1519069314
+EN pre_fifo NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd" sub00/vhpl44 1519069338
+EN sum_norm NULL "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd" sub00/vhpl40 1519069334

@@ -1,10 +1,17 @@
 //! **************************************************************************
-// Written by: Map P.58f on Mon Jan 22 09:50:13 2018
+// Written by: Map P.20131013 on Mon Feb 19 12:26:45 2018
 //! **************************************************************************
 
 SCHEMATIC START;
 CONFIG VCCAUX = "3.3";
+COMP "LED" LOCATE = SITE "P56" LEVEL 1;
 COMP "BUT" LOCATE = SITE "P29" LEVEL 1;
+COMP "TP<0>" LOCATE = SITE "P10" LEVEL 1;
+COMP "TP<1>" LOCATE = SITE "P9" LEVEL 1;
+COMP "TP<2>" LOCATE = SITE "P6" LEVEL 1;
+COMP "TP<3>" LOCATE = SITE "P5" LEVEL 1;
+COMP "TP<4>" LOCATE = SITE "P4" LEVEL 1;
+COMP "TP<5>" LOCATE = SITE "P3" LEVEL 1;
 COMP "SW<0>" LOCATE = SITE "P30" LEVEL 1;
 COMP "SW<1>" LOCATE = SITE "P31" LEVEL 1;
 COMP "SW<2>" LOCATE = SITE "P32" LEVEL 1;
