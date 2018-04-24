@@ -61,10 +61,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 192184 kilobytes
+Total memory usage is 192208 kilobytes
 
 Writing NGD file "TOP_DAWG.ngd" ...
-Total REAL time to NGDBUILD completion:  4 sec
-Total CPU time to NGDBUILD completion:   4 sec
+Total REAL time to NGDBUILD completion:  11 sec
+Total CPU time to NGDBUILD completion:   10 sec
 
 Writing NGDBUILD log file "TOP_DAWG.bld"...

@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.73 secs
+Total CPU time to Xst completion: 0.98 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.73 secs
+Total CPU time to Xst completion: 0.98 secs
  
 --> Reading design: TOP_DAWG.prj
 
@@ -109,55 +109,6 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-WARNING:HDLParsers:3607 - Unit work/TOP_DAWG is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd".
-WARNING:HDLParsers:3607 - Unit work/TOP_DAWG/Behavioral is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd".
-WARNING:HDLParsers:3607 - Unit work/CONTROLLER_SLOW is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd".
-WARNING:HDLParsers:3607 - Unit work/CONTROLLER_SLOW/Behavioral is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd".
-WARNING:HDLParsers:3607 - Unit work/CONTROLLER_FAST is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd".
-WARNING:HDLParsers:3607 - Unit work/CONTROLLER_FAST/Behavioral is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd".
-WARNING:HDLParsers:3607 - Unit work/DeBounce is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd".
-WARNING:HDLParsers:3607 - Unit work/clk1 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd".
-WARNING:HDLParsers:3607 - Unit work/clk1/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd".
-WARNING:HDLParsers:3607 - Unit work/clk2 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd".
-WARNING:HDLParsers:3607 - Unit work/clk2/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_1 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_1/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_10 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_10/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_11 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_11/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_12 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_12/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_13 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_13/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_14 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_14/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_15 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_15/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_16 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_16/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_2 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_2/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_3 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_3/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_4 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_4/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_5 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_5/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_6 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_6/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_7 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_7/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_8 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_8/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_9 is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd".
-WARNING:HDLParsers:3607 - Unit work/ROM_9/syn is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd".
-WARNING:HDLParsers:3607 - Unit work/SUM_NORM is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd".
-WARNING:HDLParsers:3607 - Unit work/SUM_NORM/Behavioral is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd".
-WARNING:HDLParsers:3607 - Unit work/FIFO is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd".
-WARNING:HDLParsers:3607 - Unit work/FIFO/FIFO_a is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd".
-WARNING:HDLParsers:3607 - Unit work/PRE_FIFO is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd".
-WARNING:HDLParsers:3607 - Unit work/PRE_FIFO/PRE_FIFO_a is now defined in a different file.  It was defined in "C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd", and is now defined in "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd".
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd" in Library work.
 Architecture behavioral of Entity clk1 is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd" in Library work.
@@ -205,8 +156,7 @@ Architecture fifo_a of Entity fifo is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd" in Library work.
 Architecture pre_fifo_a of Entity pre_fifo is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd" in Library work.
-Entity <debounce> compiled.
-Entity <DeBounce> (Architecture <behav>) compiled.
+Architecture behav of Entity debounce is up to date.
 Compiling vhdl file "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd" in Library work.
 Entity <top_dawg> compiled.
 Entity <top_dawg> (Architecture <behavioral>) compiled.
@@ -976,19 +926,19 @@ Design Statistics
 # IOs                              : 36
 
 Cell Usage :
-# BELS                             : 2716
+# BELS                             : 2714
 #      GND                         : 3
 #      INV                         : 18
 #      LUT1                        : 142
-#      LUT2                        : 187
-#      LUT3                        : 312
+#      LUT2                        : 189
+#      LUT3                        : 306
 #      LUT3_D                      : 1
-#      LUT4                        : 666
+#      LUT4                        : 670
 #      LUT4_D                      : 4
 #      LUT4_L                      : 6
 #      MULT_AND                    : 1
 #      MUXCY                       : 472
-#      MUXF5                       : 287
+#      MUXF5                       : 285
 #      MUXF6                       : 131
 #      VCC                         : 3
 #      XORCY                       : 483
@@ -1021,7 +971,7 @@ Device utilization summary:
 
 Selected Device : 3s200avq100-4 
 
- Number of Slices:                      826  out of   1792    46%  
+ Number of Slices:                      832  out of   1792    46%  
  Number of Slice Flip Flops:            346  out of   3584     9%  
  Number of 4 input LUTs:               1417  out of   3584    39%  
     Number used as logic:              1336
@@ -1086,7 +1036,7 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 31.563ns (Maximum Frequency: 31.683MHz)
-   Minimum input arrival time before clock: 102.230ns
+   Minimum input arrival time before clock: 102.155ns
    Maximum output required time after clock: 7.142ns
    Maximum combinational path delay: No path found
 
@@ -1097,7 +1047,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK_IN'
   Clock period: 31.563ns (frequency: 31.683MHz)
-  Total number of paths / destination ports: 540183886740192660000000000000 / 908
+  Total number of paths / destination ports: 513982794753812210000000000000 / 908
 -------------------------------------------------------------------------
 Delay:               6.012ns (Levels of Logic = 10)
   Source:            cont1/PRE_RE (FF)
@@ -1127,18 +1077,18 @@ Delay:               6.012ns (Levels of Logic = 10)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_IN'
-  Total number of paths / destination ports: 540191150460915780000000000000 / 12
+  Total number of paths / destination ports: 513990058474535260000000000000 / 12
 -------------------------------------------------------------------------
-Offset:              102.230ns (Levels of Logic = 120)
-  Source:            SW<15> (PAD)
+Offset:              102.155ns (Levels of Logic = 120)
+  Source:            SW<0> (PAD)
   Destination:       fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram (RAM)
   Destination Clock: CLK_IN rising 0.1X
 
-  Data Path: SW<15> to fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram
+  Data Path: SW<0> to fifo2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            51   0.849   1.411  SW_15_IBUF (SW_15_IBUF)
+     IBUF:I->O            27   0.849   1.404  SW_0_IBUF (SW_0_IBUF)
      LUT2:I0->O            1   0.648   0.500  s_sum_norm_1<1>1 (s_sum_norm_1<1>)
      LUT4:I1->O            1   0.643   0.500  sum_norm1/Madd_sum_addsub0001C1 (sum_norm1/Madd_sum_addsub0001C)
      LUT4:I1->O            1   0.643   0.000  sum_norm1/Madd_sum_addsub0001_Madd_lut<2> (sum_norm1/Madd_sum_addsub0001_Madd_lut<2>)
@@ -1163,8 +1113,8 @@ Offset:              102.230ns (Levels of Logic = 120)
      LUT3:I1->O            1   0.643   0.563  sum_norm1/Madd_sum_addsub0011_Madd_lut<7>_SW0 (N55)
      LUT4:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0011_Madd_lut<7> (sum_norm1/Madd_sum_addsub0011_Madd_lut<7>)
      MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0011_Madd_cy<7> (sum_norm1/Madd_sum_addsub0011_Madd_cy<7>)
-     XORCY:CI->O           3   0.844   0.674  sum_norm1/Madd_sum_addsub0011_Madd_xor<8> (sum_norm1/sum_addsub0011<8>)
-     LUT4:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0013C711 (sum_norm1/Madd_sum_addsub0013C71)
+     XORCY:CI->O           3   0.844   0.611  sum_norm1/Madd_sum_addsub0011_Madd_xor<8> (sum_norm1/sum_addsub0011<8>)
+     LUT4:I1->O            1   0.643   0.000  sum_norm1/Madd_sum_addsub0013C711 (sum_norm1/Madd_sum_addsub0013C71)
      MUXF5:I1->O           1   0.276   0.563  sum_norm1/Madd_sum_addsub0013C71_f5 (sum_norm1/Madd_sum_addsub0013C7)
      LUT4:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_addsub0013_Madd_lut<9> (sum_norm1/Madd_sum_addsub0013_Madd_lut<9>)
      MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_sum_addsub0013_Madd_cy<9> (sum_norm1/Madd_sum_addsub0013_Madd_cy<9>)
@@ -1174,7 +1124,7 @@ Offset:              102.230ns (Levels of Logic = 120)
      LUT1:I0->O            1   0.648   0.000  sum_norm1/Madd_sum_cy<12>_rt (sum_norm1/Madd_sum_cy<12>_rt)
      MUXCY:S->O            0   0.632   0.000  sum_norm1/Madd_sum_cy<12> (sum_norm1/Madd_sum_cy<12>)
      XORCY:CI->O          10   0.844   0.962  sum_norm1/Madd_sum_xor<13> (sum_norm1/sum<13>)
-     LUT4:I1->O            1   0.643   0.563  sum_norm1/Madd_p1_addsub0000_lut<4>_SW0 (N93)
+     LUT4:I1->O            1   0.643   0.563  sum_norm1/Madd_p1_addsub0000_lut<4>_SW0 (N101)
      LUT4:I0->O            1   0.648   0.000  sum_norm1/Madd_p1_addsub0000_lut<4> (sum_norm1/Madd_p1_addsub0000_lut<4>)
      MUXCY:S->O            1   0.632   0.000  sum_norm1/Madd_p1_addsub0000_cy<4> (sum_norm1/Madd_p1_addsub0000_cy<4>)
      MUXCY:CI->O           1   0.065   0.000  sum_norm1/Madd_p1_addsub0000_cy<5> (sum_norm1/Madd_p1_addsub0000_cy<5>)
@@ -1260,7 +1210,7 @@ Offset:              102.230ns (Levels of Logic = 120)
      begin scope: 'fifo2'
      RAMB16BWE:DIA0            0.222          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram
     ----------------------------------------
-    Total                    102.230ns (75.441ns logic, 26.789ns route)
+    Total                    102.155ns (75.436ns logic, 26.719ns route)
                                        (73.8% logic, 26.2% route)
 
 =========================================================================
@@ -1286,14 +1236,14 @@ Offset:              7.142ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 22.00 secs
-Total CPU time to Xst completion: 22.44 secs
+Total REAL time to Xst completion: 50.00 secs
+Total CPU time to Xst completion: 49.61 secs
  
 --> 
 
-Total memory usage is 329344 kilobytes
+Total memory usage is 329364 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   91 (   0 filtered)
+Number of warnings :   42 (   0 filtered)
 Number of infos    :   43 (   0 filtered)
 

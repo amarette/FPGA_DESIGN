@@ -50,3 +50,15 @@ map -intstyle ise -p xc3s200a-vq100-4 -timing -logic_opt on -ol high -xe n -t 1 
 par -w -intstyle ise -pl high -rl high -xe n -t 1 TOP_DAWG_map.ncd TOP_DAWG.ncd TOP_DAWG.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_DAWG.twx TOP_DAWG.ncd -o TOP_DAWG.twr TOP_DAWG.pcf -ucf TOP_DAWG.ucf 
 bitgen -intstyle ise -f TOP_DAWG.ut TOP_DAWG.ncd 
+xst -intstyle ise -ifn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.xst" -ofn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TOP_DAWG.ucf -p xc3s200a-vq100-4 TOP_DAWG.ngc TOP_DAWG.ngd  
+map -intstyle ise -p xc3s200a-vq100-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm area -ir off -pr b -power off -o TOP_DAWG_map.ncd TOP_DAWG.ngd TOP_DAWG.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 TOP_DAWG_map.ncd TOP_DAWG.ncd TOP_DAWG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_DAWG.twx TOP_DAWG.ncd -o TOP_DAWG.twr TOP_DAWG.pcf -ucf TOP_DAWG.ucf 
+bitgen -intstyle ise -f TOP_DAWG.ut TOP_DAWG.ncd 
+xst -intstyle ise -ifn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.xst" -ofn "C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TOP_DAWG.ucf -p xc3s200a-vq100-4 TOP_DAWG.ngc TOP_DAWG.ngd  
+map -intstyle ise -p xc3s200a-vq100-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm area -ir off -pr b -power off -o TOP_DAWG_map.ncd TOP_DAWG.ngd TOP_DAWG.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 TOP_DAWG_map.ncd TOP_DAWG.ncd TOP_DAWG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOP_DAWG.twx TOP_DAWG.ncd -o TOP_DAWG.twr TOP_DAWG.pcf -ucf TOP_DAWG.ucf 
+bitgen -intstyle ise -f TOP_DAWG.ut TOP_DAWG.ncd 

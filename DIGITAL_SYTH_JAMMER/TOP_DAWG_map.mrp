@@ -10,7 +10,7 @@ Target Device  : xc3s200a
 Target Package : vq100
 Target Speed   : -4
 Mapper Version : spartan3a -- $Revision: 1.55 $
-Mapped Date    : Mon Feb 19 13:54:26 2018
+Mapped Date    : Tue Apr 24 06:55:38 2018
 
 Design Summary
 --------------
@@ -20,9 +20,9 @@ Logic Utilization:
   Number of Slice Flip Flops:           342 out of   3,584    9%
   Number of 4 input LUTs:             1,389 out of   3,584   38%
 Logic Distribution:
-  Number of occupied Slices:            887 out of   1,792   49%
-    Number of Slices containing only related logic:     887 out of     887 100%
-    Number of Slices containing unrelated logic:          0 out of     887   0%
+  Number of occupied Slices:            890 out of   1,792   49%
+    Number of Slices containing only related logic:     890 out of     890 100%
+    Number of Slices containing unrelated logic:          0 out of     890   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
   Total Number of 4 input LUTs:       1,543 out of   3,584   43%
     Number used as logic:             1,308
@@ -42,9 +42,9 @@ Logic Distribution:
 
 Average Fanout of Non-Clock Nets:                3.52
 
-Peak Memory Usage:  346 MB
-Total REAL time to MAP completion:  24 secs 
-Total CPU time to MAP completion:   17 secs 
+Peak Memory Usage:  365 MB
+Total REAL time to MAP completion:  49 secs 
+Total CPU time to MAP completion:   44 secs 
 
 Table of Contents
 -----------------

@@ -5,226 +5,79 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/TOP_DAWG</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">334</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LOCKED_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk2</arg>&apos;.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/TOP_DAWG/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">452</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FIFO_WE</arg>&apos; of component &apos;<arg fmt="%s" index="4">CONTROLLER_FAST</arg>&apos;.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CONTROLLER_SLOW</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">484</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">full</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO</arg>&apos;.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CONTROLLER_SLOW/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">484</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">empty</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO</arg>&apos;.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CONTROLLER_FAST</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">484</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FIFO</arg>&gt;.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CONTROLLER_FAST/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER_FAST.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">496</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">full</arg>&apos; of component &apos;<arg fmt="%s" index="4">PRE_FIFO</arg>&apos;.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DeBounce</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/DBOUNCER.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">496</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">empty</arg>&apos; of component &apos;<arg fmt="%s" index="4">PRE_FIFO</arg>&apos;.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clk1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">496</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">PRE_FIFO</arg>&gt;.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clk1/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk1.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clk2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd</arg>&quot; line <arg fmt="%d" index="2">29</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clk2/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/clk2.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_1/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_10</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_10/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_11</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_11/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_12</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_12/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_13</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_13/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_14</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_14/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_15</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd</arg>&quot;.
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
 </msg>
 
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_15/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_16</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_16/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_2/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_3/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_4/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_5</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_5/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_6</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_6/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_7</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_7/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_8</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_8/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_9</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_9/syn</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SUM_NORM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SUM_NORM/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/SUM_NORM.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FIFO</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FIFO/FIFO_a</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/FIFO.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PRE_FIFO</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PRE_FIFO/PRE_FIFO_a</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Alex Maretee/Dropbox/Thesis/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ipcore_dir/PRE_FIFO.vhd</arg>&quot;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">334</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LOCKED_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">clk2</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">452</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FIFO_WE</arg>&apos; of component &apos;<arg fmt="%s" index="4">CONTROLLER_FAST</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">484</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">full</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">484</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">empty</arg>&apos; of component &apos;<arg fmt="%s" index="4">FIFO</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">484</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FIFO</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">496</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">full</arg>&apos; of component &apos;<arg fmt="%s" index="4">PRE_FIFO</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">496</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">empty</arg>&apos; of component &apos;<arg fmt="%s" index="4">PRE_FIFO</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/TOP_DAWG.vhd</arg>&quot; line <arg fmt="%d" index="2">496</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">PRE_FIFO</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_1.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_2.vhd</arg>&quot; line <arg fmt="%d" index="2">29</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_3.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_4.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_5.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_6.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_7.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_8.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_9.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_10.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_11.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_12.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_13.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_14.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_15.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/ROM_16.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd</arg>&quot; line <arg fmt="%d" index="2">63</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alexm_000/Documents/GitHub/FPGA_DESIGN/DIGITAL_SYTH_JAMMER/CONTROLLER.vhd</arg>&quot; line <arg fmt="%d" index="2">63</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
 <arg fmt="%s" index="3">&lt;count_on&gt;, &lt;count_rst&gt;</arg>
 </msg>
 
@@ -330,7 +183,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom14/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom14/DATA_7&gt; &lt;rom14/DATA_5&gt; &lt;rom14/DATA_4&gt; &lt;rom14/DATA_3&gt; &lt;rom14/DATA_1&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rom7/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom7/DATA_7&gt; &lt;rom7/DATA_5&gt; &lt;rom7/DATA_4&gt; &lt;rom7/DATA_3&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom7/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom7/DATA_7&gt; &lt;rom7/DATA_5&gt; &lt;rom7/DATA_4&gt; &lt;rom7/DATA_3&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom15/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom15/DATA_4&gt; </arg>
@@ -366,7 +219,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom3/DATA_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom3/DATA_2&gt; &lt;rom3/DATA_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rom7/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom7/DATA_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom7/DATA_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom7/DATA_2&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rom12/DATA_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TOP_DAWG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rom12/DATA_1&gt; </arg>

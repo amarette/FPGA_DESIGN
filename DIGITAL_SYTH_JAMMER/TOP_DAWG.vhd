@@ -513,52 +513,52 @@ dbnc: DEBOUNCE
 		  button		=> BUT,
 		  result    => s_BUT);
  
-	with SW(15) select
+	with SW(0) select
 		s_sum_norm_1 <= s_rom_1      when '1',
 						    "0000000000" when others; 
-	with SW(14) select
+	with SW(1) select
 		s_sum_norm_2 <= s_rom_2      when '1',
 						    "0000000000" when others; 
-	with SW(13) select
+	with SW(2) select
 		s_sum_norm_3 <= s_rom_3      when '1',
 						    "0000000000" when others; 
-	with SW(12) select
+	with SW(3) select
 		s_sum_norm_4 <= s_rom_4      when '1',
 						    "0000000000" when others; 
-	with SW(11) select
+	with SW(4) select
 		s_sum_norm_5 <= s_rom_5      when '1',
 						    "0000000000" when others; 
-	with SW(10) select
+	with SW(5) select
 		s_sum_norm_6 <= s_rom_6      when '1',
 						    "0000000000" when others; 
-	with SW(9) select
+	with SW(6) select
 		s_sum_norm_7 <= s_rom_7      when '1',
 						    "0000000000" when others; 
-	with SW(8) select
+	with SW(7) select
 		s_sum_norm_8 <= s_rom_8      when '1',
 						    "0000000000" when others; 
-	with SW(7) select
+	with SW(8) select
 		s_sum_norm_9 <= s_rom_9      when '1',
 						    "0000000000" when others; 
-	with SW(6) select
+	with SW(9) select
 		s_sum_norm_10 <= s_rom_10    when '1',
 						    "0000000000" when others; 
-	with SW(5) select
+	with SW(10) select
 		s_sum_norm_11 <= s_rom_11    when '1',
 						    "0000000000" when others; 
-	with SW(4) select
+	with SW(11) select
 		s_sum_norm_12 <= s_rom_12    when '1',
 						    "0000000000" when others; 
-	with SW(3) select
+	with SW(12) select
 		s_sum_norm_13 <= s_rom_13    when '1',
 						    "0000000000" when others; 
-	with SW(2) select
+	with SW(13) select
 		s_sum_norm_14 <= s_rom_14    when '1',
 						    "0000000000" when others; 
-	with SW(1) select
+	with SW(14) select
 		s_sum_norm_15 <= s_rom_15    when '1',
 						    "0000000000" when others; 
-	with SW(0) select
+	with SW(15) select
 		s_sum_norm_16 <= s_rom_16    when '1',
 						    "0000000000" when others;
 

@@ -35,73 +35,73 @@ To see the details of these <arg fmt="%s" index="4">info</arg> messages, please 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">cont1/d_pre_re_BRB2</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/RESULT</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/RESULT</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_10</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_10</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_11</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_11</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_12</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_12</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_20</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_20</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_13</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_13</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_21</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_21</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_14</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_14</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_22</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_22</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_30</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_30</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_15</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_15</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_23</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_23</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_31</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_31</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_16</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_16</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_24</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_24</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_17</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_17</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_25</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_25</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_18</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_18</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_26</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_26</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_19</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_19</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_27</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_27</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_28</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_28</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_29</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_29</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">cont1/PS_FSM_FFd2</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
@@ -308,43 +308,43 @@ To see the details of these <arg fmt="%s" index="4">info</arg> messages, please 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">rom8/DATA_6</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_0</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_0</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">rom8/DATA_7</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_1</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_1</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">rom8/DATA_8</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_2</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_2</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">rom8/DATA_9</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_3</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_3</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_4</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_4</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_5</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_5</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_6</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_6</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_7</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_7</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_8</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_8</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/count_9</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/count_9</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">rom9/DATA_1</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
@@ -377,7 +377,7 @@ To see the details of these <arg fmt="%s" index="4">info</arg> messages, please 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">cont1/PRE_WE</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
-<msg type="warning" file="Pack" num="2780" delta="new" >The register &quot;<arg fmt="%s" index="1">dbnc/state_0</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
+<msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">dbnc/state_0</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
 </msg>
 
 <msg type="warning" file="Pack" num="2780" delta="old" >The register &quot;<arg fmt="%s" index="1">cont1/counter_sig_0</arg>&quot; has the property IOB=<arg fmt="%s" index="2">TRUE</arg>, but it did not join an IO component because it is not connected to any IO element.
